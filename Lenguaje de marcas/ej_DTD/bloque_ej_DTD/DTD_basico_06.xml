@@ -1,0 +1,21 @@
+XMLbasico_06_valida.dtd
+<!ELEMENT aviso (titulo?, (parrafo+, grafico)*)>
+
+XMLbasico_06_valida.xml
+<aviso>
+</aviso>
+
+<!-- correcion -->
+
+<!-- Falta indicar la version -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Falta incluir el DTD en el documento -->
+<!DOCTYPE aviso [
+<!ELEMENT aviso (titulo?, (parrafo+, grafico)*)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT parrafo (#PCDATA)>
+<!ELEMENT grafico (#PCDATA)>
+]>
+
+<aviso>
+</aviso>

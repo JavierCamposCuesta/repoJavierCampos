@@ -1,0 +1,64 @@
+<!--https://es.slideshare.net/abrirllave/ejercicio-personal-de-departamentos-xsd-xml-schema-->
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="personal">
+		<xs:complexType>
+			<xs:all>
+				<xs:attribute name="fecha" type="xs:date"/>
+				<xs:attribute name="multinacional" type="xs:bolean"/>
+				<xs:attribute name="moneda" fixed="euro">
+				<xs:element name="datos-generales" type="xs:string">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="nombre-empresa" type="tipoTexto"/>
+							<xs:element name="numero-trabajadores">
+								<xs:restriction base="xs:interger">
+									<xs:minInclusive value="0"/>
+								</xs:restriction>
+							</xs:element>
+							<xs:element name="sector">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="tecnologia"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="datos-departamento">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Departamento" type="xs:string">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:attribute name="codigo" type="xs:string"/>
+										<xs:attribute name="nombre-departamento" type="xs:string"/>
+										<xs:element name="jefe" type="string">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="nombre-y-apellidos" type="tipoTexto"/>
+													<xs:element name="salario" type="xs:interger"/>
+													<xs:element name="clave-usuario" type="xs:string"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="empleado" type="string">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="nombre-y-apellidos" type="tipoTexto"/>
+													<xs:element name="baja" minOccurs="0"/>
+													<xs:element name="salario" type="xs:interger"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:all>
+		</xs:complexType>
+	</xs:element>

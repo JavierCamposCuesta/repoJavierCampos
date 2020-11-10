@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Lista [
+<!ELEMENT Lista (Alumno*, Asignatura*)>
+<!ELEMENT Alumno (Nombre, Apellidos*)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Apellidos (#PCDATA)>
+<!ELEMENT Asignatura (Dia, Hora)>
+<!ELEMENT Dia (#PCDATA)>
+<!ELEMENT Hora (#PCDATA)>
+
+<!ATTLIST Alumno id CDATA #REQUIRED>
+<!ATTLIST Asignatura codigo CDATA #REQUIRED>
+]>
+
+<Lista>
+<Alumno id='1'>
+<Nombre>Arturo</Nombre>
+<Apellidos>Pérez Rubio</Apellidos>
+</Alumno>
+<Alumno id="2">
+<Nombre>Manuel</Nombre>
+<Apellidos>Rodríguez García</Apellidos>
+</Alumno>
+<Asignatura codigo="059">
+	<Dia>Miercoles</Dia>
+	<Hora>12:00</Hora>
+</Asignatura>
+</Lista>

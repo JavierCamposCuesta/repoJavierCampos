@@ -1,0 +1,14 @@
+
+
+<!ELEMENT tiendas (tienda*)>
+<!ELEMENT tienda (nombre, direccion, distribuidor*, movil+)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT distribuidor (#PCDATA)>
+<!ELEMENT movil (codigo, marca, caracteristicas)>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT caracteristicas (#PCDATA)>
+
+
+

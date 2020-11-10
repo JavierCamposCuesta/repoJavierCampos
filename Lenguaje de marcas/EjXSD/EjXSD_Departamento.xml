@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="EjXSD_Departamento.xsd" fecha="2013-10-20" multinacional="false" moneda="Euro">
+	<datos-generales>
+		<nombre-empresa>Navarra 4 Internet</nombre-empresa>
+		<numero-trabajadores>6</numero-trabajadores>
+		<sector>
+			<tecnologia/>
+		</sector>
+	</datos-generales>
+	<datos-departamentos>
+		<departamento codigo="ADMIN" nombre-departamento="Administracion">
+			<jefe>
+				<nombre-y-apellidos>Ana Sanz Ruiz</nombre-y-apellidos>
+				<salario>4700.58</salario>
+				<clave usuario="anasan">3%abZKi6</clave>
+			</jefe>
+			<empleado>
+				<nombre-y-apellidos>Juan Gil Rus</nombre-y-apellidos>
+				<baja />
+				<salario>2200.58</salario>
+			</empleado>
+			<empleado>
+				<nombre-y-apellidos>Lucas Lopez Tapia</nombre-y-apellidos>
+				<salario>2215.65</salario>
+			</empleado>
+		</departamento>
+		<departamento codigo="INFOR" nombre-departamento="Informatica">
+			<jefe>
+				<nombre-y-apellidos>Isabel Gomez Perez</nombre-y-apellidos>
+				<salario>5200.77</salario>
+				<clave usuario="isabelgo">8$abcdHJ</clave>
+			</jefe>
+			<empleado>
+				<nombre-y-apellidos>Oscar Lee Blesa</nombre-y-apellidos>
+				<salario>3109.26</salario>
+			</empleado>
+		</departamento>
+		<departamento codigo="MARKE" nombre-departamento="Marketing">
+			<jefe>
+				<nombre-y-apellidos>Luis Mar Herreros</nombre-y-apellidos>
+				<salario>5111.09</salario>
+				<clave>2$x1zY#@</clave>
+			</jefe>
+		</departamento>
+	</datos-departamentos>
+</personal>
