@@ -1,0 +1,22 @@
+<!--EJERCICIO 5:Se  necesita  representar  los  resultados  de  la  liga  de  fútbol.  La  información  que  se  quiere almacenar es: •nombre del equipo local•nombre del equipo visitante•goles marcados por el equipolocal•goles marcados por el equipovisitante
+Escribe 3 documentos .xml que incluyan los siguientes resultados:
+ØReal Madrid: 3 –Barcelona: 0
+ØSevilla: 1 –Betis: 1
+ØGranada: 0 –Real Sociedad: 2
+•El primer archivo .xmlrepresentará la información únicamente con etiquetas.•El segundo archivo .xml representarálos goles como atributos.•El tercer archivo .xml guardará toda la información en forma de atributos.-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<resultados>
+    <partido>
+        <local goles="3">Real Madrid</local>
+        <visitante goles="0">Barcelona="0"</visitante>
+    </partido>
+    <partido>
+        <local goles="1">Sevilla</local>
+        <visitante goles="1">Betis</visitante>
+    </partido>
+    <partido>
+        <local goles="0">Granada</local>
+        <visitante goles="2">Real Sociedad</visitante>
+    </partido>
+</resultados>

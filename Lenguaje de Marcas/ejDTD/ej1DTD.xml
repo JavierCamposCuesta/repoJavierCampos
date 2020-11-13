@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE tiendasmoviles [
+<!ELEMENT tienda (nombre, direccion, distribuidor*, movil+)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT distribuidor (#PCDATA)>
+<!ELEMENT movil (codigo, marca, caracteristicas)>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT caracteristicas (#PCDATA)>
+]> 
+
+<tiendasmoviles>
+	<tienda>
+		<nombre>TecnoSur</nombre>
+		<direccion>C/Huelva, 24</direccion>
+		<distribuidor>Aliexpress</distribuidor>
+		<movil>
+			<codigo>1064</codigo>
+			<marca>Xiaomi</marca>
+			<caracteristicas>8 Gb Ram, 64Gb de almacenamiento</caracteristicas>
+		</movil>
+	</tienda>
+</tiendasmoviles>
+
+
+
+
+
+

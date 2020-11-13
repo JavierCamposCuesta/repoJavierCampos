@@ -1,0 +1,52 @@
+
+
+[
+   {
+      "local": {
+         "@local": "Real Madrid"
+      },
+      "goles": [
+         {
+            "@goles": "3"
+         },
+         {
+            "@goles": "0"
+         }
+      ],
+      "visitante": {
+         "@visitante": "Barcelona"
+      }
+   },
+   {
+      "local": {
+         "@local": "Sevilla"
+      },
+      "goles": [
+         {
+            "@goles": "1"
+         },
+         {
+            "@goles": "1"
+         }
+      ],
+      "visitante": {
+         "@visitante": "Betis"
+      }
+   },
+   {
+      "local": {
+         "@local": "Granada"
+      },
+      "goles": [
+         {
+            "@goles": "0"
+         },
+         {
+            "@goles": "2"
+         }
+      ],
+      "visitante": {
+         "@visitante": "Real Sociedad"
+      }
+   }
+]

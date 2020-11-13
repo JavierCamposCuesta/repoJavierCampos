@@ -1,0 +1,150 @@
+<!-- Proporcionar una DTD que permita validar los documentos del videoclub según los requisitos abajo indicados. Crear un ejemplar de documento XML con 2 facturas que sea de tipo válido según esta DTD.
+Una cadena de videoclubs quiere emplear una base de datos para almacenar información referente a las facturas que se hacen a los clientes. Esta información es la siguiente: 
+
+    En un mismo documento se puede guardar información de varias facturas. 
+    Cada factura está formada por dos tipos de información: datos de cliente y datos del ticket de factura propiamente dichos. 
+    De los datos del cliente se desea guardar: su nombre, su primer y segundo apellidos, DNI y teléfono (uno). 
+
+    Además, como características del cliente, se desea conocer el identificador de cliente. 
+    De los datos de la factura en si, se quiere guardar un resguardo de factura y los alquileres o compras que se incluyen en la factura. En cada factura habrá alquileres, compras o los dos. El resguardo siempre se incluye. El 
+
+    resguardo incluye la forma de pago y el importe total. 
+    Los alquileres se realizan de películas. El alquiler de películas lleva asociada una fecha de devolución que es común a todas las películas alquiladas en la misma factura. 
+    De cada película se quiere conocer su título, género, duración y los nombres y apellidos de tres actores que participan en ella. Existen dos atributos que definen a las películas: idPelicula y valoración. 
+    Además, opcionalmente se puede guardar para cada película un archivo con la imagen de la carátula en formato jpg. Estos archivos los procesa una aplicación llamada “visordeimagenes.exe”, que está instalada en un directorio llamado “aplicaciones”, dentro del directorio donde está el ejemplar del documento XML. En este momento se dispone sólo de 3 carátulas, guardadas en los archivos c0360.jpg, c0437.jpg y c1201.jpg. Estos archivos están en el directorio “caratulas”, dentro del directorio de trabajo. 
+    Con respecto a las compras, hay que diferenciar entre compras de DVDs y de cintas de video 
+    De los DVDs interesa el título del DVD, la fecha de salida al mercado y si viene o no con extras 
+    De las cintas de video se guardará el formato (VHS, por ejemplo) y si está rebobinada o no .
+ -->
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!DOCTYPE videoclubs [
+<!ELEMENT facturas (factura*)>
+<!ELEMENT factura EMPTY>
+<!ELEMENT factura (datoscliente, datosticket)>
+<!ELEMENT datoscliente (nombre, apellido1, apellido2, dni, telefono)>
+<!ATTLIST datoscliente code CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido1 (#PCDATA)>
+<!ELEMENT apellido2 (#PCDATA)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT datosticket (resguardo, alquiler?, compras?)>
+<!ELEMENT resguardo (formapago, importe)>
+<!ELEMENT formapago (#PCDATA)>
+<!ELEMENT importe (#PCDATA)>
+<!ELEMENT alquiler (pelicula*)>
+<!ATTLIST alquiler fechaD CDATA #REQUIRED>
+<!ELEMENT pelicula (titulo, genero, duracion, actores, imagen*)>
+<!ATTLIST pelicula id CDATA #REQUIRED>
+<!ATTLIST pelicula valoracion CDATA #REQUIRED>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+<!ELEMENT actores (nombreactor*, apellidoactor1*, apellidoactor2*)>
+<!ELEMENT nombreactor (#PCDATA)>
+<!ELEMENT apellidoactor1 (#PCDATA)>
+<!ELEMENT apellidoactor2 (#PCDATA)>
+<!ELEMENT imagen (#CDATA)>
+<!ELEMENT compras (DVDs*, cintasvideo*)>
+<!ELEMENT DVDs (titulo, fecha, extras?)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT extras (#PCDATA)>
+<!ELEMENT cintasvideo (formato, rebobinada)>
+<!ELEMENT formato (#PCDATA)>
+<!ELEMENT rebobinada (#PCDATA)>
+]>
+<videoclubs>
+
+<!--factura 1-->
+    <facturas>
+        <factura>
+            <datoscliente code="000">
+                <nombre>Javier</nombre>
+                <apellido1>Campos</apellido1>
+                <apellido2>Cuesta</apellido2>
+                <dni>00000000 P</dni>
+                <telefono>666666666</telefono>
+            </datoscliente>
+            <datosticket>
+                <resguardo>
+                    <formapago>Efectivo</formapago>
+                    <importe>200€</importe>
+                </resguardo>
+                <alquiler fechaD="29/05/2020">
+                    <pelicula id="789M" valoracion="4,5">
+                        <titulo>Torrente 5</titulo>
+                        <genero>Comedia</genero>
+                        <duracion>130 min</duracion>
+                        <actores>
+                            <nombreactor>Santiago</nombreactor>
+                            <apellidoactor1>Segura</apellidoactor1>
+                            <apellidoactor2>Beltrán</apellidoactor2>
+                        </actores>
+                        <imagen>../aplicaciones/caratula/visordeimagenes.exe</imagen>
+                    </pelicula>
+                </alquiler>
+                <compras>
+                    <DVDs>
+                        <titulo></titulo>
+                        <fecha></fecha>
+                        <extras></extras>
+                    </DVDs>
+                    <cintasvideo>
+                        <formato></formato>
+                        <rebobinada></rebobinada>
+                    </cintasvideo>
+                </compras>
+            </datosticket>
+        </factura>
+    </facturas>
+</videoclubs>
+
+
+<!--factura 2-->
+    <facturas>
+        <factura>
+            <datoscliente code="000">
+                <nombre>Javier</nombre>
+                <apellido1>Campos</apellido1>
+                <apellido2>Cuesta</apellido2>
+                <dni>00000000 P</dni>
+                <telefono>666666666</telefono>
+            </datoscliente>
+            <datosticket>
+                <resguardo>
+                    <formapago>Efectivo</formapago>
+                    <importe>200€</importe>
+                </resguardo>
+                <alquiler fechaD="29/04/2020">
+                    <pelicula id="780M" valoracion="4,5">
+                        <titulo>Avatar</titulo>
+                        <genero>Ficción</genero>
+                        <duracion>130 min</duracion>
+                        <actores>
+                            <nombreactor>Steven</nombreactor>
+                            <apellidoactor1>Spilbert</apellidoactor1>
+                            <apellidoactor2></apellidoactor2>
+                        </actores>
+                        <imagen>../aplicaciones/caratula/visordeimagenes.exe</imagen>
+                    </pelicula>
+                </alquiler>
+                <compras>
+                    <DVDs>
+                        <titulo></titulo>
+                        <fecha></fecha>
+                        <extras></extras>
+                    </DVDs>
+                    <cintasvideo>
+                        <formato></formato>
+                        <rebobinada></rebobinada>
+                    </cintasvideo>
+                </compras>
+            </datosticket>
+        </factura>
+    </facturas>
+</videoclubs>
+
+
+

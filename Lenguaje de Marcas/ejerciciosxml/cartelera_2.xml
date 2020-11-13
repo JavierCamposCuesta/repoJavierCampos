@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cartelera>
+	<pelicula>
+		<nombre>AQUELLAS JUERGAS UNIVERSITARIAS</nombre>
+		<titulo>Old School</titulo>
+		<origen>EEUU</origen>
+		<year>2003</year>
+		<duracion>93 min</duracion>
+		<director>Todd Phillips</director>
+		<actor>Willl Ferrell</actor>
+		<actor>Luke Wilson</actor>
+		<actor>Vince Vaughn</actor>
+		<actor>Jeremy Piven</actor>
+		<actor>Juliette Lewis</actor>
+		<actor>Sean William</actor>
+		<resumen>Mitch, Frank y Beanie son tres amigos treintañeros cuyas vidas no son exactamente lo que esperaban. Mitch tiene una novia ninfómana que se mete en la cama con el primero que agarra. Frank se ha casado y su matrimonio nada tiene que ver con las juergas salvajes que organizaban años atrás. Y Beanie es un padre de familia que se muere por recuperar su alocada juventud. Pero las cosas cambian cuando Beanie sugiere que creen su propia fraternidad, en la nueva casa que Mitch tiene junto al campus de la universidad. Una ocasión para revivir tiempos gloriosos, hacer nuevos amigos y de volver a sus viejas, salvajes y desmadradas juergas de estudiantes.</resumen>
+		<link>http://www.oldschool-themovie.com/</link>
+		<edad>Comedia autorizada para mayores de 16 años</edad>
+		<imagen></imagen>
+	</pelicula>
+	<pelicula>
+		<nombre>Torrente 5</nombre>
+		<titulo></titulo>
+		<origen>ESPAÑA</origen>
+		<year>2008</year>
+		<duracion>93 min</duracion>
+		<director>Santiago Segura</director>
+		<actor>Roque Baños</actor>
+		<actor>MOnica Naranjo</actor>
+		<actor>Javier Camara</actor>
+		<actor>Neus Asensi</actor>
+		<actor>Juliette Lewis</actor>
+		<actor>Sean William</actor>
+		<resumen>Torrente sale de la cárcel en el año 2018 para encontrarse una España totalmente diferente de la que él conocía. Ante este 'shock' decide pasar a ser un 'fuera de la ley' y atracar un casino. Gracias a su red de contactos de la cárcel logra localizar a John Marshall, el responsable de la planificación de la seguridad del mayor casino de Eurovegas. Marshall le dice que lo más importante es contar con un equipo de especialistas y Torrente se dispone a encontrarlos entre sus conocidos.</resumen>
+		<link>https://es.wikipedia.org/wiki/Torrente_5:_Operaci%C3%B3n_Eurovegaslink>
+		<edad>Comedia autorizada para mayores de 18 años</edad>
+		<imagen></imagen>
+	</pelicula>
+	<pelicula>
+		<nombre>AVATAR</nombre>
+		<titulo>AVATAR</titulo>
+		<origen>EEUU</origen>
+		<year>2009</year>
+		<duracion>93 min</duracion>
+		<director>Zoe Saldaña</director>
+		<actor>Sam Worthington</actor>
+		<actor>Sigourney Weaver</actor>
+		<actor>Vince Vaughn</actor>
+		<actor>Jeremy Piven</actor>
+		<actor>Juliette Lewis</actor>
+		<actor>Sean William</actor>
+		<resumen>Entramos en el extraño mundo de la mano de Jake Sully, un ex marine confinado a una silla de ruedas. ... Vuelto a nacer en su forma de avatar, Jake puede volver a caminar. Se le asigna la misión de infiltrarse entre los Na'vi, que se han convertido en un obstáculo importante para la extracción del preciado mineral.</resumen>
+		<link>https://es.wikipedia.org/wiki/Avatar_(pel%C3%ADcula)>
+		<edad>Comedia autorizada para mayores de 7 años</edad>
+		<imagen></imagen>
+	</pelicula>
+	<pelicula>
+		<nombre>SUPERLOPEZ</nombre>
+		<titulo></titulo>
+		<origen>ESPAÑA</origen>
+		<year>2018</year>
+		<duracion>98 min</duracion>
+		<director>Javier Ruiz</director>
+		<actor>Dani Rovira</actor>
+		<actor>Maribel Verdu</actor>
+		<actor>Paco Leon</actor>
+		<actor>Maria Leon</actor>
+		<actor>AAlexandra Jimenez</actor>
+		<actor>Paco Beltran</actor>
+		<resumen>Superlópez (Dani Rovira) nació en el planeta Chitón con el nombre de Jo-Con-Él y, después de colarse en un cohete, consiguió llegar hasta la Tierra siendo todavía un bebé. Tras ser encontrado cerca de Lérida, es adoptado por el matrimonio López, que decide llamar al chico Juan López. Juan crece como un humano más, al tiempo que se esfuerza por controlar sus superpoderes y combatir el mal. Ya adulto, comienza a trabajar como contable en una oficina en Barcelona. Sometido a la presión de su jefe y a los antojos de su dominante novia Luisa Lanas (Alexandra Jiménez), se evade de la rutina diaria ejerciendo de superhéroe bajo el nombre de Superlópez.</resumen>
+		<link>https://es.wikipedia.org/wiki/Superl%C3%B3pez_(pel%C3%ADcula)>
+		<edad>Todos los publicos</edad>
+		<imagen></imagen>
+	</pelicula>
+	<pelicula>
+		<nombre>TITANIC</nombre>
+		<titulo></titulo>
+		<origen>EEUU</origen>
+		<year>1997</year>
+		<duracion>210 min</duracion>
+		<director>James Cameron</director>
+		<actor>Kate Winslet</actor>
+		<actor>Billy Zane</actor>
+		<actor>Kathy Bates</actor>
+		<actor>Jhon Cenna</actor>
+		<actor></actor>
+		<actor>eonardo DiCaprio/actor>
+		<resumen>La trama, una epopeya romántica,​​ relata la relación de Jack Dawson y Rose DeWitt Bukater, dos jóvenes que se conocen y se enamoran a bordo del transatlántico RMS Titanic en su viaje inaugural desde Southampton, Inglaterra, a Nueva York, EE. UU., en abril de 1912</resumen>
+		<link>https://es.wikipedia.org/wiki/Titanic_(pel%C3%ADcula_de_1997)>
+		<edad>Comedia autorizada para mayores de 12 años</edad>
+		<imagen></imagen>
+	</pelicula>
+</cartelera

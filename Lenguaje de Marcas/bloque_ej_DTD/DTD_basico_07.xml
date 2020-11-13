@@ -1,0 +1,31 @@
+XMLbasico_07_valida.dtd
+<!ELEMENT aviso (titulo?, (parrafo+, grafico)*)>
+
+XMLbasico_07_valida.xml
+<aviso>
+<titulo>...</titulo>
+<parrafo>...</parrafo>
+<grafico>...</grafico>
+<parrafo>...</parrafo>
+</aviso>
+
+<!-- correcion -->
+
+<!-- Falta indicar la version -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Falta incluir el DTD en el documento -->
+<!DOCTYPE aviso [
+<!ELEMENT aviso (titulo?, (parrafo+, grafico)*)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT parrafo (#PCDATA)>
+<!ELEMENT grafico (#PCDATA)>
+]>
+
+<aviso>
+<titulo>...</titulo>
+<parrafo>...</parrafo>
+<grafico>...</grafico>
+<parrafo>...</parrafo>
+<!-- si se pone la agrupación tiene que incluirse grafico, ya que es necesario, la que no es necesaria es parrafo -->
+<grafico>...</grafico>
+</aviso>

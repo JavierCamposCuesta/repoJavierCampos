@@ -1,0 +1,22 @@
+'''Realiza un programa para obtener el máximo común divisor de dos números que se pedirán por teclado. El máximo común divisor 
+es el mayor número que divide a ambos números a la vez.
+Created on 4 Nov 2020
+
+@author: Javier Campos
+'''
+def mcd(n, n2):
+    n=int(input("introduce el primer numero: "))
+    n2=int(input("Introduce el segundo numero: "))
+    mcd=1
+    menor=n
+    if n>0 and n2>0:
+        if n2 < n:
+            menor=n2
+    #necesito para acabar el bucle saber cual es el numero menor   
+        for i in range (1,menor+1):
+            if int(n) % i==0 and int(n2) % i == 0:
+                mcd=i
+        print("El minimo comun divisor es: " + str(mcd))
+    else:
+        print("los numeros tienen que ser positivos")
+mcd(n=int(input("introduce un numero")), n2=int(input("Introduce un numero")))

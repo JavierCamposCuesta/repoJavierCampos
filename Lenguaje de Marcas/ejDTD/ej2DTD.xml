@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE Lista SYSTEM “http://www.w3.org/2001/XML.Schema-instance”>
+<!DOCTYPE Lista [
+<!ELEMENT Lista (Alumno+, Asignatura+)>
+<!ELEMENT Alumno (Nombre, Apellidos)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Apellidos (#PCDATA)>
+<!ELEMENT Asignatura (Dia, Hora)>
+<!ELEMENT Dia (#PCDATA)>
+<!ELEMENT Hora (#PCDATA)>
+]

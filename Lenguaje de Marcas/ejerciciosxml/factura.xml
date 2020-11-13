@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facturas>
+    <factura nfac="999">
+        <datosvendedor>
+            <vendedor>Equipos Digitales S.L</vendedor>
+            <direccion>Av. Valladolid"</direccion>
+            <poblacion>Madrid</poblacion>
+            <cp>cp="28015</cp>
+            <cif>Q-9876543</cif>
+            <telefono>917776688</telefono>
+            <fax>917776699</fax>
+        </datosvendedor>
+        <detalles>
+            <fecha>12-01-2005</fecha>
+            <npedido>731</npedido>
+            <formapago>EFECTIVO</formapago>
+        </detalles>
+        <datoscliente>
+            <ncliente>879</ncliente>
+            <nombre>Darío Bueno Gutiérrez</nombre>
+            <direccion>Av. Oporto nº7 4ºD</direccion>
+            <poblacion>Madrid</poblacion>
+            <cp>28043</cp>
+            <provincia>Madrid</provincia>
+        </datoscliente>
+        <datosfactura >
+            <ref>MII93000F/8</ref>
+                <descripcion>MICRO PRENTIUM IV 3000MHZ FB800</descripcion>
+                <cantidad>1</cantidad>
+                <precio>230 eur.</precio>
+                <iva>16,0</iva>
+                <importe>266,80 eur.</importe>
+            </ref>
+            <ref>MB8QDIP4</ref>
+                <descripcion>PLACA BASE QDI P4</descripcion>
+                <cantidad>1</cantidad>
+                <precio>180 eur.</precio>
+                <iva>16,0</iva>
+                <importe>208,8 eur.</importe>
+            </ref>
+            <ref>MEDD512M32</ref>
+                <descripcion>DIMM DDR 512 3200</descripcion>
+                <cantidad>2</cantidad>
+                <precio>40 eur.</precio>
+                <iva>16,0</iva>
+                <importe>92,80 eur.</importe>
+            </ref>
+            <ref>HD250GSA7</ref>
+                <descripcion>DISCO DURO 250GB S-ATA 7200</descripcion>
+                <cantidad>4</cantidad>
+                <precio>120 eur.</precio>
+                <iva>16,0</iva>
+                <importe>556,80 eur.</importe>
+            </ref>
+        </datosfactura>
+        <baseimponible>970,00 eur.</baseimponible>
+        <iva>16,00</iva>
+        <cuotaiva>155,20 eur.</cuotaiva>
+        <totalfactura>1125,2 eur.</totalfactura>
+    </factura>
+</facturas>

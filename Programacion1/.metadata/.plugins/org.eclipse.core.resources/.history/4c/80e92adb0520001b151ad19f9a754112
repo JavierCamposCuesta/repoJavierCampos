@@ -1,0 +1,25 @@
+'''
+Created on 6 Nov 2020
+
+@author: estudiante
+'''
+def divisiblePor7(number):
+    return number%7==0
+
+def divisiblePor13(number):
+    return number%13==0
+
+def divisiblePor17(number):
+    return number%17==0
+
+def test():
+    assert(divisiblePor7(7)==True)
+    assert(divisiblePor13(26)==True)
+    assert(divisiblePor17(56)==False)
+    assert(divisiblePor7(95)==False)
+    assert(divisiblePor13(156)==True)
+    assert(divisiblePor17(248)==False)
+    assert(divisiblePor7(74)==False)
+    assert(divisiblePor13(39)==True)
+test()
+

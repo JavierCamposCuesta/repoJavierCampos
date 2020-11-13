@@ -1,0 +1,34 @@
+
+[
+   {
+      "local": {
+         "@goles": "3",
+         "#text": "Real Madrid"
+      },
+      "visitante": {
+         "@goles": "0",
+         "#text": "Barcelona=\"0\""
+      }
+   },
+   {
+      "local": {
+         "@goles": "1",
+         "#text": "Sevilla"
+      },
+      "visitante": {
+         "@goles": "1",
+         "#text": "Betis"
+      }
+   },
+   {
+      "local": {
+         "@goles": "0",
+         "#text": "Granada"
+      },
+      "visitante": {
+         "@goles": "2",
+         "#text": "Real Sociedad"
+      }
+   }
+]
+

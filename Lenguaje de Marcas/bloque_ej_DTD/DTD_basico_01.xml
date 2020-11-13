@@ -1,0 +1,28 @@
+<!ELEMENT receta (titulo, ingredientes, procedimiento)>
+
+<!-- XMLbasico_01_valida.xml -->
+<receta> Primera receta
+
+<titulo>...</titulo>
+
+<ingredientes>...</ingredientes>
+
+<procedimiento>...</procedimiento>
+
+</receta>
+
+<!-- correccion -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE receta [
+<!ELEMENT receta (titulo, ingredientes, procedimiento)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT ingredientes (#PCDATA)>
+<!ELEMENT procedimiento (#PCDATA)>
+]>
+
+<receta>
+	<titulo>...</titulo>
+	<ingredientes>...</ingredientes>
+	<procedimiento>...</procedimiento>
+</receta>
