@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE paneles[
+<!ELEMENT paneles (evento+)>
+<!ELEMENT evento (via, pk, retencion?, sentido, carril?)>
+<!ATTLIST evento tipo (Accidente | Retencion) #REQUIRED>
+<!ELEMENT Accidente (#PCDATA)>
+<!ELEMENT Retencion (#PCDATA)>
+<!ATTLIST evento fecha CDATA #REQUIRED>
+<!ELEMENT via (nombre?, ref?, origen?, destino?, doble?, carriles?)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT ref (#PCDATA)>
+<!ELEMENT origen (#PCDATA)>
+<!ELEMENT destino (#PCDATA)>
+<!ELEMENT doble EMPTY>
+<!ELEMENT carriles (#PCDATA)>
+
+<!ELEMENT pk (#PCDATA)>
+<!ELEMENT sentido (#PCDATA)>
+<!ELEMENT retencion EMPTY>
+<!ATTLIST retencion long CDATA #IMPLIED>
+<!ELEMENT carril EMPTY>
+<!ATTLIST carril valor CDATA #REQUIRED>
+]>
+
+<!-- Json -->
+
+[
+   {
+      "@tipo": "Accidente",
+      "@fecha": "2011-07-24T09:00:00",
+      "via": {
+         "nombre": "Autopista del V Centenario",
+         "ref": "A-49",
+         "origen": "Sevilla",
+         "destino": "Huelva",
+         "doble": [],
+         "carriles": "4"
+      },
+      "pk": "42.200",
+      "retencion": {
+         "@long": "8.000"
+      },
+      "sentido": "1",
+      "carril": {
+         "@valor": "1"
+      }
+   },
+   {
+      "@tipo": "Retencion",
+      "@fecha": "2011-07-24T09:00:00",
+      "via": {
+         "nombre": "Autovía de Andalucía",
+         "ref": "A-4",
+         "origen": "Madrid",
+         "destino": "Cádiz",
+         "doble": [],
+         "carriles": "4"
+      },
+      "pk": "550.000",
+      "retencion": {
+         "@long": "3.000"
+      },
+      "sentido": "-1"
+   }
+]
+
+<!-- XML -->
+
+<paneles>
+	<evento tipo="Accidente" fecha="2011-07-24T09:00:00">
+		<via>
+			<nombre>Autopista del V Centenario</nombre>
+			<ref>A-49</ref>
+			<origen>Sevilla</origen>
+			<destino>Huelva</destino>
+			<doble/>
+			<carriles>4</carriles>
+		</via>
+		<pk>42.200</pk>
+		<retencion long="8.000"/>
+		<sentido>1</sentido>
+		<carril valor="1"/>
+	</evento>
+	<evento tipo="Retencion" fecha="2011-07-24T09:00:00">
+		<via>
+			<nombre>Autovía de Andalucía</nombre>
+			<ref>A-4</ref>
+			<origen>Madrid</origen>
+			<destino>Cádiz</destino>
+			<doble/>
+			<carriles>4</carriles>
+		</via>
+		<pk>550.000</pk>
+		<retencion long="3.000"/>
+		<sentido>-1</sentido>
+	</evento>
+</paneles>
+
+<!-- Esquema XSD -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	
+	<!-- declaramos los elementos simples -->
+	<xs:element name="nombre">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="50"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ref">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:pattern value="[A-Z][A-Z]?[A-Z]?\-\d\d?\d?\d?"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="origen">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="30"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="destino">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="30"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="doble" type="xs:string"/>
+
+	<xs:element name="carriles">
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="8"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="pk">
+		<xs:simpleType>
+			<xs:restriction base="xs:decimal">
+				<xs:fractionDigits value="3"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="sentido">
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:enumeration value="-1"/>
+				<xs:enumeration value="0"/>
+				<xs:enumeration value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<!-- definimos los atributos -->
+
+	<xs:attribute name="tipo">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Accidente"/>
+				<xs:enumeration value="Retencion"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:attribute>
+
+	<xs:attribute name="fecha" type="xs:dateTime"/>
+
+	<xs:attribute name="long">
+		<xs:simpleType>
+			<xs:restriction base="xs:decimal">
+				<xs:fractionDigits value="3"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:attribute>
+
+	<xs:attribute name="valor">
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="8"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:attribute>
+
+	<!-- montamos el xsd -->
+
+	<xs:element name="paneles">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="evento" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="via">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element ref="nombre"/>
+										<xs:element ref="ref"/>
+										<xs:element ref="origen"/>
+                                      	<xs:element ref="destino"/>
+										<xs:element ref="doble"/>
+										<xs:element ref="carriles"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element ref="pk"/>
+							<xs:element name="retencion" minOccurs="0">
+								<xs:complexType>
+									<xs:attribute ref="long" use="optional"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element ref="sentido"/>
+							<xs:element name="carrilescortados" minOccurs="0">
+								<xs:complexType>
+									<xs:attribute ref="valor" use="required"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute ref="tipo" use="required"/>
+						<xs:attribute ref="fecha" use="required" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
+
+

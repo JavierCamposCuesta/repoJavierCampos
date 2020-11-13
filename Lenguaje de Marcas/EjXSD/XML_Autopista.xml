@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paneles xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="XSD_Autopista.xsd">
+
+
+		<evento tipo="Accidente" fecha="2011-07-24T09:00:00">
+			<via>
+				<nombre>Autopista del V Centenario</nombre>
+				<ref>A-49</ref>
+				<origen>Sevilla</origen>
+				<destino>Huelva</destino>
+				<doble/>
+				<carriles>4</carriles>
+			</via>
+			<pk>42.200</pk>
+			<retencion long="8.000"/>
+			<sentido>1</sentido>
+			<carrilescortados valor="1"/>
+		</evento>
+		<evento tipo="Retencion" fecha="2011-07-24T09:00:00">
+			<via>
+				<nombre>Autovía de Andalucía</nombre>
+				<ref>A-4</ref>
+				<origen>Madrid</origen>
+				<destino>Cádiz</destino>
+				<doble/>
+				<carriles>4</carriles>
+			</via>
+			<pk>550.000</pk>
+			<retencion long="3.000"/>
+			<sentido>-1</sentido>
+		</evento>
+	</paneles>
+
+
