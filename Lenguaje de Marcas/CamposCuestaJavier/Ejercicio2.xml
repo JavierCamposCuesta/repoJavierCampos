@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clientes>
+	<nombreEmpresa></nombreEmpresa>
+	<CIF></CIF>
+	<direccion></direccion>
+	<telefono></telefono>
+	<email></email>
+	<paginaWeb></paginaWeb>
+	<perfilFacebook></perfilFacebook>
+	<perfilTwitter></perfilTwitter>
+	<contactos>
+		<nombre></nombre>
+		<apellidos></apellidos>
+		<telefono>
+			<telefono1></telefono1>
+			<telefono2></telefono2>
+		</telefono>
+		<emailProfesional></emailProfesional>
+	</contactos>
+</clientes>
+
+
+<clientes>
+	<nombreEmpresa>FrutasBurguilolos</nombreEmpresa>
+	<CIF>2949744-B</CIF>
+	<direccion>C/Almeria Nº27 Sevilla</direccion>
+	<telefono>675446455</telefono>
+	<email>frutasBurguilos@gmail.com</email>
+	<paginaWeb>www.frutasBurguillos.com</paginaWeb>
+	<perfilFacebook>@frutasBurguillos-interprie</perfilFacebook>
+	<perfilTwitter>@frutasBurguillos-interprise</perfilTwitter>
+	<contactos>
+		<nombre>Manuel</nombre>
+		<apellidos>Jimenez Jimenez</apellidos>
+		<telefono>
+			<telefono1>675446800</telefono1>
+			<telefono2>645774431</telefono2>
+		</telefono>
+		<emailProfesional>manuel-frutas@gmail.com</emailProfesional>
+	</contactos>
+	<contactos>
+		<nombre>Antonio</nombre>
+		<apellidos>Campos Campos</apellidos>
+		<telefono>
+			<telefono1>675446899</telefono1>
+			<telefono2>645778977</telefono2>
+		</telefono>
+		<emailProfesional>Antonio-frutas@gmail.com</emailProfesional>
+	</contactos>
+</clientes>
+
+<clientes>
+	<nombreEmpresa>AGQ</nombreEmpresa>
+	<CIF>2949784-B</CIF>
+	<direccion>C/Huelva Nº24 Sevilla</direccion>
+	<telefono>675446789</telefono>
+	<email>agq@gmail.com</email>
+	<paginaWeb>www.agq.com</paginaWeb>
+	<perfilFacebook>@AGQ-interprie</perfilFacebook>
+	<perfilTwitter>@AGQ-interprise</perfilTwitter>
+	<contactos>
+		<nombre>Manuel</nombre>
+		<apellidos>Campos Jimenez</apellidos>
+		<telefono>
+			<telefono1>675446879</telefono1>
+			<telefono2>645778931</telefono2>
+		</telefono>
+		<emailProfesional>manuel-agq@gmail.com</emailProfesional>
+	</contactos>
+	<contactos>
+		<nombre>Cristian</nombre>
+		<apellidos>Cuesta Jimenez</apellidos>
+		<telefono>
+			<telefono1>675446871</telefono1>
+			<telefono2>645778930</telefono2>
+		</telefono>
+		<emailProfesional>cristian-agq@gmail.com</emailProfesional>
+	</contactos>
+</clientes>

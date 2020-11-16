@@ -1,9 +1,0 @@
-'''
-Created on 6 Nov 2020
-
-@author: estudiante
-'''
-def divisiblePor7(number):
-    return number%7==0
-print(divisiblePor7(80))
-print(divisiblePor7(81))
