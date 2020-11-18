@@ -4,18 +4,22 @@ Created on 17 Nov 2020
 
 @author: estudiante
 '''
-def calculaMedia():
-    number=(int(input("Introduce un numero")))
-    listaNumeros=[]
-    listaNumeros.append()
-    while  number != 0:
-        listaNumeros.append(number)
-        number=(int(input("Introduce un numero")))
+
+def numerosEnLista():
+    listaNumeros=[ ]
+    while  not 0 in listaNumeros:
+        listaNumeros.append(int(input("Introduce un numero")))
+    listaNumeros.remove(0)
         
     listaNumeros.sort()   
-    print("El numero maximo es: " + lista[1])
-    print("El numero minimo es: " + lista[-1])
-    listaNumeros.sort()
+    print("""El numero maximo es: """+ str(listaNumeros[-1])+ 
+    ("""El numero minimo es: """ + str(listaNumeros[1])) +
+    ("""la media es: """+ str(sum(listaNumeros) / len(listaNumeros))))
+    #print("El numero minimo es: " + str(listaNumeros[1]))
+    #print("la media es: " + str(sum(listaNumeros) / len(listaNumeros)))
+numerosEnLista()
+
+
     
         
     

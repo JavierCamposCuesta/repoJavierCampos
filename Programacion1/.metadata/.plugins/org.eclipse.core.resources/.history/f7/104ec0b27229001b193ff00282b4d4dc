@@ -1,0 +1,24 @@
+'''Diseñar un programa que lea números hasta que el usuario introduzca el 0. Debe informar dela media de los números 
+leídos (sin tener en cuenta el 0) y el valor máximo y mínimo introducido.
+Created on 17 Nov 2020
+
+@author: estudiante
+'''
+
+number=(int(input("Introduce un numero")))
+listaNumeros=[ ]
+suma=0
+while  not 0 in listaNumeros:
+    listaNumeros.append(int(input("Introduce un numero")))
+    
+listaNumeros.sort()   
+print("El numero maximo es: " + str(listaNumeros[-1]))
+print("El numero minimo es: " + str(listaNumeros[1]))
+for i in listaNumeros:
+    suma+=i
+print("la media es: " + suma / len(listaNumeros))
+
+
+    
+        
+    
