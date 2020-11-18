@@ -4,12 +4,12 @@
 	<procedencia> ESP </procedencia><!--sobra un espacio en el cierre de etiquetas-->
 	<nombre>Joaquín</nombre>
 	<apellidos>Sánchez</apellidos><!--falta una s en apellido-->
-	<web>http://>joaquinsanchez.com</web><!--esta todo mal, creamos la etiqueta web y lo metemos dentro-->
+	<web>http://joaquinsanchez.com</web><!--esta todo mal, creamos la etiqueta web y lo metemos dentro-->
 </futbolista>
 <futbolista id=”2”><!--sobra un espacio al principio de la etiqueta-->
 	<equipo>Sevilla</equipo><!--esta bien pero para dejar la misma estructura que con Betis lo metemos dentro de la etiqueta-->
 	<procedencia>ESP</procedencia><!--El ESP tiene que ir dentro de la etiqueta-->
 	<nombre>Jesús</nombre>
 	<apellidos>Navas</apellidos><!--Fata una s de apellidos-->
-	<web>http://>jesusnavas.org</web><!--esta todo mal, creamos la etiqueta web y lo metemos dentro-->
+	<web>http://jesusnavas.org</web><!--esta todo mal, creamos la etiqueta web y lo metemos dentro-->
 </futbolista> <!--El id que pone sobra-->

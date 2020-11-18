@@ -1,5 +1,5 @@
 
-<!ELEMENT BDAltas (clientes*)>
+<!ELEMENT BDAltas (cliente*)>
 <!ELEMENT cliente (usuario, telefono, nick, contrasena, mail, fecha, hora, producto)>
 <!ELEMENT usuario (#PCDATA)>
 <!ELEMENT telefono (#PCDATA)>
