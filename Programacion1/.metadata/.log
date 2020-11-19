@@ -8623,3 +8623,127 @@ java.lang.StringIndexOutOfBoundsException: begin 9, end 8, length 8
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1441)
+!SESSION 2020-11-19 08:06:04.885 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=14.0.2
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2020-11-19 08:40:56.910
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/eclipse/updates/4.13/categories.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:396)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:353)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:244)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:775)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2020-11-19 08:40:56.912
+!MESSAGE No repository found at http://download.eclipse.org/eclipse/updates/4.13/categories.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1002 2020-11-19 08:40:56.984
+!MESSAGE Unable to read repository at http://download.eclipse.org/eclipse/updates/4.13.
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/eclipse/updates/4.13/categories.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:396)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:353)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:244)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:775)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2020-11-19 08:40:56.984
+!MESSAGE No repository found at http://download.eclipse.org/eclipse/updates/4.13/categories.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2020-11-19 08:51:00.047
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/eclipse/updates/4.13/categories.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:396)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:353)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:244)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:775)
+	at jdk.internal.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.loadMetadataRepository(ProvisioningContext.java:233)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedMetadataRepositories(ProvisioningContext.java:211)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getMetadata(ProvisioningContext.java:299)
+	at org.eclipse.equinox.internal.p2.director.SimplePlanner.updatesFor(SimplePlanner.java:1000)
+	at org.eclipse.equinox.p2.operations.UpdateOperation.updatesFor(UpdateOperation.java:144)
+	at org.eclipse.equinox.p2.operations.UpdateOperation.computeProfileChangeRequest(UpdateOperation.java:179)
+	at org.eclipse.equinox.p2.operations.UpdateOperation.lambda$0(UpdateOperation.java:314)
+	at org.eclipse.equinox.internal.p2.operations.SearchForUpdatesResolutionJob.runModal(SearchForUpdatesResolutionJob.java:41)
+	at org.eclipse.equinox.p2.operations.ProfileChangeOperation.resolveModal(ProfileChangeOperation.java:118)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdater.updatesAvailable(AutomaticUpdater.java:112)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdater.updatesAvailable(AutomaticUpdater.java:91)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdateScheduler$1.updatesAvailable(AutomaticUpdateScheduler.java:156)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:83)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2020-11-19 08:51:00.049
+!MESSAGE No repository found at http://download.eclipse.org/eclipse/updates/4.13/categories.

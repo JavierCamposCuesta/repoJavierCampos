@@ -9,14 +9,25 @@ def calculaPerimetro():
     lados=int(input("¿Cuantos lados tiene la figura?"))
     contador =0
     perimetro=0
-    while lados>contador:
-        longitud=float(input("Introduce la longitud de un lado"))
-        if longitud>0:
-            perimetro=longitud+perimetro
-            contador = contador +1
+    mayor=0
+    suma=0
+    if lados>0:
+        while lados>contador:
+            longitud=float(input("Introduce la longitud de un lado"))
+            if longitud>0:
+                if longitud>mayor:
+                    mayor=longitud
+                perimetro=longitud+perimetro
+                contador = contador +1
+                suma=longitud+suma
+            else:
+                print("La longitud tiene que ser positiva")
+        if mayor>(suma-mayor):
+            print("El poligo no es correcto, no puede cerrarse")
         else:
-            print("La longitud tiene que ser positiva")
-    print("El perimetro total es de: "+str( perimetro))
+            print("El perimetro total es de: "+str( perimetro))
+    else:
+        print("Tiene que ser un numero positivo")
 calculaPerimetro()
 
 
