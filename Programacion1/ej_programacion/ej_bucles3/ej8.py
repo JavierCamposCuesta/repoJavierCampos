@@ -10,7 +10,7 @@ mensaje =" "
 fin=0
 partido=1
 while fin == 0:
-    partidos = int(input("¿Cuantos partidos se han jugado esta jornada"))
+    partidos = int(input("¿Cuantos partidos se han jugado esta jornada? "))
     if partidos >0:
         for i in range (0, partidos):
             print("Resultado partido "+str( partido))

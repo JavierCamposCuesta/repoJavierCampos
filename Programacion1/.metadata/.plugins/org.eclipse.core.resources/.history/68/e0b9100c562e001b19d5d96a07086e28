@@ -1,0 +1,12 @@
+'''un numero capicuo es cuando se leen igual de delante hacia atrás que de atrás a delante, las palabras palindromas es 
+lo mismo pero con palabras
+Created on 24 Nov 2020
+
+@author: estudiante
+'''
+lista=[]
+nombre= "ana"
+for i in range  ( len(nombre)):
+    lista.append(nombre[i])
+for i in range ( len(nombre), 0):
+    lista2.appeng(nombre[i])

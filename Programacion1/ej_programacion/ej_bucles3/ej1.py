@@ -5,6 +5,7 @@ Created on 17 Nov 2020
 
 @author: estudiante
 '''
+
 def calculaPerimetro():
     lados=int(input("¿Cuantos lados tiene la figura?"))
     contador =0
@@ -29,6 +30,31 @@ def calculaPerimetro():
     else:
         print("Tiene que ser un numero positivo")
 calculaPerimetro()
+
+def esUnPoligono(lado):
+    esPoligono = True
+    
+    for i in range(0, len(lado)):
+        if(lado[i] <= 0 ):
+            esPoligono = False
+    
+    for i in range (0, len(lado)):
+        sumaLados = 0
+        for j in range (0, len(lado)):
+            if(j != i):
+                sumaLados+= lado[j] 
+        if sumaLados <= i:
+            esPoligono = False
+        
+    return esPoligono
+
+print(esUnPoligono([3,4,5]))
+print(esUnPoligono([3,4,5]))
+print(esUnPoligono([9,4,5]))
+print(esUnPoligono([3,15,5]))
+            
+
+
 
 
 
