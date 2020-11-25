@@ -1,0 +1,12 @@
+'''2.Design a function called lowCaseInString that has a string of characters as parameter, the method should return 
+how many of those characters are lowcase letters.
+
+3.Design a function called upperCaseInString that has a string of 
+characters as parameter, the method should return how many of those characters are upper case letters.
+Created on 25 Nov 2020
+
+@author: estudiante
+'''
+def lowCaseInString(cadena):
+    for i in cadena:
+        
