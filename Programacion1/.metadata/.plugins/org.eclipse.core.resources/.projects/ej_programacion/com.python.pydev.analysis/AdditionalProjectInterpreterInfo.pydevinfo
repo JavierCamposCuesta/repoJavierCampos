@@ -35,13 +35,14 @@ ej_string.__init__|1606290458067005199|/home/estudiante/Desktop/repoJavierCampos
 ejDef.practicaconDef|1604651362479449000|/home/estudiante/Desktop/repoJavierCampos/Programacion1/ej_programacion/ejDef/practicaconDef.py
 Examen1.ej1|1604476562271271000|/home/estudiante/Desktop/repoJavierCampos/Programacion1/ej_programacion/Examen1/ej1.py
 ejDef.__init__|1604648630310975000|/home/estudiante/Desktop/repoJavierCampos/Programacion1/ej_programacion/ejDef/__init__.py
+ej_string.ej8|1606381275278563237|/home/estudiante/Desktop/repoJavierCampos/Programacion1/ej_programacion/ej_string/ej8.py
 Examen1.ej2|1604477776919026000|/home/estudiante/Desktop/repoJavierCampos/Programacion1/ej_programacion/Examen1/ej2.py
 Examen1.ej3|1604649017363717000|/home/estudiante/Desktop/repoJavierCampos/Programacion1/ej_programacion/Examen1/ej3.py
 NumerosPrimos.__init__|1605083232184901600|/home/estudiante/Desktop/repoJavierCampos/Programacion1/ej_programacion/NumerosPrimos/__init__.py
 ej_bucles.media|1603266096343549000|/home/estudiante/Desktop/repoJavierCampos/Programacion1/ej_programacion/ej_bucles/media.py
 -- END DISKCACHE
 -- START DICTIONARY
-58
+60
 3=/home/estudiante/Desktop/repoJavierCampos/Programacion1/ej_programacion/ejDef/practicaconDef.py
 58=ej_string.capicuaPalindromo
 41=/home/estudiante/Desktop/repoJavierCampos/Programacion1/ej_programacion/Examen1/ej3.py
@@ -51,6 +52,7 @@ ej_bucles.media|1603266096343549000|/home/estudiante/Desktop/repoJavierCampos/Pr
 45=/home/estudiante/Desktop/repoJavierCampos/Programacion1/ej_programacion/ej_bucles/ejercicio5.py
 19=/home/estudiante/Desktop/repoJavierCampos/Programacion1/ej_programacion/ej_string/ej1.py
 35=/home/estudiante/Desktop/repoJavierCampos/Programacion1/ej_programacion/ej_bucles2/ej10.py
+59=/home/estudiante/Desktop/repoJavierCampos/Programacion1/ej_programacion/ej_string/ej8.py
 23=/home/estudiante/Desktop/repoJavierCampos/Programacion1/ej_programacion/ej_bucles2/ej5.py
 33=/home/estudiante/Desktop/repoJavierCampos/Programacion1/ej_programacion/NumerosPrimos/Primos.py
 51=/home/estudiante/Desktop/repoJavierCampos/Programacion1/ej_programacion/ej_bucles3/ej3.py
@@ -98,6 +100,7 @@ ej_bucles.media|1603266096343549000|/home/estudiante/Desktop/repoJavierCampos/Pr
 37=/home/estudiante/Desktop/repoJavierCampos/Programacion1/ej_programacion/ej_bucles3/ej8.py
 47=/home/estudiante/Desktop/repoJavierCampos/Programacion1/ej_programacion/ej_bucles/ejercicio4.py
 30=Examen1.ej1
+60=ej_string.ej8
 32=Examen1.ej2
 42=Examen1.ej3
 -- END DICTIONARY
@@ -157,7 +160,7 @@ tes|2|test!41^22#5*338@test!3^15#5*34@
 upp|1|upperCaseInString!39^23#5*322@
 vid|1|vida!31^26#13*259@
 vis|1|visitante!37^18#13*307@
-voc|0|
+voc|1|vocalesDiferentes!59^8#5*482@
 x|0|
 y|0|
 -- END TREE
