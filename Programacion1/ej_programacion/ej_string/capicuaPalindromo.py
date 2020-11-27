@@ -10,14 +10,15 @@ Created on 24 Nov 2020
 '''
 
 def palindromo(cadena):
-    inversa=" "
+    inversa=(" ")
     cadena=cadena.replace(" ", "")
 
     for i in range (0, len(cadena)):
         inversa = cadena[i] + inversa
+    
     if inversa == cadena:
         print("Es capicua")
-    else:
+    elif inversa != cadena:
         print("No es capicua")
      
     print(inversa)
