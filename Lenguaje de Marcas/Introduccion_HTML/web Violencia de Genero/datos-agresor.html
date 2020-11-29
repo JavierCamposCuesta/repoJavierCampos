@@ -10,11 +10,10 @@
 		<h1>Violencia de género</h1>
 	</div>
 	<div class="cuerpo">
-		<a href="index.html" class="boton" style="margin-top: 10px; display: inline-block;">&#60;Volver</a>
-		<form method="GET" action="datos-agresor.html"> <!-- en el form definimos obligatoriamente el method (GET o POST) y el action (a que url se mandan los datos) y de forma opcional el onsubmit (que es para validar los datos en cliente(navegador/javascrip)) -->
-		
+		<a href="datos-denunciante.html" class="boton" style="margin-top: 10px; display: inline-block;">&#60;Volver</a>
+		<form method="GET" action="datos-enviados.html">
 			<div>
-				<h2>Datos víctima</h2>
+				<h2>Datos agresor</h2>
 				<h3>Datos personales</h3>
 			</div>
 			<div>		
@@ -39,7 +38,7 @@
 				<label for="direccion">Dirección</label>
 				<input type="text" name="direccion" id="direccion">
 			</div>
-				<div>
+			<div>
 			
 				<label for="sexo">Sexo</label>
 				<input type="radio" name="sexo" value="1">Hombre
@@ -47,35 +46,26 @@
 				<input type="radio" name="sexo" value="1">No Especificar
 			</div>
 			<div>
-				<h3>Datos familiares</h3>
-			</div>
-		
-			<div>
 			
-				<label for="estado-civil">Estado civil</label>
-				<input type="radio" name="estado-civil" value="1">Casado
-				<input type="radio" name="estado-civil" value="1">Soltero
-				<input type="radio" name="estado-civil" value="1">Divorciado
-				<input type="radio" name="estado-civil" value="1">Viudo
-				<input type="radio" name="estado-civil" value="1">No especificar
+				<label for="pareja">¿Sois pareja?</label>
+				<input type="radio" name="pareja" value="1">Sí
+				<input type="radio" name="pareja" value="1">No
+				<input type="radio" name="pareja" value="1">No Especificar
 			</div>
 			<div>
-				<label for="hijos">Numero de hijos</label>
-				<input type="text" name="hijos" id="hijos">
+				<h3>Descripcion de los hechos</h3>
 			</div>
+			<div>
+				<textarea name="descripcion" rows="10" cols="103">Describa con todo detalles la agresión</textarea>
+			</div>
+			
 			<div align="right" style="margin-right: 20px; margin-top: 10px; margin-bottom: 10px;">
-				<input type="submit" name="subir" value="Siguiente" class="boton">
+				<input type="submit" name="subir" value="Finalizar" class="boton">
 					
 			</div>
 			
-			
 
-		</form>
-						
-
-		
-
-			
+		</form>		
 	</div>
 	<div class="pie-de-pagina">
 		<div>
