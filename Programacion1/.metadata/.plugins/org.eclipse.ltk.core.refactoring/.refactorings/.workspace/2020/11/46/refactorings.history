@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;ej_programacion/ej_bucles2/ej13.py&apos;" deleteContents="false" description="Delete resource &apos;ej_programacion/ej_bucles2/ej13.py&apos;" element1="/ej_programacion/ej_bucles2/ej13.py" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1605080759371"/>
-</session>
