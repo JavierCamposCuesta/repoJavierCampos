@@ -13,6 +13,7 @@ def buscaTexto(cadena, palabra):
             c+=1
     if c == len(palabra):
         print("La palabra se encuentra escondida")
+    print("Hola")
         
 buscaTexto("shycbacocalrnacaoladfs", "caracola")
             
