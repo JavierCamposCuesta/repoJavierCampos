@@ -16,27 +16,6 @@ def contarPalabras(cadena):
             palabra=""
     return len(lista)
 print(contarPalabras("HOla que haces     cojones aqui estamos  o que hace  "))
-
-
-def contarPalabraOptimo(texto):
-    numPalabras =0
-    temporal= " "
-    
-    for i in texto:
-        if temporal == " ":
-            if i != " ":
-                numPalabras+=1
-            temporal = i
-    return numPalabras
-print(contarPalabraOptimo("Hola que haces estamos aqui contando palabras"))
-    
-    
-    
-    
-    
-    
-    
-    
         
         
             
