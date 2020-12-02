@@ -1,0 +1,54 @@
+'''
+Realizar una función que reciba como parámetro una cadena que contenga un dni y devuelva un True 
+si el dni es válido y False en caso contrario. Para calcular la letra debemos tomar el número 
+completo de hasta 8 cifras de nuestro DNI, lo dividimos entre 23 y nos quedamos con el resto de 
+dicha división.
+
+El resultado anterior es un número entre 0 y 22. A cada uno de estos posibles números le 
+corresponde una letra, según la siguiente tabla:
+
+Si el formato no es válido deberá devolver False.
+
+Mejora opcional: Ten en cuenta que hay dni que en vez de 8 números pueden tener 7.
+
+Entrega las pruebas que has realizado
+Created on 2 Dec 2020
+
+@author: estudiante
+'''
+
+def dni(cadena):
+    numero=0
+    resto=0
+    letra="TRWAGMYFPDXBNJZSQVHLCKE"
+    letraResultado=""
+    for i in cadena:
+        numero= numero +i
+    print(numero)
+    resto=numero %23
+    print(numero)
+    print(resto)
+    letraResultado=letra[resto]
+    print(cadena[-1])
+    if str(cadena[-1])==str(letraResultado):
+        print("True")
+    else:
+        print("False")
+       
+    print(numero)
+def dni1(numero, letra):
+    letraFija="TRWAGMYFPDXBNJZSQVHLCKE"
+    resto=numero%23
+    print(resto)
+    return letra.lower()==letraFija[resto].lower()
+        
+print(dni1(29497784, "R"))
+print(dni1(29497784, "P"))
+print(dni1(29497744, "z"))
+
+    
+    
+    
+
+
+        
