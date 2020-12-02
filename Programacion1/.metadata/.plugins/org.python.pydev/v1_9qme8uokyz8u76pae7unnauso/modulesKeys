@@ -1,6 +1,7 @@
 MODULES_MANAGER_V3
 Image
 OpenGL
+<<<<<<< HEAD
 Tools.__init__|C:\Users\Javier\AppData\Local\Programs\Python\Python38-32\Tools|^
 Tools.demo.__init__|C:\Users\Javier\AppData\Local\Programs\Python\Python38-32\Tools\demo|^
 Tools.demo.beer|C:\Users\Javier\AppData\Local\Programs\Python\Python38-32\Tools\demo\beer.py
@@ -112,6 +113,13 @@ _blake2
 _bootlocale|C:\Users\Javier\AppData\Local\Programs\Python\Python38-32\Lib\_bootlocale.py
 _bytesio
 _bz2|C:\Users\Javier\AppData\Local\Programs\Python\Python38-32\DLLs\_bz2.pyd
+=======
+_abc
+_ast
+_bisect
+_blake2
+_bytesio
+>>>>>>> 239565a4f7ed410806a1886fd527bae837b972c9
 _codecs
 _codecs_cn
 _codecs_hk
@@ -120,6 +128,7 @@ _codecs_jp
 _codecs_kr
 _codecs_tw
 _collections
+<<<<<<< HEAD
 _collections_abc|C:\Users\Javier\AppData\Local\Programs\Python\Python38-32\Lib\_collections_abc.py
 _compat_pickle|C:\Users\Javier\AppData\Local\Programs\Python\Python38-32\Lib\_compat_pickle.py
 _compression|C:\Users\Javier\AppData\Local\Programs\Python\Python38-32\Lib\_compression.py
@@ -134,6 +143,13 @@ _elementtree|C:\Users\Javier\AppData\Local\Programs\Python\Python38-32\DLLs\_ele
 _fileio
 _functools
 _hashlib|C:\Users\Javier\AppData\Local\Programs\Python\Python38-32\DLLs\_hashlib.pyd
+=======
+_contextvars
+_csv
+_datetime
+_fileio
+_functools
+>>>>>>> 239565a4f7ed410806a1886fd527bae837b972c9
 _heapq
 _hotshot
 _imp
@@ -141,6 +157,7 @@ _io
 _json
 _locale
 _lsprof
+<<<<<<< HEAD
 _lzma|C:\Users\Javier\AppData\Local\Programs\Python\Python38-32\DLLs\_lzma.pyd
 _markupbase|C:\Users\Javier\AppData\Local\Programs\Python\Python38-32\Lib\_markupbase.py
 _md5
@@ -156,6 +173,13 @@ _py_abc|C:\Users\Javier\AppData\Local\Programs\Python\Python38-32\Lib\_py_abc.py
 _pydecimal|C:\Users\Javier\AppData\Local\Programs\Python\Python38-32\Lib\_pydecimal.py
 _pyio|C:\Users\Javier\AppData\Local\Programs\Python\Python38-32\Lib\_pyio.py
 _queue|C:\Users\Javier\AppData\Local\Programs\Python\Python38-32\DLLs\_queue.pyd
+=======
+_md5
+_multibytecodec
+_opcode
+_operator
+_pickle
+>>>>>>> 239565a4f7ed410806a1886fd527bae837b972c9
 _random
 _sha
 _sha1
@@ -163,6 +187,7 @@ _sha256
 _sha3
 _sha512
 _signal
+<<<<<<< HEAD
 _sitebuiltins|C:\Users\Javier\AppData\Local\Programs\Python\Python38-32\Lib\_sitebuiltins.py
 _socket|C:\Users\Javier\AppData\Local\Programs\Python\Python38-32\DLLs\_socket.pyd
 _sqlite3|C:\Users\Javier\AppData\Local\Programs\Python\Python38-32\DLLs\_sqlite3.pyd
@@ -2329,4 +2354,71 @@ xxsubtype
 zipapp|C:\Users\Javier\AppData\Local\Programs\Python\Python38-32\Lib\zipapp.py
 zipfile|C:\Users\Javier\AppData\Local\Programs\Python\Python38-32\Lib\zipfile.py
 zipimport|C:\Users\Javier\AppData\Local\Programs\Python\Python38-32\Lib\zipimport.py
+=======
+_sre
+_stat
+_statistics
+_string
+_struct
+_subprocess
+_symtable
+_thread
+_tracemalloc
+_warnings
+_weakref
+_winapi
+_winreg
+_xxsubinterpreters
+array
+atexit
+audioop
+binascii
+builtins
+cPickle
+cStringIO
+cmath
+cv2
+datetime
+email
+errno
+exceptions
+faulthandler
+future_builtins
+gc
+gi
+hashlib
+imageop
+imp
+itertools
+marshal
+math
+mmap
+mock
+msvcrt
+multiprocessing
+mutagen
+nt
+numpy
+operator
+os
+os.path
+parser
+py
+pytest
+re
+scipy
+signal
+six
+socket
+ssl
+strop
+sys
+thread
+time
+winreg
+wx
+wxPython
+xxsubtype
+zipimport
+>>>>>>> 239565a4f7ed410806a1886fd527bae837b972c9
 zlib

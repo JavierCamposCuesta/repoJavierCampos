@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<section name="NewWizardAction">
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.python.pydev.ui.wizards.project.PythonProjectWizard"/>
-		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="org.python.pydev.PythonCategory"/>
-		</list>
-	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
 		<item key="dialogHeight" value="-1"/>
 		<item key="dialogWidth" value="-1"/>
@@ -18,6 +12,7 @@
 		<list key="textArray">
 		</list>
 	</section>
+<<<<<<< HEAD
 	<section name="WorkbenchPreferenceDialogSettings">
 		<item key="DIALOG_X_ORIGIN" value="327"/>
 		<item key="DIALOG_Y_ORIGIN" value="9"/>
@@ -29,4 +24,6 @@
 		<item key="DIALOG_HEIGHT" value="1075"/>
 		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|10.8|0|WINDOWS|1|-18|0|0|0|0|0|0|0|1|0|0|0|0|Ubuntu"/>
 	</section>
+=======
+>>>>>>> 239565a4f7ed410806a1886fd527bae837b972c9
 </section>
