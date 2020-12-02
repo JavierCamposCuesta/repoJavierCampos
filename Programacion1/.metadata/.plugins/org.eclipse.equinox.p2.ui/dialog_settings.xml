@@ -2,10 +2,10 @@
 <section name="Workbench">
 	<section name="org.eclipse.equinox.internal.p2.ui.dialogs.InstallWizard.WizardSettings">
 		<item key="DIALOG_X_ORIGIN" value="179"/>
-		<item key="DIALOG_Y_ORIGIN" value="0"/>
-		<item key="DIALOG_WIDTH" value="943"/>
-		<item key="DIALOG_HEIGHT" value="733"/>
-		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|11.0|0|GTK|1|"/>
+		<item key="DIALOG_Y_ORIGIN" value="9"/>
+		<item key="DIALOG_WIDTH" value="1179"/>
+		<item key="DIALOG_HEIGHT" value="995"/>
+		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|10.8|0|WINDOWS|1|-18|0|0|0|0|0|0|0|1|0|0|0|0|Ubuntu"/>
 	</section>
 	<section name="AvailableIUsPage">
 		<item key="AvailableViewType" value="1"/>
@@ -28,7 +28,7 @@
 	<section name="org.eclipse.equinox.internal.p2.ui.dialogs.InstallWizard.ResolutionResultsPage">
 		<item key="NameColumnWidth" value="400"/>
 		<item key="VersionColumnWidth" value="200"/>
-		<item key="IDColumnWidth" value="325"/>
+		<item key="IDColumnWidth" value="200"/>
 		<item key="ListSashWeight" value="800"/>
 		<item key="DetailsSashWeight" value="200"/>
 	</section>

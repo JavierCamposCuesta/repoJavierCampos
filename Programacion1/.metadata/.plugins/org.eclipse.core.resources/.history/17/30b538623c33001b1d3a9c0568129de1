@@ -1,0 +1,9 @@
+
+def consonantesPrimero (cadena):
+    consonantes=[]
+    for i in range (0, len(cadena)):
+        if cadena[i] != "a" and cadena[i]!="e" and cadena[i]!="i" and cadena[i]!="o" and cadena[i]!="u":
+            consonantes.append(i)
+            print(i)
+    print(consonantes)
+consonantesPrimero("Hola que haces cojones estamos aqui")

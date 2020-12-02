@@ -11,7 +11,7 @@ many of those characters are numbers.
 @author: estudiante
 '''
 from curses.ascii import islower, isupper
-from reportlab.lib.validators import isNumber
+
 def lowCaseInString(cadena):
     cantidad=0
     for i in cadena:
@@ -28,13 +28,13 @@ def upperCaseInString(cadena):
     print(cantidad)
     return cantidad
 
-def numberInString(cadena):
+'''def numberInString(cadena):
     cantidad=0
     for i in cadena:
         if isNumber(i)==True:
             cantidad+=1
     print(cantidad)
-    return cantidad
+    return cantidad'''
 
 
 assert(lowCaseInString("Hola Que Haces")==3)
@@ -45,9 +45,9 @@ assert(upperCaseInString("Hola QUE haces")==8)
 assert(upperCaseInString("HoLA QUE haces")==6)
 assert(upperCaseInString("Hola QUE Haces")==7)
 
-assert(numberInString("456")==3)
+'''assert(numberInString("456")==3)
 assert(numberInString("Hola 69 que 5  456846")==9)
-assert(numberInString("Hola  que haces ")==0)
+assert(numberInString("Hola  que haces ")==0)'''
 
 
 

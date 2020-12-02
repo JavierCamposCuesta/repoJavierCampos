@@ -1,0 +1,12 @@
+
+def consonantesPrimero (cadena):
+    consonantes=[]
+    vocales=[]
+    for i in range (0, len(cadena)):
+        if cadena[i] != "a" and cadena[i]!="e" and cadena[i]!="i" and cadena[i]!="o" and cadena[i]!="u" and cadena[i]!=" ":
+            consonantes.append(cadena[i])
+            print(cadena[i])
+        elif cadena[i]!=" ":
+            vocales.append(cadena[i])
+    print(consonantes)
+consonantesPrimero("Hola que haces cojones estamos aqui")
