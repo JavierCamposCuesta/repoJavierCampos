@@ -7,10 +7,15 @@ Created on 27 Nov 2020
 '''
 
 def reemplazarPalabra(texto, palabra, reemplazo):
-        for palabra in texto:
-            palabra=reemplazo
-        print(palabra)
-    #print(palabra + reemplazo)
+     textoNuevo=""
+     contador=0
+     for i in texto:
+         print(i)
+         if texto[i] == palabra[0]:
+             for c in range(0, len(palabra)):
+                 
+             print("hola")
+         print(texto[i])
 reemplazarPalabra("hola como feo esta chaval, una pena ser tan feo", "feo", "malito")
 
 
