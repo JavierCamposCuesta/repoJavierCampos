@@ -45,6 +45,7 @@ print(calculaTipoNumero(123))
 print(calculaTipoNumero(45))
 print(calculaTipoNumero(268))
 print(calculaTipoNumero(47))
+print(calculaTipoNumero(47))
 
 
 
