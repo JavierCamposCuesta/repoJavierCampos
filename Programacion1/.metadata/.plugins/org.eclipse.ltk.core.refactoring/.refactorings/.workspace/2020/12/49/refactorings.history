@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<<<<<<< HEAD
-<refactoring comment="Delete resource &apos;ej_bucles3&apos;" deleteContents="false" description="Delete resource &apos;ej_bucles3&apos;" element1="/ej_bucles3" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1606837913128"/>
-=======
-<refactoring comment="Delete resource &apos;ej_bucles3&apos;" deleteContents="false" description="Delete resource &apos;ej_bucles3&apos;" element1="/ej_bucles3" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1606827170421"/>
->>>>>>> 239565a4f7ed410806a1886fd527bae837b972c9
-</session>
