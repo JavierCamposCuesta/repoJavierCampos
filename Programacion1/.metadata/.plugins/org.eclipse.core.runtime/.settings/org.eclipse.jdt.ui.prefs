@@ -1,13 +1,13 @@
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=239565a4f7ed410806a1886fd527bae837b972c9
 content_assist_proposals_background=255,255,255
 content_assist_proposals_foreground=0,0,0
 eclipse.preferences.version=1
 org.eclipse.jdt.internal.ui.navigator.layout=2
 org.eclipse.jdt.internal.ui.navigator.librariesnode=true
-org.eclipse.jdt.ui.formatterprofiles.version=18
-<<<<<<< HEAD
+org.eclipse.jdt.ui.formatterprofiles.version=19
 spelling_locale=en_GB
-=======
->>>>>>> 239565a4f7ed410806a1886fd527bae837b972c9
 spelling_locale_initialized=true
 useAnnotationsPrefPage=true
 useQuickDiffPrefPage=true

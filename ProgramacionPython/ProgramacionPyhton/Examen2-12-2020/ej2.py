@@ -4,17 +4,17 @@ Created on 2 dic. 2020
 @author: Javier
 '''
 '''
-Realizar una función que reciba como parámetro una cadena que contenga un dni y devuelva un True 
-si el dni es válido y False en caso contrario. Para calcular la letra debemos tomar el número 
+Realizar una funciï¿½n que reciba como parï¿½metro una cadena que contenga un dni y devuelva un True 
+si el dni es vï¿½lido y False en caso contrario. Para calcular la letra debemos tomar el nï¿½mero 
 completo de hasta 8 cifras de nuestro DNI, lo dividimos entre 23 y nos quedamos con el resto de 
-dicha división.
+dicha divisiï¿½n.
 
-El resultado anterior es un número entre 0 y 22. A cada uno de estos posibles números le 
-corresponde una letra, según la siguiente tabla:
+El resultado anterior es un nï¿½mero entre 0 y 22. A cada uno de estos posibles nï¿½meros le 
+corresponde una letra, segï¿½n la siguiente tabla:
 
-Si el formato no es válido deberá devolver False.
+Si el formato no es vï¿½lido deberï¿½ devolver False.
 
-Mejora opcional: Ten en cuenta que hay dni que en vez de 8 números pueden tener 7.
+Mejora opcional: Ten en cuenta que hay dni que en vez de 8 nï¿½meros pueden tener 7.
 
 Entrega las pruebas que has realizado
 Created on 2 Dec 2020
@@ -55,3 +55,24 @@ print(dni1(29497744, "z"))
 assert(dni1(29497784, "p"))
 assert(dni1(29497744, "z"))
 print(dni1(29497784, "R")==False)
+
+#solucion
+
+def calcularLetra(numeroDNI):
+    return letra[numero%23]
+
+def obtenerNumeroDni(dniConLetra):
+    numeroDNI=""
+    for i in range (len(dniConLetra)-1):
+        numeroDNI+=dniConLetra[i]
+    return int(numeroDNI)
+
+def esDniValido(dniConLetra):
+    numeroDNI=obeterNumeroDni(dniConLetra)
+    return dniConLetra[-1]==calcularLetra(numeroDNI)
+
+
+
+
+print(esDniValido("29497784P"))
+
