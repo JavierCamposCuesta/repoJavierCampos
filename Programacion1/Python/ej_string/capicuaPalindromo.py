@@ -16,17 +16,16 @@ def palindromo(cadena):
     for i in range (0, len(cadena)):
         inversa = cadena[i] + inversa
     
-    if inversa == cadena:
+    if inversa.lower() == cadena.lower():
         print("Es capicua")
-    elif inversa != cadena:
-        print("No es capicua")
+    elif inversa.lower() != cadena.lower():
+        print("ivan el chulo")
      
-    print(inversa)
-    print(cadena)
+    print(inversa.lower())
+    print(cadena.lower())
   
-print(palindromo("a"))
-print(palindromo("hola que hace"))
 print(palindromo("ana"))
+
 '''
 def esPalindroma2(cadena):
     esPalindroma = True
