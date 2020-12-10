@@ -1,58 +1,106 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>TablaAnidada</title>
 </head>
-<body>
-	<table border="1" width="100%" height="100%" cellpadding="0" cellspacing="0">
+<body style="background: #424242">
+	<table align="center" border="0" width="80%" height="100%" cellpadding="10" cellspacing="0" style=" background: #212121; border-radius: 15px">
 		<tr>
-			<td align="center" colspan="4"><p size="50">Animales</p></td>
+			<td align="center" colspan="4"><p style="font-size: 60px; margin-top: 10px; margin-bottom: 8px; color: white">Animales</p></td>
 		</tr>
 		<tr>
 			<td align="center" colspan="4">
-				<table border="1" width="100%" height="50">
-					<tr align="center">
-						<td>Carnívoros</td>
-						<td>Hervívoros</td>
-						<td>Omnívoros</td>
+				<table border="0"bordercolor=#757575 width="100%" height="50" cellpadding="0" cellspacing="0">
+					<tr  align="center">
+						<td><a class="boton" href="carnivoro_hervivoro_omnivoro.html">Carnívoros</td>
+						<td><a class="boton" href="carnivoro_hervivoro_omnivoro.html">Hervívoros</td>
+						<td><a class="boton" href="carnivoro_hervivoro_omnivoro.html">Omnívoros</td>
 					</tr>
 				</table>
 			</td>
 		</tr>
 		
 		<tr align="center">
-			<td><img src="delfin.jpeg" width="275" height="200"></td>
-			<td><img src="leon.jpeg" width="275" height="200" usemap="#leon"></td>
-			<td><img src="cocodrilo.jpeg" width="275" height="200"></td>
-			<td><img src="lobo.jpeg" width="275" height="200"></td>
+			<td><img src="delfin.jpeg" width="220" height="160" usemap="#delfin" style="border-radius: 8px"></td>
+			<td><img src="leon.jpeg" width="220" height="160" usemap="#leon" style="border-radius: 8px"></td>
+			<td><img src="cocodrilo.jpeg" width="220" height="160" usemap="#cocodrilo" style="border-radius: 8px"></td>
+			<td><img src="lobo.jpeg" width="220" height="160" usemap="#lobo" style="border-radius: 8px"></td>
 		</tr>
 		<tr align="center">
-			<td><img src="iena.jpeg" width="275" height="200"></td>
-			<td><img src="oso.jpeg" width="275" height="200" usemap="#oso"></td>
-			<td><img src="tiburon.jpeg" width="275" height="200"></td>
-			<td><img src="buitre.jpeg" width="275" height="200"></td>
+			<td><img src="iena.jpeg" width="220" height="160" usemap="#hiena" style="border-radius: 8px"></td>
+			<td><img src="oso.jpeg" width="220" height="160" usemap="#oso" style="border-radius: 8px"></td>
+			<td><img src="tiburon.jpeg" width="220" height="160" usemap="#tiburon" style="border-radius: 8px"></td>
+			<td><img src="buitre.jpeg" width="220" height="160" usemap="#buitre" style="border-radius: 8px"></td>
 		</tr>
 		<tr align="center">
-			<td><img src="zorro.jpeg" width="275" height="200"></td>
-			<td><img src="aguila.jpeg" width="275" height="200"></td>
-			<td><img src="escorpion.jpeg" width="275" height="200"></td>
-			<td><img src="lince.jpeg" width="275" height="200"></td>
+			<td><img src="zorro.jpeg" width="220" height="160" usemap="#zorro" style="border-radius: 8px"></td>
+			<td><img src="aguila.jpeg" width="220" height="160" usemap="#aguila" style="border-radius: 8px"></td>
+			<td><img src="escorpion.jpeg" width="220" height="160" usemap="#escorpion" style="border-radius: 8px"></td>
+			<td><img src="lince.jpeg" width="220" height="160" usemap="#lince" style="border-radius: 8px"></td>
 		</tr>
 		<tr align="center">
-			<td width="25%" height="14.22"></td>
-			<td width="25%" height="14.22"></td>
-			<td width="25%" height="14.22"></td>
-			<td width="25%" height="14.22"></td>
-		</tr>
-		
+			<td><img src="pirana.jpeg" width="220" height="160" usemap="#pirana" style="border-radius: 8px"></td>
+			<td><img src="pulpo.jfif" width="220" height="160" usemap="#pulpo" style="border-radius: 8px"></td>
+			<td><img src="pelicano.jpg" width="220" height="160" usemap="#pelicano" style="border-radius: 8px"></td>
+			<td><img src="amurtiger-1975790_960_720.jpg" width="220" height="160" usemap="#tigre" style="border-radius: 8px"></td>
 		</tr>
 	</table>
+
+	
+	
+	
+	
+	<map name="delfin">
+		<area shape="circle" coords="138,80,50" href="https://es.wikipedia.org/wiki/Delphinidae">
+	</map>
 	<map name="leon">
 		<area shape="reet" coords="54,31,104,85" href="https://es.wikipedia.org/wiki/Le%C3%B3n_(Espa%C3%B1a)">
 	</map>
-	<map name="oso">
-		<area shape="circle" coords="159,105,50" href="https://es.wikipedia.org/wiki/Oso_(desambiguaci%C3%B3n)">
+	<map name="cocodrilo">
+		<area shape="poly" coords="174,96,0,120,0,4" href="https://es.wikipedia.org/wiki/Crocodylidae">
 	</map>
+	<map name="lobo">
+		<area shape="poly" coords="139,37,30,132,167,132" href="https://es.wikipedia.org/wiki/Canis_lupus">
+	</map>
+	<map name="hiena">
+		<area shape="poly" coords="129,40,17,40,29,143,119,143,120,94,140,72" href="https://es.wikipedia.org/wiki/Hyaenidae">
+	</map>
+	<map name="oso">
+		<area shape="circle" coords="138,76,50" href="https://es.wikipedia.org/wiki/Oso_(desambiguaci%C3%B3n)">
+	</map>
+	<map name="tiburon">
+		<area shape="poly" coords="204,45,204,89,24,107" href="https://es.wikipedia.org/wiki/Selachimorpha">
+	</map>
+	<map name="buitre">
+		<area shape="poly" coords="94,21,30,159,101,159" href="https://es.wikipedia.org/wiki/Buitre">
+	</map>
+	<map name="zorro">
+		<area shape="reet" coords="58,62,173,130" href="https://es.wikipedia.org/wiki/Vulpini">
+	</map>
+	<map name="aguila">
+		<area shape="poly" coords="185, 35,24,46,127,139" href="https://es.wikipedia.org/wiki/%C3%81guila">
+	</map>
+	<map name="escorpion">
+		<area shape="circle" coords="133,100,75" href="https://es.wikipedia.org/wiki/Scorpiones">
+	</map>
+	<map name="lince">
+		<area shape="poly" coords="84,30,84,155,203,126,183,64" href="https://es.wikipedia.org/wiki/Lynx_(animal)">
+	</map>
+	<map name="pirana">
+		<area shape="reet" coords="157,47,16,126" href="https://es.wikipedia.org/wiki/Pira%C3%B1a">
+	</map>
+	<map name="pulpo">
+		<area shape="circle" coords="133,100,75" href="https://es.wikipedia.org/wiki/Octopoda">
+	</map>
+	<map name="pelicano">
+		<area shape="poly" coords="36,42,73,139,191,139" href="https://es.wikipedia.org/wiki/Pelecanus">
+	</map>
+	<map name="tigre">
+		<area shape="poly" coords="84,30,84,155,203,126,183,64" href="https://es.wikipedia.org/wiki/Panthera_tigris">
+	</map>
+
+	
 	
 
 </body>

@@ -1,0 +1,14 @@
+-De inicio tendremos un index, aquí tendremos una primera imagen y un título
+-Por debajo unos botones donde podremos elegir entre las
+ diferentes épocas de videojuegos, cada boton nos llevará a una lista de los mejores juegos de esa época.
+-Las listas contarán con 10 juegos y los colocaremos del peor al mejor
+-Cada juego contará con una breve descripción, así como las plataformas donde se podía jugar y una imagen
+-Cada juego contará con un enlace a otro html donde se describirá el juego más en profundidad, incluyendo puntuaciones de usuarios y otras características,
+-Al final del archivo index colocaremos un pie de página con los nombres de los realizadores.
+-Podemos incluir en el lateral derecho una columna donde pongamos enlaces a tiendas donde poder adquirir los juegos.
+
+Reparto de tareas:
+-Cada miembro tendrá que realizar individualmente las páginas de dos juegos de cada época, con el mismo formate que se utilice en todo el documento.
+-Entre todos realizaremos el index.
+-No buscaremos conflictos en un principio, si surgen se resolverán y si al final no han surgido los forzaremos.
+
