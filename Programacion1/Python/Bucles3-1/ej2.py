@@ -8,8 +8,8 @@ Created on 9 Dec 2020
 @author: estudiante
 '''
 def leapYear(numero):
-    if numero%4==0 and numero/400!=0 and numero/100!=0:
+    if numero%4==0 and (numero%100!=0 or numero%400==0):
         return 1
     else:
         return -1
-print(leapYear(2000))
+print(leapYear(2021))

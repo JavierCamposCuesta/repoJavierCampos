@@ -27,7 +27,7 @@ def dayOfWeek():
             m = month + 12 * a * 2
             d = (day + y + y/4 - y/100 + y/400 + (31*m)/12) % 7
             print(d)
-            d=round(d, 0)
+            d=round(d)
             if d==1:
                 print("Ese dia es lunes")
             elif d==2:

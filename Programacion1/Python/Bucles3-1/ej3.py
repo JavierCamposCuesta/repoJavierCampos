@@ -14,24 +14,25 @@ def leapYear(numero):
         return -1
 
 def daysInMonth(mes, year):
-    diasMes=""
-    if year ==1:
-        if mes==1 or mes==3 or mes==5 or mes==7 or mes==8 or mes==10 or mes==12:
-            diasMes=30
-        elif mes==2:
-            diasMes=28
+    diasMes=-1
+    if (mes>0 and mes<=12):
+        if year ==1:
+            if mes==1 or mes==3 or mes==5 or mes==7 or mes==8 or mes==10 or mes==12:
+                diasMes=30
+            elif mes==2:
+                diasMes=28
+            else:
+                diasMes=30
         else:
-            diasMes=30
-    else:
-        if mes==1 or mes==3 or mes==5 or mes==7 or mes==8 or mes==10 or mes==12:
-            diasMes=30
-        elif mes==2:
-            diasMes=29
-        else:
-            diasMes=30
+            if mes==1 or mes==3 or mes==5 or mes==7 or mes==8 or mes==10 or mes==12:
+                diasMes=30
+            elif mes==2:
+                diasMes=29
+            else:
+                diasMes=30
     return diasMes
 
 
 
-print(daysInMonth(2, leapYear(2023)))
+print(daysInMonth(11, leapYear(2030)))
         
