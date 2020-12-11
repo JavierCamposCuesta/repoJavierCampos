@@ -21,4 +21,4 @@ assert(numberOfNumbers(-456)==-1)
 assert(numberOfNumbers(1234)==4)
 assert(numberOfNumbers(4)==1)
 assert(numberOfNumbers(456456)==6)
-        
+      
