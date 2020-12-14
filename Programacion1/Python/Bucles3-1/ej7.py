@@ -7,18 +7,18 @@ Created on 10 dic. 2020
 @author: Javier
 '''
 def isPrime(numero):
-    solucion=0
+    solucion=1
     if numero>0:
         for i in range(2, numero-1):
             if numero%i==0:
-                solucion=1
+                solucion=0
     else:
         solucion=-1   
     return solucion
-assert(isPrime(17)==0)
-assert(isPrime(6)==1)
+assert(isPrime(17)==1)
+assert(isPrime(6)==0)
 assert(isPrime(-17)==-1)
-assert(isPrime(-6)==-1)
+assert(isPrime(-6)==-0)
 
 
                 
