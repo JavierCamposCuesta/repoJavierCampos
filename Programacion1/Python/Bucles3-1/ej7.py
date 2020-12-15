@@ -9,7 +9,7 @@ Created on 10 dic. 2020
 def isPrime(numero):
     solucion=1
     if numero>0:
-        for i in range(2, numero-1):
+        for i in range(2, numero):
             if numero%i==0:
                 solucion=0
     else:

@@ -23,6 +23,6 @@ def numberDivisorPrime(number):
         if number%i==0:
             if isPrime(i)==1:
                 divisoresPrimos.append(i)
-    return divisoresPrimos
+    return len(divisoresPrimos)
 print(numberDivisorPrime(5467))
         

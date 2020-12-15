@@ -16,10 +16,17 @@ def pideNumeros():
     return a, b, c
 
 def secondOrder(a,b,c):
-    x1=(-b+sqrt((b**2)-(4*a*c)))/(2*a)
-    x2=(-b-sqrt((b**2)-(4*a*c)))/(2*a)
-    return x1, x2
-print(secondOrder(3, 2, 7))
+    resultado=[]
+    if a<=0 or b<0 or c<=0 or (b**2)-(4*a*c)<0:
+    
+        resultado.append(-1)
+    else:
+        x1=(-b+sqrt((b**2)-(4*a*c)))/(2*a)
+        x2=(-b-sqrt((b**2)-(4*a*c)))/(2*a)
+        resultado.append(x1)
+        resultado.append(x2) 
+    return resultado
+print(secondOrder(1,1,1))
     
 
 
