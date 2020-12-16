@@ -24,5 +24,5 @@ def numberDivisorPrime(number):
             if isPrime(i)==1:
                 divisoresPrimos.append(i)
     return len(divisoresPrimos)
-print(numberDivisorPrime(5467))
+print(numberDivisorPrime(63))
         
