@@ -26,7 +26,7 @@ def secondOrder(a,b,c):
         resultado.append(x1)
         resultado.append(x2) 
     return resultado
-print(secondOrder(1,1,1))
+print(secondOrder(4,9,3))
     
 
 
