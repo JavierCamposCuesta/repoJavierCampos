@@ -1,0 +1,145 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.python.pydev; singleton:=true
+Built-By: fabio
+Require-Bundle: org.junit;bundle-version="4.0.0";resolution:=optional,
+ org.eclipse.core.runtime,org.eclipse.ltk.core.refactoring,org.eclipse
+ .core.variables,org.eclipse.core.filesystem,org.eclipse.core.expressi
+ ons,org.python.pydev.ast;bundle-version="[8.0.0,8.0.1)",org.python.py
+ dev.parser;bundle-version="[8.0.0,8.0.1)",org.python.pydev.core;bundl
+ e-version="[8.0.0,8.0.1)",org.eclipse.jface.text,org.eclipse.ui.edito
+ rs,org.eclipse.ui.views,org.eclipse.ui.workbench.texteditor,org.eclip
+ se.jdt.launching;resolution:=optional,org.eclipse.search,org.eclipse.
+ ui,org.eclipse.ui.ide,org.python.pydev.shared_ui;bundle-version="[8.0
+ .0,8.0.1)",org.eclipse.debug.ui,org.eclipse.ui.console,org.python.pyd
+ ev.jython;bundle-version="[8.0.0,8.0.1)",com.python.pydev.analysis;bu
+ ndle-version="[8.0.0,8.0.1)",org.eclipse.ui.navigator,org.eclipse.ui.
+ navigator.resources,org.eclipse.jdt.core;resolution:=optional,org.ecl
+ ipse.jdt.ui;resolution:=optional,org.eclipse.compare,org.python.pydev
+ .shared_interactive_console;bundle-version="[8.0.0,8.0.1)",org.eclips
+ e.e4.ui.css.swt.theme;resolution:=optional,org.eclipse.e4.ui.services
+ ;resolution:=optional,org.eclipse.ui.forms,org.eclipse.ltk.ui.refacto
+ ring
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: Brainwy Software Ltda
+Export-Package: com.python.pydev.actions,com.python.pydev.analysis,com
+ .python.pydev.analysis.actions,com.python.pydev.analysis.additionalin
+ fo,com.python.pydev.analysis.builder,com.python.pydev.analysis.ctrl_1
+ ,com.python.pydev.analysis.indexview,com.python.pydev.analysis.ui,com
+ .python.pydev.ui.hierarchy,org.python.copiedfromeclipsesrc,org.python
+ .pydev.ast.codecompletion,org.python.pydev.ast.codecompletion.revisit
+ ed,org.python.pydev.ast.codecompletion.revisited.javaintegration,org.
+ python.pydev.ast.codecompletion.revisited.jython,org.python.pydev.ast
+ .codecompletion.revisited.visitors,org.python.pydev.ast.codecompletio
+ n.shell,org.python.pydev.ast.interpreter_managers,org.python.pydev.bu
+ ilder,org.python.pydev.builder.pylint,org.python.pydev.builder.syntax
+ checker,org.python.pydev.builder.todo,org.python.pydev.changed_lines,
+ org.python.pydev.codingstd,org.python.pydev.consoles,org.python.pydev
+ .dltk.console.codegen,org.python.pydev.editor,org.python.pydev.editor
+ .actions,org.python.pydev.editor.actions.codefolding,org.python.pydev
+ .editor.actions.refactoring,org.python.pydev.editor.codecompletion,or
+ g.python.pydev.editor.codecompletion.proposals,org.python.pydev.edito
+ r.codecompletion.templates,org.python.pydev.editor.codefolding,org.py
+ thon.pydev.editor.commentblocks,org.python.pydev.editor.correctionass
+ ist,org.python.pydev.editor.correctionassist.docstrings,org.python.py
+ dev.editor.correctionassist.heuristics,org.python.pydev.editor.hover,
+ org.python.pydev.editor.preferences,org.python.pydev.editor.scripting
+ ,org.python.pydev.editor.templates,org.python.pydev.editorinput,org.p
+ ython.pydev.logging,org.python.pydev.navigator,org.python.pydev.navig
+ ator.actions,org.python.pydev.navigator.actions.copied,org.python.pyd
+ ev.navigator.elements,org.python.pydev.navigator.filters,org.python.p
+ ydev.navigator.properties,org.python.pydev.navigator.sorter,org.pytho
+ n.pydev.navigator.ui,org.python.pydev.outline,org.python.pydev.plugin
+ ,org.python.pydev.plugin.preferences,org.python.pydev.process_window,
+ org.python.pydev.pyunit.preferences,org.python.pydev.tree,org.python.
+ pydev.ui,org.python.pydev.ui.actions.container,org.python.pydev.ui.ac
+ tions.project,org.python.pydev.ui.actions.resources,org.python.pydev.
+ ui.dialogs,org.python.pydev.ui.editors,org.python.pydev.ui.filetypes,
+ org.python.pydev.ui.importsconf,org.python.pydev.ui.interpreters,org.
+ python.pydev.ui.perspective,org.python.pydev.ui.pythonpathconf,org.py
+ thon.pydev.ui.pythonpathconf.package_manager,org.python.pydev.ui.refa
+ ctoring,org.python.pydev.ui.wizards.files,org.python.pydev.ui.wizards
+ .gettingstarted,org.python.pydev.ui.wizards.project,org.python.pydev.
+ utils
+Bundle-Name: PyDev - Python Development Environment
+Bundle-Version: 8.0.0.202009061309
+Bundle-ClassPath: pydev.jar,libs/WinRegistry-4.5.jar
+Bundle-Localization: plugin
+Bundle-Activator: org.python.pydev.plugin.PydevPlugin
+Created-By: Apache Maven 3.5.3
+Build-Jdk: 1.8.0_172
+Eclipse-BundleShape: dir
+
+Name: schema/pydev_debug_preferences_page.exsd
+SHA-256-Digest: D+o5n69fi/3Ip0fTznbNrrYa1RgppAG74/0m15r60YI=
+
+Name: plugin.xml
+SHA-256-Digest: xR2wqOKom8KWiZRmP7VY7x6kdMRga8WvFm2uUXp2Vmk=
+
+Name: META-INF/maven/org.python.pydev/org.python.pydev/pom.xml
+SHA-256-Digest: ToPCoXR4tV0CYItbo6wHQXF8dgZwn49e7h3hVW2BsTo=
+
+Name: libs/WinRegistry-4.5.jar
+SHA-256-Digest: AnOOPLxwvUtp9cIue7TTJbOQb7+xyQqhHn/KpmLPKiI=
+
+Name: pydev.jar
+SHA-256-Digest: EfnahqAQ9yu/b8Dpp23cIb/VDL3z06qn1gPG15ML7zA=
+
+Name: schema/pydev_formatter.exsd
+SHA-256-Digest: oy8PvVSVTzYRDxiIA1jj+EMOZyBTAE80RmiM0ZhwMoI=
+
+Name: css/dark/e4-pydev-dark_preferencestyle.css
+SHA-256-Digest: YO2ceq7Fcsqm8blofY+ZxG/f0tEcA4ns+GCwojkK3Vg=
+
+Name: icons/python_file.gif
+SHA-256-Digest: T3vKaScDsTkTbAQ79SOPIN2JUOHyiJlLLdm5dW+oEMc=
+
+Name: schema/pydev_view_created_observer.exsd
+SHA-256-Digest: MjkWSdfxa10By8XMBzOB1sGtRlQSe7sKV9CpNk6b5Xg=
+
+Name: about.mappings
+SHA-256-Digest: RV83xENHL4KRB7edDxtlzwfGAMlhaXR1I5f0wyRzSfY=
+
+Name: META-INF/maven/org.python.pydev/org.python.pydev/pom.properties
+SHA-256-Digest: /4BOSTiN705gA4g4vcyVyct2/b+5G99msrPKU8waEck=
+
+Name: schema/pydev_globals_browser.exsd
+SHA-256-Digest: +BHsp94otrui+vpZ/nkg/AlstJgdWrm0s3i/lP0PA84=
+
+Name: schema/pydev_hover2.exsd
+SHA-256-Digest: irrY6uXALcwD4kha3IzDHPHqbBGWAmrcZx6X+I6FNys=
+
+Name: about.ini
+SHA-256-Digest: bnCySf0jZb2MZz9Do/CbFA2rSo4U58VqyfnXUNFfe+w=
+
+Name: schema/pydev_pyedit_listener.exsd
+SHA-256-Digest: dOt3uwIGt3IhDjrfcd2prjuTxsPji8JCVyyR0QVfn7g=
+
+Name: schema/pydev_organize_imports.exsd
+SHA-256-Digest: KXuVLTrZXbftS3LQh0mT01MjR6cFFzpnQyCHtVLcog4=
+
+Name: LICENSE.txt
+SHA-256-Digest: J75t01G5GT6rkY9hiDNA+yh/SDVMI+VNinfwannMATI=
+
+Name: plugin.properties
+SHA-256-Digest: KjTFAU3YZLutpDImFQmxBFuT7k0wB3QO2AcNw3UiBhY=
+
+Name: schema/pydev_interpreter_provider.exsd
+SHA-256-Digest: EkYukvGXGs5p/Bsde6FXaPHD6x4UCbFjl/T8xTRIUAU=
+
+Name: schema/pydev_ctrl_1.exsd
+SHA-256-Digest: ySx2Dca8/sEuw17CVQ7ndJjEA552eTk1UJO0lIZlHlg=
+
+Name: pydev.png
+SHA-256-Digest: x/ExgOoyMcS54KO68iDDQLz56VCZb550CrmFBqSxUjo=
+
+Name: icons/python_16x16.png
+SHA-256-Digest: ycp1jk1ydRU0jQ3G+HaZHUcw5L2dQruC9RICs2hYD6A=
+
+Name: icons/opentype.gif
+SHA-256-Digest: If9ZiBB63m6CM91kcr81FolFqzDcbN1vEkIrIAo+Z8I=
+
+Name: schema/pydev_quick_outline.exsd
+SHA-256-Digest: W5mrTOrRQNIPFS3H22E5J4dK33inL3DZhd1ZtGmRDRw=
+
