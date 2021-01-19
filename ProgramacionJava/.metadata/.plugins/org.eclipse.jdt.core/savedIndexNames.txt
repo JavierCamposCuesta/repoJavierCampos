@@ -1,3 +1,0 @@
-INDEX VERSION 1.131+/home/estudiante/Desktop/repoJavierCampos/ProgramacionJava/.metadata/.plugins/org.eclipse.jdt.core
-2117963038.index
-864539869.index

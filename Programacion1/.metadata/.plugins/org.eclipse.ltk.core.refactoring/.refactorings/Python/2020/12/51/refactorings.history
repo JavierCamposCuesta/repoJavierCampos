@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Python/examen18-12-2020/ej3.py&apos; to &apos;ej2Correcto.py&apos;" description="Rename resource &apos;ej3.py&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="examen18-12-2020/ej3.py" name="ej2Correcto.py" stamp="1608281453031" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Python/examen18-12-2020/ej2.py&apos; to &apos;ej3.py&apos;" description="Rename resource &apos;ej2.py&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="examen18-12-2020/ej2.py" name="ej3.py" stamp="1608281459356" updateReferences="true"/>
-</session>
