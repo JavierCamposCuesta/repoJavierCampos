@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario</title>
+</head>
+<body>
+<div style="background: #dfdfdf; padding: 50px; border-radius: 12px; margin: 30px;">
+	<form method="GET" action="datos-agresor.html"> <!-- en el form definimos obligatoriamente el method (GET o POST) y el action (a que url se mandan los datos) y de forma opcional el onsubmit (que es para validar los datos en cliente(navegador/javascrip)) -->
+		
+			<div>
+				<h2>Formulario de inscripción</h2>
+				<h3>Datos personales</h3>
+			</div>
+			<div>		
+				<label for="nombre">Nombre</label>
+				<input type="text" name="nombre" id="nombre">
+			</div>
+			<div>
+				<label for="apellido1">Apellidos</label>
+				<input type="text" name="apellido1" id="apellido1">
+				<input type="text" name="apellido2">
+			</div>
+			<div>
+				<label for="NIF">NIF</label>
+				<input type="text" name="NIF" id="NIF">
+			</div>
+			<div>
+				<label for="fecha">Fecha de nacimiento</label>
+				<input type="date" name="fecha" id="fecha"> <!-- el for hace que al clicar en la palabra nos lleve al recuadro que referencia con el id -->
+			</div>
+			<div>
+		
+				<label for="direccion">Dirección</label>
+				<input type="text" name="direccion" id="direccion">
+			</div>
+				<div>
+			
+				<label for="sexo">Sexo</label>
+				<input type="radio" name="sexo" value="1">Hombre
+				<input type="radio" name="sexo" value="1">Mujer
+				<input type="radio" name="sexo" value="1">No Especificar
+			</div>
+			<div>
+				<h3>Datos familiares</h3>
+			</div>
+		
+			<div>
+			
+				<label for="estado-civil">Estado civil</label>
+				<input type="radio" name="estado-civil" value="1">Casado
+				<input type="radio" name="estado-civil" value="1">Soltero
+				<input type="radio" name="estado-civil" value="1">Divorciado
+				<input type="radio" name="estado-civil" value="1">Viudo
+				<input type="radio" name="estado-civil" value="1">No especificar
+			</div>
+			<div>
+				<label for="hijos">Numero de hijos</label>
+				<input type="text" name="hijos" id="hijos">
+			</div>
+			<div align="right" style="margin-right: 20px; margin-top: 10px; margin-bottom: 10px;">
+				<a href="datos-enviados.html" target="contenido" style="text-decoration: none; color: green; background: white; padding-top: 8px;padding-bottom: 8px; padding-right: 35px; padding-left: 35px; border-radius: 12px;">Enviar</a>
+					
+			</div>
+			
+			
+
+		</form>
+</div>
+</body>
+</html>
