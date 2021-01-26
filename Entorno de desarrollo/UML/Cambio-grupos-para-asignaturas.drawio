@@ -1,1 +1,84 @@
-<mxfile host="app.diagrams.net" modified="2021-01-26T10:31:26.871Z" agent="5.0 (X11)" version="14.2.7" etag="yhdM4DvCFLPlj079zEZ_" type="github"><diagram id="FlNUKZKmiXlKAUV9VO19">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-26T10:58:16.553Z" agent="5.0 (X11)" etag="X3Fj8vf6B1D6s_ZBETwH" version="14.2.7" type="github">
+  <diagram id="FlNUKZKmiXlKAUV9VO19" name="Page-1">
+    <mxGraphModel dx="703" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MgQX-8lbAo6mwN-pQCVl-1" value="Cambio de grupos" style="html=1;fillColor=none;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="150" y="210" width="450" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="MgQX-8lbAo6mwN-pQCVl-2" value="Profesor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="90" y="285" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MgQX-8lbAo6mwN-pQCVl-6" value="Alumno" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="90" y="615" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MgQX-8lbAo6mwN-pQCVl-7" value="Dar de alta a la asignatura" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="280" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MgQX-8lbAo6mwN-pQCVl-9" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="MgQX-8lbAo6mwN-pQCVl-2" target="MgQX-8lbAo6mwN-pQCVl-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="299.5" as="sourcePoint" />
+            <mxPoint x="270" y="299.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MgQX-8lbAo6mwN-pQCVl-12" value="Proporcionar un listado de alumnos" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="280" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MgQX-8lbAo6mwN-pQCVl-17" value="&amp;lt;&amp;lt;Extend&amp;gt;&amp;gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="MgQX-8lbAo6mwN-pQCVl-15" target="MgQX-8lbAo6mwN-pQCVl-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MgQX-8lbAo6mwN-pQCVl-15" value="Consultar peticiones de cambio" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="610" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MgQX-8lbAo6mwN-pQCVl-16" value="Solicitar el cambio de asignatura" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="545" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MgQX-8lbAo6mwN-pQCVl-18" value="Dejar cambio que desea" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="660" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MgQX-8lbAo6mwN-pQCVl-19" value="&amp;lt;&amp;lt;Extend&amp;gt;&amp;gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="MgQX-8lbAo6mwN-pQCVl-15" target="MgQX-8lbAo6mwN-pQCVl-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="327.40888680108276" y="524.9736441391572" as="sourcePoint" />
+            <mxPoint x="442.5366358750189" y="484.98725708694997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MgQX-8lbAo6mwN-pQCVl-20" value="&amp;lt;&amp;lt;Include&amp;gt;&amp;gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MgQX-8lbAo6mwN-pQCVl-7" target="MgQX-8lbAo6mwN-pQCVl-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="279.9960140151292" y="333.9672524502327" as="sourcePoint" />
+            <mxPoint x="425.54718279857815" y="296.03110075592434" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MgQX-8lbAo6mwN-pQCVl-21" value="&lt;div&gt;Alumno&lt;/div&gt;&lt;div&gt; matriculado&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="90" y="450" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MgQX-8lbAo6mwN-pQCVl-22" value="Consultar y publicitar cambios de la asignatura" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="445" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MgQX-8lbAo6mwN-pQCVl-23" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="MgQX-8lbAo6mwN-pQCVl-21" target="MgQX-8lbAo6mwN-pQCVl-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="474.5" as="sourcePoint" />
+            <mxPoint x="195" y="474.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MgQX-8lbAo6mwN-pQCVl-24" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="MgQX-8lbAo6mwN-pQCVl-6" target="MgQX-8lbAo6mwN-pQCVl-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="649.5" as="sourcePoint" />
+            <mxPoint x="200" y="649.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MgQX-8lbAo6mwN-pQCVl-28" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="MgQX-8lbAo6mwN-pQCVl-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="675" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MgQX-8lbAo6mwN-pQCVl-25" value="Alumno" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="660" y="385" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MgQX-8lbAo6mwN-pQCVl-26" value="&lt;div&gt;Alumno&lt;/div&gt;&lt;div&gt; matriculado&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="660" y="570" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
