@@ -1,0 +1,28 @@
+<mxfile host="app.diagrams.net" modified="2021-01-25T13:07:52.554Z" agent="5.0 (X11)" etag="F_9ur_MiadhXC1SP4FEo" version="14.2.7" type="github">
+  <diagram id="qwVxsCA9M7MlppM-2rNh" name="Page-1">
+    <mxGraphModel dx="426" dy="1973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZbGmSsVN-w66-h6z5Yt2-18" value="Foro WEB" style="html=1;labelBackgroundColor=#FFFFFF;strokeWidth=3;align=center;fillColor=none;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="270" y="-5" width="480" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbGmSsVN-w66-h6z5Yt2-19" value="Ingresar al Sistema" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=3;fontColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="30" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbGmSsVN-w66-h6z5Yt2-20" value="Ver Lista de Mensajes" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=3;fontColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="110" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbGmSsVN-w66-h6z5Yt2-21" value="Leer un Mensaje" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=3;fontColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="190" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbGmSsVN-w66-h6z5Yt2-22" value="Usuario" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=3;fillColor=#ffffff;fontColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="115" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbGmSsVN-w66-h6z5Yt2-23" value="Usuario Autenticado" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=3;fillColor=#ffffff;fontColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="460" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
