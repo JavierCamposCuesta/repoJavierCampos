@@ -1,0 +1,13 @@
+.cuadro:hover{
+	background: red;
+	color: white;
+
+}
+.cuadro:active {
+background: blue;
+	color: white;
+	}
+.arial {
+	font-family: Arial;
+
+}

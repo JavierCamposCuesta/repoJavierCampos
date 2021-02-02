@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio1</title>
+</head>
+<body>
+	<form>
+	<h1>Indrustrias ACME</h1>
+	<fieldset><legend>FORMULARIO DE PEDIDO</legend>
+		<h4>Paso 1. Identificación</h4>
+		<table width="100%">
+			<tr>
+				<td width="70%">
+					<fieldset>
+						<legend>Datos del Cliente</legend>
+							<br>
+							<label for="email">Correo electrónico </label>
+							<input type="email" name="email">
+							<br>
+							<label>Contraseña</label>
+							<input type="text" name="contraseña" maxlength="8">
+							<br>
+							<label>Longitud máxima 6 caracteres)</label>
+
+					</fieldset>
+				</td>
+				<td width="70%">
+				<fieldset>
+					<legend>Tipo de Cliente</legend>
+						<br>
+						<input type="radio" name="particular" value="1">Particular
+						<br>
+						<input type="radio" name="particular" value="2">Asociación
+						<br>
+						<input type="radio" name="particular" value="3">Empresa
+
+				</fieldset>
+				</td>
+			</tr>
+			
+				</table>
+				<h4>Paso 2. Pedido</h4>
+	<table width="100%">
+			<tr>
+				<td width="30%">
+					<fieldset>
+						<legend>Datos del Producto</legend>
+							<br>
+							<p>Producto</p>
+							 <label for="cars"><b>Armaduras</b></label><br>
+
+								<select name="productos" id="producto" multiple style="width: 60%">
+								  <option value="1">AR001 Oro Reluciente</option>
+								  <option value="2">AR002 Plata Pulida</option>
+								  <option value="3">AR003 Bronce Reforzado </option>
+								</select> <br>
+								<label for="cars"><b>Extras</b></label><br>
+								<select name="Extras" id="Extras" multiple style="width: 60%">
+								  <option value="1">AR001 Escudo</option>
+								  <option value="2">AR002 Invisibilidad</option>
+								
+								</select>
+
+					</fieldset>
+				</td>
+				<td width="70%">
+				<fieldset>
+					<legend>Información de interés</legend>
+						<label>Comentarios</label><br>
+						<textarea style="width: 60%" rows="7">Escriba aquí sus comentarios</textarea>
+						<br>
+						<input type="checkbox" name="casilla">Acepto recibir información publicitaria
+
+				</fieldset>
+				</td>
+			</tr>
+			
+				</table><br>
+				<fieldset style="width: 85%"><legend>Datos de Envío</legend>
+					<label>Dirección</label>
+					<input type="text" name="direccion">
+					<br>
+					<label>Ciudad</label>
+					<input type="text" name="ciudad">
+					<label>Código Postal</label>
+					<input type="text" name="cp" maxlength="5">
+
+				</fieldset><br>
+				<table width="100%">
+					<tr>
+						<td><button type="submit" formmethod="post">ENVIAR<br>PEDIDO</button></td>
+						<td><div align="right">
+				 	<input type="reset" name="boton" value="Reset">
+				 </div></td>
+					</tr>
+				</table>
+
+				
+				 
+				 
+</form>
+
+		
+
+	</fieldset>
+
+
+</body>
+</html>

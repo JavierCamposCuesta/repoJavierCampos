@@ -14,23 +14,23 @@ public class ej5 {
 		System.out.println(palindromo("Ana"));
 		System.out.println(palindromo("anilina"));
 		System.out.println(palindromo("el abad le dio arroz al zorro"));
-		System.out.println(palindromo("Ana  aNa ANa anA     "));
+		System.out.println(palindromo("Ana    aNa ANa anA     "));
 		
 	}
 	public static boolean palindromo (String cadena) {
+		
 		String cadena1="";
-		String cadena2="";
 		cadena = cadena.toLowerCase();
+		cadena= cadena.replace(" ","");
 		for (int i=0; i< cadena.length();i++) 
 		{
-			if (Character.isSpaceChar(cadena.charAt(i))==false)
+			/* if (Character.isSpaceChar(cadena.charAt(i))==false)
 			{
-				cadena1=cadena1 + cadena.charAt(i);
-				cadena2=cadena.charAt(i)+cadena2;
-				
-			}
+				es otra forma de quitarle los espacios
+			}*/
+			cadena1=cadena.charAt(i)+cadena1;
 		}
-		if (cadena1.equals(cadena2))
+		if (cadena1.equals(cadena))
 		{
 			return true;
 		}

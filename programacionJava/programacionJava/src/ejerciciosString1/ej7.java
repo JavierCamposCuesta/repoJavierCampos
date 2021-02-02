@@ -1,7 +1,5 @@
 package ejerciciosString1;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class ej7 {
 
@@ -22,31 +20,8 @@ public class ej7 {
 	}
 	public static String cambiaCadena(String texto, String palabra, String reemplazo)
 	{
-		 List<String> lista = new ArrayList<String>();
-		 String palabraCambiante="";
-		 String textoNuevo="";
-		 
-		for (int i =0; i<texto.length();i++)
-		{
-			if (texto.charAt(i)!=' ')
-			{
-				palabraCambiante=palabraCambiante+texto.charAt(i);
-			}
-			else {
-				lista.add(palabraCambiante);
-				lista.add(" ");
-				palabraCambiante="";
-			}
-		}
-		for (int i=0;i<lista.size();i++) {
-			if (lista.get(i).equals(palabra)) {
-				lista.set(i, reemplazo);
-			}
-		}
-		for (int i=0;i<lista.size();i++) {
-			textoNuevo=textoNuevo+lista.get(i).toString();
-		}
-		return textoNuevo;
+		
+		return texto.replace(palabra,reemplazo);
 	}
 	
 }
