@@ -1,5 +1,9 @@
 package problemas6OrientacionObjetos1;
-
+/*
+ * Crear una clase Rectangulo con los atributos longitud y ancho, cada uno con unvalor predeterminado igual a 1. Proporcionar los métodos  set  y  
+ * get  para losatributos longitud y ancho respectivamente. El método set debe verificar quelongitud y ancho contengan números reales mayores que cero
+ *  y menores que20.  Además,   proporcionar  métodos   que   calculen   el   perímetro   y  el   área   delrectángulo. 
+ */
 public class Rectangulo {
 	private double ancho=1;
 	private double longitud=1;
@@ -22,13 +26,26 @@ public class Rectangulo {
 			}
 	}
 
-	public static double perimetro(longitud, ancho) {
-		double totalPerimetro = longitud*2 + ancho*2;
+	/*
+	 * Este método calculan el area del rectangulo y el perimetro
+	 */
+
+
+	public double calcularPerimetro() {
+		return this.ancho * 2 + this.longitud*2;
 		
 	}
-	public static double area(longitud, ancho) {
-		double totalArea = longitud*  ancho;
+	public double calcularArea() {
+		return this.ancho * this.longitud;
 		
+	}
+	
+	//Para hacerlo de otra forma el to String seria así
+	@Override
+	public String toString() {
+		return ("La longitud de este rectangulo es "
+				+ this.getLongitud() + " y ancho " + 
+				this.getAncho());
 	}
 	
 	
