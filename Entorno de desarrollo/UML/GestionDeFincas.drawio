@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-16T10:48:19.621Z" agent="5.0 (X11)" etag="eW3pZPAdCBFlc5ArXU_X" version="14.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-16T10:49:00.821Z" agent="5.0 (X11)" etag="JHn5ivKLpLnoIe8b4aHe" version="14.3.2" type="github">
   <diagram id="9FTB51ru66wrHp9Re0j6" name="Page-1">
     <mxGraphModel dx="1125" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -93,7 +93,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MC4bRhcEzOeN9ChsdMlr-37" value="Persona con requisitos" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="MC4bRhcEzOeN9ChsdMlr-37" value="INquilino" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="810" y="130" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MC4bRhcEzOeN9ChsdMlr-38" value="Alquilar inmueble" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
