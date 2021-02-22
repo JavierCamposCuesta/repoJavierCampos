@@ -1,1 +1,105 @@
-<mxfile host="app.diagrams.net" modified="2021-02-22T13:20:46.347Z" agent="5.0 (X11)" version="14.3.2" etag="XyoEaL59xMOD7RpebQkG" type="github"><diagram id="lBXbZM_sXRA8GGgeHlnq">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-22T13:59:57.845Z" agent="5.0 (X11)" etag="haNeOsytQauJ4BnInhRf" version="14.3.2" type="github">
+  <diagram id="lBXbZM_sXRA8GGgeHlnq" name="Page-1">
+    <mxGraphModel dx="1125" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4ywh8du81EYdxspjk_xL-3" value="&lt;span style=&quot;left: 180.151px ; top: 211.088px ; font-size: 18.3404px ; font-family: sans-serif ; transform: scalex(0.876349)&quot;&gt;1.Ampliación de biblioteca.&lt;/span&gt;&lt;span style=&quot;left: 180.151px ; top: 236.109px ; font-size: 18.3404px ; font-family: sans-serif ; transform: scalex(0.879672)&quot;&gt;Se desea modelar el funcionamiento de una biblioteca municipal, la cual consta de&lt;/span&gt;&lt;span style=&quot;left: 180.151px ; top: 261.13px ; font-size: 18.3404px ; font-family: sans-serif ; transform: scalex(0.8862)&quot;&gt;tres plantas, de las que necesitamos saber la capacidad de sus estanterías (es decir,&lt;/span&gt;&lt;span style=&quot;left: 180.151px ; top: 286.151px ; font-size: 18.3404px ; font-family: sans-serif ; transform: scalex(0.885713)&quot;&gt;el número de libros que pueden albergar) para así realizar las reordenaciones&lt;/span&gt;&lt;span style=&quot;left: 180.151px ; top: 311.172px ; font-size: 18.3404px ; font-family: sans-serif ; transform: scalex(0.886739)&quot;&gt;oportunas cuando se reciben nuevos ejemplares.&lt;/span&gt;&lt;span style=&quot;left: 180.151px ; top: 336.193px ; font-size: 18.3404px ; font-family: sans-serif ; transform: scalex(0.882927)&quot;&gt;Los libros se organizan según la temática: libros infantiles, narrativa, ensayo, poesía,&lt;/span&gt;&lt;span style=&quot;left: 180.151px ; top: 361.214px ; font-size: 18.3404px ; font-family: sans-serif ; transform: scalex(0.882452)&quot;&gt;etc. Para ello, se deben registrar los libros que se encuentran en la biblioteca,&lt;/span&gt;&lt;span style=&quot;left: 180.151px ; top: 386.235px ; font-size: 18.3404px ; font-family: sans-serif ; transform: scalex(0.881831)&quot;&gt;teniendo en cuenta que puede haber más de un ejemplar de cada libro. Cada libro&lt;/span&gt;&lt;span style=&quot;left: 180.151px ; top: 411.256px ; font-size: 18.3404px ; font-family: sans-serif ; transform: scalex(0.876145)&quot;&gt;contará al menos con un identificador único, una fecha de préstamo y otra de&lt;/span&gt;&lt;span style=&quot;left: 180.151px ; top: 436.277px ; font-size: 18.3404px ; font-family: sans-serif ; transform: scalex(0.87154)&quot;&gt;entrega.&lt;/span&gt;&lt;span style=&quot;left: 180.151px ; top: 461.298px ; font-size: 18.3404px ; font-family: sans-serif ; transform: scalex(0.883518)&quot;&gt;El préstamo máximo será de 30 días. Los lectores que no entreguen el libro a tiempo&lt;/span&gt;&lt;span style=&quot;left: 180.151px ; top: 486.319px ; font-size: 18.3404px ; font-family: sans-serif ; transform: scalex(0.88437)&quot;&gt;tendrán penalización. Para aplicar esa penalización, la biblioteca cuenta con una&lt;/span&gt;&lt;span style=&quot;left: 180.151px ; top: 511.34px ; font-size: 18.3404px ; font-family: sans-serif ; transform: scalex(0.879045)&quot;&gt;ficha por cada lector, con su número de identificación o pasaporte, su nombre y su&lt;/span&gt;&lt;span style=&quot;left: 180.151px ; top: 536.361px ; font-size: 18.3404px ; font-family: sans-serif ; transform: scalex(0.87998)&quot;&gt;dirección postal. Para fomentar la lectura, los empleados de la biblioteca, que&lt;/span&gt;&lt;span style=&quot;left: 180.151px ; top: 561.382px ; font-size: 18.3404px ; font-family: sans-serif ; transform: scalex(0.882319)&quot;&gt;poseen su propia identificación como tales, pueden llevar libros a casa por un plazo&lt;/span&gt;&lt;span style=&quot;left: 180.151px ; top: 586.403px ; font-size: 18.3404px ; font-family: sans-serif ; transform: scalex(0.887441)&quot;&gt;mayor que los usuarios convencionales.&lt;/span&gt;&lt;span style=&quot;left: 180.151px ; top: 611.424px ; font-size: 18.3404px ; font-family: sans-serif ; transform: scalex(0.891728)&quot;&gt;Crea el modelo de clases correspondiente.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="40" width="760" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="4ywh8du81EYdxspjk_xL-4" value="Libro" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="450" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4ywh8du81EYdxspjk_xL-5" value="+tematica: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4ywh8du81EYdxspjk_xL-4">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4ywh8du81EYdxspjk_xL-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="4ywh8du81EYdxspjk_xL-4">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="4ywh8du81EYdxspjk_xL-8" value="Estanteria" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="507" width="160" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="4ywh8du81EYdxspjk_xL-9" value="+capacidad: int&#xa;+planta: int&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4ywh8du81EYdxspjk_xL-8">
+          <mxGeometry y="26" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="4ywh8du81EYdxspjk_xL-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="4ywh8du81EYdxspjk_xL-8">
+          <mxGeometry y="70" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="4ywh8du81EYdxspjk_xL-38" value="+Reordenacion()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4ywh8du81EYdxspjk_xL-8">
+          <mxGeometry y="78" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4ywh8du81EYdxspjk_xL-12" value="Ejemplar" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="570" width="170" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="4ywh8du81EYdxspjk_xL-13" value="&#xa;+identificador: int&#xa;+fecha_prestamo: String&#xa;+fecha_entrega: String&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4ywh8du81EYdxspjk_xL-12">
+          <mxGeometry y="26" width="170" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="4ywh8du81EYdxspjk_xL-14" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="4ywh8du81EYdxspjk_xL-12">
+          <mxGeometry y="100" width="170" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="4ywh8du81EYdxspjk_xL-15" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.412;exitY=-0.018;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.406;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4ywh8du81EYdxspjk_xL-12" target="4ywh8du81EYdxspjk_xL-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="350" y="590" as="sourcePoint" />
+            <mxPoint x="510" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ywh8du81EYdxspjk_xL-16" value="Lector" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="650" width="160" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="4ywh8du81EYdxspjk_xL-17" value="+identificador: int&#xa;+nombre: String&#xa;+cp: int&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4ywh8du81EYdxspjk_xL-16">
+          <mxGeometry y="26" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4ywh8du81EYdxspjk_xL-18" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="4ywh8du81EYdxspjk_xL-16">
+          <mxGeometry y="80" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="4ywh8du81EYdxspjk_xL-39" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.406;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="4ywh8du81EYdxspjk_xL-16" source="4ywh8du81EYdxspjk_xL-36">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="95.07999999999993" y="143.05600000000004" as="sourcePoint" />
+            <mxPoint x="70" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ywh8du81EYdxspjk_xL-19" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4ywh8du81EYdxspjk_xL-13" target="4ywh8du81EYdxspjk_xL-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="683.5" as="sourcePoint" />
+            <mxPoint x="510" y="683.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ywh8du81EYdxspjk_xL-20" value="0..n" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="4ywh8du81EYdxspjk_xL-19">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ywh8du81EYdxspjk_xL-21" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="4ywh8du81EYdxspjk_xL-19">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ywh8du81EYdxspjk_xL-22" value="Es leido" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="670" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4ywh8du81EYdxspjk_xL-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.667;entryY=1.1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="4ywh8du81EYdxspjk_xL-35" target="4ywh8du81EYdxspjk_xL-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="770" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ywh8du81EYdxspjk_xL-26" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.185;exitDx=0;exitDy=0;entryX=-0.006;entryY=0.295;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="4ywh8du81EYdxspjk_xL-12" target="4ywh8du81EYdxspjk_xL-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="519.5" as="sourcePoint" />
+            <mxPoint x="520" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ywh8du81EYdxspjk_xL-27" value="0..n" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="4ywh8du81EYdxspjk_xL-26">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ywh8du81EYdxspjk_xL-28" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="4ywh8du81EYdxspjk_xL-26">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ywh8du81EYdxspjk_xL-29" value="Se almacena" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="520" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4ywh8du81EYdxspjk_xL-35" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Prestamo&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ fecha_entrega: String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+fecha_devolucion: String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+penalizacion: boolean&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+Indemnizacion()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+PrestarLibro()&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="780" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4ywh8du81EYdxspjk_xL-36" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Empleado&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ id_empleado: int&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="810" width="160" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
