@@ -9,8 +9,8 @@ public class ej10 {
 		 * palabras puede haber más de un blanco. También al principio y al final de la frase puede haber blancos redundantes.Por ejemplo, 
 		 * si la cadena es “He estudiado mucho”, debe devolver 3
 		 */
-		System.out.println(cuentaPalabras("     Hola    aqui vemos , ,   si cuenta bien     "));
-		System.out.println(cuentaPalabras("     Hola    ?%$ "));
+		System.out.println(cuentaPalabras("     Hola    aqui vemos , ,   si cuenta bien ?     "));
+		System.out.println(cuentaPalabras("     Hola,    ?%$ "));
 	}
 	public static int cuentaPalabras(String cadena)
 	{
@@ -25,7 +25,7 @@ public class ej10 {
 			{
 				palabra=true;
 			}
-			// si el caracter no es una cadena y palabra es true, aumentamos el contador y reiniciamos la variable de palabra a false
+			// si el caracter no es una letra y palabra es true, aumentamos el contador y reiniciamos la variable de palabra a false
 			else if (! Character.isLetter(cadena.charAt(i)) && palabra==true)
 			{
 				contador++;

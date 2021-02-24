@@ -62,8 +62,10 @@ public class persona {
 	
 	public String toString() {
 		return ("La longitud de este rectangulo es "
-				+ this.getLongitud() + " y ancho " + 
-				this.getAncho())
+				+ this.getAltura() + " y ancho " + 
+				this.getPeso());
 	}
+
+
 	
 }

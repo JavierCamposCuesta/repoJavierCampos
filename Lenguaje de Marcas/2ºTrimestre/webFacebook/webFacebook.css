@@ -1,0 +1,34 @@
+#general img {height: 50px; }
+body{background: #eeeeee;}
+#general {margin-left: auto; margin-right: auto; width: 78%; margin-top: 120px;}
+
+#cuadro{background: white; width: 420px;  border-radius: 10px;  float: right; text-align: center; border:1px solid #dddddd; box-shadow: 0px 0px 30px #cdcdcd}
+.entrar{background: #0583d6; border-radius: 8px; border:0; color: white; font-size: 20px; font-weight: bold;}
+.entrar:hover{background: #066fdf}
+
+#cuadro input {width: 87%; margin-top: 13px; height: 50px;}
+
+#titulo{float: left; margin-top: 40px; width: 560px;}
+#titulo p{font-size: 29px; font-family: arial;}
+.olvidoPass{font-size: 14px; color: #0583d6; text-decoration: none;}
+.olvidoPass:hover{text-decoration: underline }
+#bienvenida p{text-align: center}
+#botonFalso p {background: #4eca2d; width: 50%; margin-left: auto; margin-right: auto; padding: 15px; 
+	border-radius: 6px; color: white;font-weight: bold; margin-top: 30px; margin-bottom: 30px;}
+#botonFalso p:hover{background: #0dba0f}
+
+#botonFalso{border-top: 1px solid #dddddd; width: 90%; margin-right: auto; margin-left: auto;}
+#debajoDelCuadro p{ width: 390px; float: right; clear: both; margin-right: 12%; text-align: center; font-size: 15px; margin-bottom: 200px;}
+#footer{ background: white; clear: both; padding-top: 10px;}
+#footer p{color: #b6b6b6; font-size: 13px; text-align: center; width: 90%; margin-right: auto; margin-left: auto;}
+.conLinea{border-bottom: 1px solid #dddddd;}
+
+
+.AtrasBienvenido{width: 600px; background: red}
+#recuperarContrasena{border:1px solid black; border-radius: 8px;box-shadow: 0px 0px 5px black; padding: 40px; margin-bottom: 50px;}
+#recuperarContrasena a{background: #0583d6; padding: 10px; color: white; text-decoration: none; font-weight: bold; margin-left: 200px; border-radius: 5px;}
+#recuperarContrasena a:hover{background: #0dba0f}
+#recuperarContrasena p{text-align: center; font-size: 25px; margin-bottom: 50px;}
+
+
+

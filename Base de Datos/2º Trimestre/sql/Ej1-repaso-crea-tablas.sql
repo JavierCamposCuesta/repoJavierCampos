@@ -84,10 +84,19 @@ APARTADO 2. Una vez que haz creado la base de datos realiza los siguientes cambi
     ALTER TABLE ENFERMO MODIFY (SEXO CHAR(1));
     10. Nos llaman para decirnos que en la base de datos no pueden insertar que un mismo médico vea dos veces a un mismo enfermo. ¿A qué puede ser debido? Arréglalo
 
+    --PRIMERO BORRAMOS LA PRIMARI KEY DE LA TABLA VISITA
+    ALTER TABLE VISITA DROP PRIMARY KEY;
+
+    --PONEMOS COMO CLAVE PRIMARIA A LAS MISMAS QUE TENIA ANTES MAS LA FECHA
+
+    ALTER TABLE VISITA ADD PRIMARY KEY(COD_MEDICO, COD_INSCRIPCION, FECHA);
+
     11. El  NSS es de longitud 12 y deberá empezar por un número, seguido de 5 caracteres (A-Z) un guión y otros 5 caracteres.
-    
+    ALTER TABLE ENFERMO MODIFY NSS VARCHAR2(12) CHECK(REGEXP_LIKE(NSS, '[0-9]-[A-Z][A-Z][A-Z][A-Z][A-Z]-[A-Z][A-Z][A-Z][A-Z][A-Z]'));
     12. La especialidad de un médico son siempre 3 caracteres y  en mayúscula.
+	ALTER TABLE MEDICO MODIFY ESPECIALIDAD VARCHAR2(3) CHECK(REGEXP_LIKE(ESPECIALIDAD, '[A-Z][A-Z][A-Z]'));
     13. No se realizarán visitas los días 24 y 25 de Diciembre.
+
     14. Insertar un médico con código 1  y dos enfermos con código 1 y 2 y datos inventados.
     15. El enfermo 1 ingresa hoy en la habitación 102 que tiene 2 camas. Inserta los registros necesarios en la BD.
     16. El médico 1 visita al enfermo 1 hoy. Inserta los registros necesarios en la BD.
