@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+<head>
+  <title>Ejercicio 12 - 3-2</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <style type="text/css">
+    ul li {width: 45%; overflow: hidden;}
+    label {display: block; padding-bottom: 6px;}
+    .izquierda{float: left; clear: left;}
+    .derecha{float: right; clear: right;}
+    .requerido{color: red;}
+    .titulo{font-weight: bold;}
+    #apellido2{margin-bottom: 30px;}
+    #contenedor{ width: 70%; margin-right: auto; margin-left: auto; margin-top: 100px;}
+
+    ul li div span.columnaEntera {
+      width: 100%;
+    }
+
+    ul li div span {float: left;}
+    ul li div span.mediaColumnaI {width: 33%;}
+    ul li div span.mediaColumnaD {width: 66%;}
+    ul li div span.mitad {width: 50%;}
+
+    ul li input {
+      padding: 2px;
+    }
+    #nombre{width: 70%}
+    #municipio{width: 70%}
+    #apellido1, #apellido2, #direccion, #email {width: 90%}
+    #codigopostal {width: 70%}
+    #provincia {width: 80%}
+    #pais {width: 80%}
+    #telefonofijo, #telefonomovil {width: 60%;}
+
+
+    .alta{width: 100%; border-top: 3px #b2b2b2 solid; margin-top: 500px; padding-top: 20px; margin-top: 50px;}
+    .alta input{float: right;}
+    div .mitad label{margin-bottom: 20px;}
+
+    /*Esto es lo que hará que cambie de formato*/
+    ul li:hover {background-color: #FF9;}
+    ul li input:focus {border: 2px solid #E6B700;}
+
+
+
+
+  </style>
+</head>
+
+<body>
+  <div id="contenedor">
+
+    <h2>Formulario de alta</h2>
+
+    <form method="post" action="#">
+      <ul>
+        <li class="izquierda">
+          <label class="titulo" for="nombre">Nombre y apellidos <span class="requerido">*</span></label>
+          <div>
+            <span>
+              <input id="nombre" name="nombre" value="" />
+              <label for="nombre">Nombre</label>
+            </span>
+
+            <span>
+              <input id="apellido1" name="apellido1" value="" />
+              <label for="apellido1">Primer apellido</label>
+            </span>
+            
+            <span>
+              <input id="apellido2" name="apellido2" value="" />
+              <label for="apellido2">Segundo apellido</label>
+            </span>
+          </div>
+
+
+        </li>
+
+        <li class="derecha">
+          <label class="titulo" for="direccion">Dirección <span class="requerido">*</span></label>
+
+          <div>
+            <span class="columnaEntera">
+              <input id="direccion" name="direccion" value="" />
+              <label for="direccion">Calle, número, piso, puerta</label>
+            </span>
+
+            <span class="mediaColumnaI">
+              <input id="codigopostal" name="codigopostal" value="" />
+              <label for="codigopostal">Código postal</label>
+            </span>
+            
+            <span class="mediaColumnaD">
+              <input id="municipio" name="municipio" value="" />
+              <label for="municipio">Municipio</label>
+            </span>
+            
+            <span class="mediaColumnaI">
+              <select id="provincia" name="provincia">
+                <option value=""></option>
+                <option value="provincia1">Provincia 1</option>
+                <option value="provincia2">Provincia 2</option>
+                <option value="provincia3">Provincia 3</option>
+              </select>
+              <label for="provincia">Provincia</label>
+            </span>
+            
+            <span class="mediaColumnaD">
+              <select id="pais" name="pais">
+                <option value=""></option>
+                <option value="pais1">País 1</option>
+                <option value="pais2">País 2</option>
+                <option value="pais3">País 3</option>
+              </select>
+              <label for="pais">País</label>
+            </span>
+          </div>
+
+
+        </li>
+
+        <li class="izquierda">
+          <label class="titulo" for="email">Email</label>
+
+          <div>
+            <span>
+              <input id="email" name="email" value="" />
+            </span>
+          </div>
+
+          
+        </li>
+
+        <li class="derecha">
+          <label class="titulo" for="telefonofijo">Teléfono <span class="requerido">*</span></label>
+
+          <div>
+            <span class="mitad"> 
+              <input id="telefonofijo" name="telefonofijo" value="" />
+              <label for="telefonofijo">Fijo</label>
+            </span>
+
+            <span class="mitad">
+              <input id="telefonomovil" name="telefonomovil" value="" />
+              <label for="telefonomovil">Móvil</label>
+            </span>
+          </div>
+
+          
+        </li>
+
+        <li class="alta">
+          <input id="alta" type="submit" value="Darme de alta &rarr;" />
+        </li>
+
+      </ul>
+    </form>
+
+  </div>
+</body>
+</html>

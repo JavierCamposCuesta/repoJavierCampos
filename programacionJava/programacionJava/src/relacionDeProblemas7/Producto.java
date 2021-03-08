@@ -57,6 +57,7 @@ public void setIva(double iva) {
 @Override
 public int hashCode() {
 	return this.descripcion.hashCode() + (String.valueOf(this.precio).hashCode());
+	//Tambien se puede utilizar la funcion Objects.hash(atributo, atributo)
 	
 
 }
@@ -70,7 +71,7 @@ public boolean equals(Object obj) {
 	else if(obj!=null && obj instanceof Producto && ((Producto)obj).hashCode()==this.hashCode()){
 		sonIguales=true;
 	}
-	return super.equals(obj);
+	return sonIguales;
 }
 
 @Override

@@ -24,7 +24,7 @@ public class PrincipalCoordenadas {
 		Linea linea2= new Linea(puntoA2, puntoB2);
 		
 		
-		 final String MOVIMIENTO_REALIZADO="El movimiento se ha realizado correctamente";
+		// final String MOVIMIENTO_REALIZADO="El movimiento se ha realizado correctamente";
 		
 		
 		
@@ -106,8 +106,10 @@ public class PrincipalCoordenadas {
 			
 			
 		}
+			teclado.close();
 		
 			}
+	
 }
 			
 	

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pizzeria Genuino</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
+        integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+        integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <link rel="icon" href="img/porcion-de-pizza.svg" type="image/png">
+    <link rel="stylesheet" type="text/css" href="pizeria.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    
+    <script type="text/javascript">
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+        $(function () {
+            $('[data-toggle="popover"]').popover()
+        })
+        (function() {
+      'use strict';
+      window.addEventListener('load', function() {
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.getElementsByClassName('needs-validation');
+        // Loop over them and prevent submission
+        var validation = Array.prototype.filter.call(forms, function(form) {
+          form.addEventListener('submit', function(event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      }, false);
+    })();
+    </script>
+</head>
+
+<body ondragstart="return false;">
+  <!-- Cabecera Sm -->
+  <header class="sm fixed-top">
+    <div class="topnav">
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+      <a href="index.html" class="active">PIZZA GENUINO</a>
+      <div id="myLinks">
+        <a href="index.html" class="nav-link">Inicio</a>
+        <a href="#preparacion" class="nav-link">Preparación</a>
+        <a href="#menu1" class="nav-link">Menú</a>
+        <a href="#contactanos" class="nav-link">Contacto</a>
+        <a href="pedido.html" class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+          class="bi bi-cart-fill icono-encabezado" viewBox="0 0 16 16">
+          <path
+            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+        </svg></a>
+      </div>
+    </div>
+  </header>
+  <!-- . Cabecera Sm -->
+    <!--Encabezado principal-->
+    <header class="pc encabezado  fixed-top">
+        <!--Iconos encabezado arriba izquierda-->
+        <div class="d-flex">
+            <div class="menu-encabezado"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-telephone-fill icono-encabezado" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                </svg><a href="tel:+675446457" class="icono-encabezado">675446457</a></div>
+
+            <!--El flex-grow-1 es para que ocupe todo el espacio disponible-->
+            <div class="logo flex-grow-1"><a href="index.html"><img src="img/logoPiezeria.jpeg"></a></div>
+
+            <!--Iconos encabezado arriba derecha-->
+            <div class="menu-encabezado">
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-person-fill icono-encabezado" viewBox="0 0 16 16">
+                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                    </svg></a>
+                <a href="pedido.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-cart-fill icono-encabezado" viewBox="0 0 16 16">
+                        <path
+                            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                    </svg></a>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-search icono-encabezado" viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                    </svg></a></div>
+        </div>
+
+        <!--Barra de menú principal-->
+        <nav class="navbar menu navbar-expand-lg d-flex">
+            <a href="index.html" class="nav-link d-flex "><img src="img/pagina-de-inicio.svg"
+                    class="icono-menu img-fluid">
+                INICIO</a>
+            <a href="index.html#preparacion" class="nav-link d-flex"><img src="img/porcelain.svg" class="img-fluid icono-menu">PREPARACIÓN</a>
+            <a href="menu.html" class="nav-link d-flex"><img src="img/menu.svg" class="icono-menu img-fluid">MENÚ</a>
+            <a href="index.html#contactanos" class="nav-link d-flex"><img src="img/cambio.svg" class="icono-menu img-fluid">CONTACTO</a>
+        </nav>
+    </header>
+    <!-- . Encabezado principal-->
+    <div class="espaciado"></div>
+
+    <!-- Pizza ingredientes y demás -->
+    <nav aria-label="breadcrumb" class="p-3 mt-5">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+          <li class="breadcrumb-item"><a href="menu.html">Menú</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Tocino Paraiso Pizza</li>
+        </ol>
+    </nav>
+
+    <div class="container">
+      <div class="d-flex p-3 row">
+        <div class="col-sm-12 col-md-6 col-lg-6"><img src="img/pizza1.jpg" alt="" class="img-fluid"></div>
+        <div class="col-sm-12 col-md-6 col-lg-6"><h4>Tocino Paraiso Pizza</h4>
+          <p class="text-start">La pizza artesanal es suave y fácilmente digerible, además de creativamente sabrosa. Si bien la pizza tiene una base de masa, salsa de tomate y queso mozarela, el éxito -según los expertos- no radica solamente en agregar ingredientes extravagantes para considerarla de calidad.</p>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Mediana
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Familiar
+            </label>
+          </div>
+          <input id="numPiza" type="number" name="numPiza" value="0">
+          <div class="m-4"><a href="pedido.html" type="button" class="boton-encuentranos">AÑADIR</a></div>
+        </div>
+      </div>
+
+      <div class="d-flex row p-5" style="background-color: aliceblue;">
+        <div  class="col-sm-12 col-md-6 col-lg-6">
+          <h4>Ingredientes de la pizza</h4>
+          <ul>
+            <li>Pechuga ahumada</li>
+            <li>Costillas tiernas</li>
+            <li>Salchicha ahumada</li>
+            <li>Tocino</li>
+            <li>Queso cheddar</li>
+            <li>Lechuga</li>
+            <li>Tomate</li>
+            <li>BBQ de la casa</li>
+            <li>Salsa rancho</li>
+          </ul>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <h6>Añade más a tu pizza (+2,00€)</h6>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">Mozzarela</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">Champiñones</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">Tocino</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">Rodajas de tomate</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">Pepperoni</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">Cheddar</label>
+          </div>  
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">Anchoas</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">Aceituna</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">Alcaparras</label>
+          </div>
+        </div>
+      </div>
+      <!-- . Pizza ingredientes y demás -->
+    </div>
+  
+    
+<!-- Footer -->
+<footer class="mt-4">
+    <div class="row d-flex p-5 sociales justify-content-center">
+      <div class="col-sm-4 col-md-4 col-lg-4 text-center"><a target="_blank" href="https://es-es.facebook.com/pages/category/Restaurant/Pizza-Genuino-155959838452418/"><img src="img/iconfinder_icon-social-facebook_211902.svg" alt="" class="img-fluid"></a></div>
+      <div class="col-sm-4 col-md-4 col-lg-4 text-center"><a target="_blank" href="https://www.instagram.com/pizzagenuino/?hl=es"><img src="img/iconfinder_Instagram_3709561.svg" alt="" class="img-fluid"></a></div>
+      <div class="col-sm-4 col-md-4 col-lg-4 text-center"><a target="_blank" href="mailto:pizzagenuino@gmail.com?Subject=Aquí%20el%20asunto%20del%20mail"><img src="img/iconfinder_147_Gmail_logo_logos_4394271.svg" alt="" class="img-fluid"></a></div>
+    </div>
+    <div class="row d-flex p-3 justify-content-center">
+      <div class="col-sm-12 col-md-6 col-lg-6 text-center" style="padding: 6px;">2021 &copy; Pizza Genuino</div>
+      <div class="col-sm-12 col-md-6 col-lg-6 text-center"><a href="https://support.google.com/business/answer/7388122">Denunciar uso inadecuado</a></div>
+    </div>
+  </footer>
+  <!-- . Footer -->
+  
+</body>
+
+</html>

@@ -6,6 +6,7 @@ public class PrincipalProducto {
 		Producto television= new Producto("Television", 500);
 		Producto television2= new Producto("Television", 500);
 		Producto radio= new Producto("Radio", 20);
+		Producto radio1= new Producto("Radio", 20);
 		
 		
 		radio.setIva(21);
@@ -17,6 +18,8 @@ public class PrincipalProducto {
 		System.out.println("-------------------------------");
 		System.out.println(television.hashCode());
 		System.out.println(television2.hashCode());
+		
+		System.out.println(radio.equals(radio1));
 		
 	}
 
