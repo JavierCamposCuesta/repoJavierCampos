@@ -4,6 +4,9 @@ rojo #990000
 boton-amarillo #e6b009
 boton negro #22272d
 */
+
+
+/*Estilos para el formato de movil*/
 .pc{
 	display: none;
 }
@@ -75,6 +78,7 @@ a{
 	background: white;
 	height: 65px;
 	border-radius: 20px;
+	box-shadow: 0 0 10px black;
 
 }
 
@@ -236,6 +240,7 @@ a{
 .carta-menu{
 	background: #22272d;
 	color:white; 
+	box-shadow: 0 0 10px black;
 }
 .carta-menu:hover{
 	background: #3d444c;
@@ -322,7 +327,14 @@ footer>div>div>a:hover{
 
 
 
+/*Estilos para el formato de tablet*/
 @media (min-width: 768px){
+
+
+
+
+
+
 .pc{
 	display: block;
 }
@@ -362,6 +374,7 @@ a{
 	background: white;
 	height: 65px;
 	border-radius: 20px;
+	box-shadow: 0 0 10px black;
 
 }
 
@@ -526,6 +539,7 @@ a{
 .carta-menu{
 	background: #22272d;
 	color:white; 
+	box-shadow: 0 0 10px black;
 }
 .carta-menu:hover{
 	background: #3d444c;
@@ -610,7 +624,21 @@ footer>div>div>a:hover{
 
 }
 
+
+
+
+
+
+/*Estilos para el formato de ordenador*/
 @media (min-width: 992px){
+
+
+
+
+
+
+
+
 .pc{
 	display: block;
 }
@@ -634,6 +662,7 @@ a{
 	background: white;
 	height: 65px;
 	border-radius: 20px;
+	box-shadow: 0 0 10px black;
 
 }
 

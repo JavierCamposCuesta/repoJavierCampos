@@ -2,9 +2,13 @@
 <html>
 
 <head>
+
+  <!--https://pizzagenuino.000webhostapp.com/ -->
+
+
   <title>Pizzeria Genuino</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    i ntegrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
   </script>
@@ -21,7 +25,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 
-  <script type="text/javascript">
+  <script type="text/javascript"> //Esta funcion es para que en el modo de movil podamos desplegar el menú
     function myFunction() {
       var x = document.getElementById("myLinks");
       if (x.style.display === "block") {
@@ -37,7 +41,7 @@
 
 </head>
 
-<body ondragstart="return false;">
+<body ondragstart="return false;">  <!--El ondragstart es para no poder arrastrar las imagenes-->
   <!-- Cabecera Sm -->
   <header class="sm fixed-top">
     <div class="topnav">
@@ -71,9 +75,12 @@
           <path fill-rule="evenodd"
             d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
 
-        </svg><a href="tel:+675446457" class="icono-encabezado">675446457</a></div>
+        </svg><a href="tel:+675446757" class="icono-encabezado">675446757</a></div>
+
+     <!-- . Iconos encabezado arriba izquierda-->
 
       <!--El flex-grow-1 es para que ocupe todo el espacio disponible-->
+       <!--Imagen logo pizzeria-->
 
       <div class="logo flex-grow-1"><a href="index.html"><img src="img/logoPiezeria.jpeg"></a></div>
 
@@ -96,6 +103,7 @@
               d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
           </svg></a></div>
     </div>
+     <!-- . Iconos encabezado arriba derecha-->
 
     <!--Barra de menú principal-->
 
@@ -118,12 +126,16 @@
 
   <div id="inicio"><img src="img/fondo-piza.jpeg" class="img-fluid col-lg-12"></div>
 
-
+  <!--Inicio contenedor general-->
   <div class="container1">
     <div class="row">
+
+    <!--Imagen tomate izquierda-->  
       <div class="col-sm-12 col-md-2 col-lg-2 text-center mt-5">
         <img src="img/water-tomato-1.jpg" class="img-fluid img-lateral m-2">
       </div>
+    
+    <!--Cuerpo principal-->  
       <div class="col-sm-12 col-md-8 col-lg-8 cuerpo">
         <div>
           <H2>9 RESTAURANTES EN SEVILLA</H2>
@@ -142,15 +154,19 @@
           </div>
         </div>
       </div>
+
+      <!--Imagen champiñon derecha-->  
       <div class="col-sm-12 col-md-2 col-lg-2 text-center mt-5">
         <img src="img/water-basil-shroom.jpg" class="img-fluid img-lateral m-2">
       </div>
     </div>
 
 
+    <!--Inicio container-->  
 
-    <!--Carta de menu , tabla de todo-->
     <div class="container" id="menu1">
+
+     <!--Carta de menu , tabla de todo, desplegable--> 
       <div class="p-3 mt-4 row">
         <a data-bs-toggle="collapse" href="#collapse" id="menu"
           class="btn p-2 col-sm-12 col-md-12 col-lg-12 mt-3 carta-menu" role="button">Ver menú</a>
@@ -367,14 +383,15 @@
 
         </div>
       </div>
+      <!-- . Carta de menu , tabla de todo, desplegable--> 
 
 
-      <!--Menu con las pizzas-->
+      <!--Menu con las pizzas en fotos-->
       <div class="mt-4 text-center">
         <h4>NUESTRAS PIZZAS</h4>
         <div class="row">
           <div class="card col-sm-12 col-md-6 col-lg-4 p-3">
-            <a href="pizza.html"><img src="img/pizza1.jpg"  class="img-fluid" data-toggle="popover" title="Nueva receta"></a>
+            <a href="pizza.html"><img src="img/pizza1.jpg"  class="img-fluid" data-toggle="popover" title="Nueva receta"></a> <!--El popover es para mostrar un cuadro cuando te posicionas encima-->
             <div class="card-body">
               <h5 class="fw-bold">Tocino Paraiso Pizza</h5>
               <p>Pechuga ahumada, costillas tiernas, salchicha ahumada, tocino y queso cheddar con lechuga, tomate,
@@ -395,7 +412,7 @@
             </div>
           </div>
           <div class="card col-sm-12 col-md-6 col-lg-4 p-3">
-            <a href="pizza.html"><img src="img/2.jpg" class="img-fluid" data-toggle="popover" title="Nueva receta"></a>
+            <a href="pizza.html"><img src="img/2.jpg" class="img-fluid" data-toggle="popover" title="Nueva receta"></a>  
             <div class="card-body">
               <h5 class="fw-bold">Pizza Santa Fe</h5>
               <p>Pechuga ahumada, costillas tiernas, salchicha ahumada, tocino y queso cheddar con lechuga, tomate,
@@ -543,7 +560,7 @@
           <a href="menu.html" class="boton-encuentranos">Ver todas</a>
         </div>
       </div>
-
+      <!-- . Menu con las pizzas en fotos-->
 
       <!--Imagen comiendo pizza en familia-->
       <div class="mt-5 text-center">
@@ -558,6 +575,7 @@
         <hr>
         <h4 class="mb-4 d-flex justify-content-center">ASÍ HACEMOS NUESTAS PIZZAS 100% ARTESANALES</h4>
         <div class="video-responsive">
+          <!--La etiqueta iframe nos la proporciona directamente youtube-->
           <iframe width="600" height="500" src="https://www.youtube.com/embed/CGWfHHn6dL8" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
@@ -568,16 +586,19 @@
         <h4>CONTACTANOS</h4>
       </div>
 
+      <!--Ubicacion google maps-->
       <div class="row mt-3">
         <a href="tel:+34605806928" class="btn col-sm-12 col-md-6 col-lg-6" role="button">LLAMAR AHORA</a>
         <a href="https://www.google.com/maps/dir//Caramel+et+Chocolat/data=!4m8!4m7!1m0!1m5!1m1!1s0xd121390eb4e3fab:0x4c63e7681c5f62ee!2m2!1d-6.122243999999999!2d37.380869"
           target="_blank" class="btn col-sm-12 col-md-6 col-lg-6" role="button">CÓMO LLEGAR</a>
       </div>
       <div>
+        <!--La etiqueta iframe nos la proporciona directamente google maps-->
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3161.745309712103!2d-5.968141284351593!3d37.58461463084963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd124412894a8953%3A0xf79bed6c4f03ac69!2sPizza%20Genuino!5e0!3m2!1ses!2ses!4v1615056321220!5m2!1ses!2ses"
           width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
       </div>
+
       <!--Opiniones-->
       <div id="testimonios" class="mt-5">
         <hr>
@@ -675,6 +696,7 @@
             </div>
           </article>
         </div>
+        <!--Botones que te llevan a escribir una reseá en google maps y a ver las reseñas-->
         <div class="row mt-4">
           <a target="_blank" class="btn p-2 col-sm-6 col-md-6 col-lg-6" role="button" href="https://www.google.com/search?q=pizza%20genuino&rlz=1C1CHBF_esES924ES924&oq=pizza&aqs=chrome.1.69i59l3j0i20i131i263i433j69i60l4.2236j0j4&sourceid=chrome&ie=UTF-8&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3,lf:1,lf_ui:9&tbm=lcl&sxsrf=ALeKk03linNEpGyeWkfuIl_XD66RR-PqfA:1615135027040&rflfq=1&num=10&rldimm=17842115398196243561&lqi=Cg1waXp6YSBnZW51aW5vSLn7hbqfqoCACFouCg1waXp6YSBnZW51aW5vEAAQARgAGAEiDXBpenphIGdlbnVpbm8qBggCEAAQAZIBEHBpenphX3Jlc3RhdXJhbnQ&phdesc=8mMi8ldv_KE&ved=2ahUKEwiE6LPszp7vAhViQUEAHVCmAZwQvS4wBXoECAMQLw&rlst=f&fll=0,0&fspn=0.21375210000000067,0.1534304000000004&fz=0&sll=0,0&sspn=0.21375210000000067,0.1534304000000004&sz=0#lrd=0xd124412894a8953:0xf79bed6c4f03ac69,3,,,">ESCRIBE UN COMENTARIO</a>
           <a target="_blank" class="btn p-2 col-sm-6 col-md-6 col-lg-6" role="button" href="https://www.google.com/search?q=pizza%20genuino&rlz=1C1CHBF_esES924ES924&oq=pizza&aqs=chrome.1.69i59l3j0i20i131i263i433j69i60l4.2236j0j4&sourceid=chrome&ie=UTF-8&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3,lf:1,lf_ui:9&tbm=lcl&sxsrf=ALeKk03linNEpGyeWkfuIl_XD66RR-PqfA:1615135027040&rflfq=1&num=10&rldimm=17842115398196243561&lqi=Cg1waXp6YSBnZW51aW5vSLn7hbqfqoCACFouCg1waXp6YSBnZW51aW5vEAAQARgAGAEiDXBpenphIGdlbnVpbm8qBggCEAAQAZIBEHBpenphX3Jlc3RhdXJhbnQ&phdesc=8mMi8ldv_KE&ved=2ahUKEwiE6LPszp7vAhViQUEAHVCmAZwQvS4wBXoECAMQLw&rlst=f&fll=0,0&fspn=0.21375210000000067,0.1534304000000004&fz=0&sll=0,0&sspn=0.21375210000000067,0.1534304000000004&sz=0#lrd=0xd124412894a8953:0xf79bed6c4f03ac69,1,,,">VER MÁS</a>
@@ -685,7 +707,7 @@
     <!--Cierre opiniones-->
 
     <!-- Fixed bottom -->
-    <div class="fixed-bottom position-sticky pb-2">
+    <div class="fixed-bottom position-sticky pb-2"> <!--Con la clase position-sticky dejamos fijo el bloque que queremos-->
       <div class="p-2 text-end mt-4">
         <a href="pedido.html" class="boton-encuentranos" style="font-size: 30px;;">HACER PEDIDO</a>
       </div>

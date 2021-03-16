@@ -1,6 +1,9 @@
 package Examen5Marzo;
 
 public class StringUtil {
+	public StringUtil() {
+		
+	}
 public boolean compruebaSubcadena(String cadena1, String cadena2) {
 	boolean resultado=false;
 	int contador=0;

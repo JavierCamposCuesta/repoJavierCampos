@@ -1,0 +1,31 @@
+
+//1
+public class Profesor{
+    public Departamento departamento;
+}
+
+public class Departamento{
+    public Profesor profesor;
+}
+
+//2
+public class Profesor{
+    public Departamento departamento;
+    }
+
+public class Departamento{}
+
+//3
+public class Cuenta {
+    public java.util.Collection cuenta_cliente = new java.util.TreeSet();
+    }
+
+public class Cliente {
+    public java.util.Collection cliente_cuenta = new java.util.TreeSet();
+    }
+
+//4
+public class Persona{
+private Persona subordinado;
+private Persona jefe;
+}

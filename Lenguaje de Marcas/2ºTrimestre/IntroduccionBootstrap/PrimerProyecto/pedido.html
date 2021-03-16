@@ -119,6 +119,7 @@
     <!-- . Encabezado principal-->
     <div class="espaciado" ></div>
 
+    <!--Esta estructura es la que nos dice la ruta en la que estamos y podemos navegar por ellas ej: Inicio / Menú / Pedido-->
     <nav aria-label="breadcrumb" class="p-3 mt-5">
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
@@ -126,19 +127,20 @@
         <li class="breadcrumb-item active" aria-current="page">Pedido</li>
       </ol>
     </nav>
+    
     <!-- Formulario -->
     <h4 class="text-center p-2">HAZ TU PEDIDO</h4>
-    <form class="mb-5 p-5 container" style="background-color: aliceblue;" action="http://www.iesjacaranda-brenes.org/lmsgi/resultado.php." method="post">
+    <form class="mb-5 p-5 container" style="background-color: aliceblue;" action="http://www.iesjacaranda-brenes.org/lmsgi/resultado.php" method="post">
         <div class="row">
           <div class="form-group col-sm-12 col-md-6 col-lg-6">
             <label for="exampleFormControlInput1">Nombre</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Escribe tu nombre..." required>
+            <input type="text" name="Nombre" class="form-control" id="exampleFormControlInput1" placeholder="Escribe tu nombre..." required>
             <div class="invalid-feedback">Introduce tu nombre</div>
             
           </div>
           <div class="form-group col-sm-12 col-md-6 col-lg-6">
             <label for="exampleFormControlInput1">Apellidos</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Escribe tus apellidos..." required>
+            <input type="text" name="Apellidos" class="form-control" id="exampleFormControlInput1" placeholder="Escribe tus apellidos..." required>
             <div class="invalid-feedback">Introduce tus apellidos</div>
             
           </div>
@@ -146,7 +148,7 @@
   
         <div class="form-group">
           <label for="exampleFormControlInput1">Dirección</label>
-          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Calle Padre Claudio Lopez, 14..." required>
+          <input type="text" name="Direccion" class="form-control" id="exampleFormControlInput1" placeholder="Calle Padre Claudio Lopez, 14..." required>
           <div class="invalid-feedback">Introduce un mail válido</div>
           
         </div>
@@ -154,11 +156,11 @@
         <div class="row">
           <div class="form-group col-sm-12 col-md-4 col-lg-4">
             <label for="inputCity">Ciudad</label>
-            <input type="text" class="form-control" id="inputCity">
+            <input type="text" name="Ciudad" class="form-control" id="inputCity">
           </div>
           <div class="form-group col-sm-12 col-md-4 col-lg-4">
             <label for="inputState">Localidad</label>
-            <select id="inputState" class="form-control">
+            <select id="inputState" name="Localidad" class="form-control">
               <option selected>Burguillos</option>
               <option>San José</option>
               <option>Castilblanco de los Arroyos</option>
@@ -169,7 +171,7 @@
           </div>
           <div class="form-group col-sm-12 col-md-4 col-lg-4">
             <label for="inputZip">Código Postal</label>
-            <input type="text" class="form-control" id="inputZip">
+            <input type="text" name="CP" class="form-control" id="inputZip">
             <div class="invalid-feedback">Introduce un cd válido</div>
             
           </div>
@@ -177,7 +179,7 @@
   
         <div class="form-group">
           <label for="exampleInputEmail1">Email</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@example.com" required>
+          <input type="email" name="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@example.com" required>
           <div class="invalid-feedback">Introduce un mail válido</div>
           
         </div>
@@ -301,7 +303,7 @@
         </button>
   
         <button type="submit" class="btn" style="background-color:#22272d;">
-          <a href="pedidoconfirmado.html"  style=" color: #f8f7f2;">Confirmar</a>
+          <a  style=" color: #f8f7f2;">Confirmar</a>
         </button>
       </form>
     <!-- . Formulario -->
