@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-22T12:38:25.653Z" agent="5.0 (X11)" etag="uPTRHUYd6YMf2oP3qY0G" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-22T12:39:11.922Z" agent="5.0 (X11)" etag="_HH5vkuH3qlpPoYutgPb" version="14.4.8" type="github">
   <diagram id="fv686Lc4nNQmEb6ACDfJ" name="Page-1">
-    <mxGraphModel dx="2389" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3430" dy="1340" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,40 +8,40 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gqDVzGW1ng3oELMSXUI6-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;Cliente&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ String: email&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+String: direccion&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+String: telefono&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ method1(Type): Type&lt;br&gt;+ method2(Type, Type): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="90" width="190" height="100" as="geometry" />
+          <mxGeometry x="-591" y="275" width="190" height="100" as="geometry" />
         </mxCell>
         <mxCell id="gqDVzGW1ng3oELMSXUI6-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;PersonaFisica&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ String: dni&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ method1(Type): Type&lt;br&gt;+ method2(Type, Type): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="260" width="190" height="80" as="geometry" />
+          <mxGeometry x="-701" y="445" width="190" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gqDVzGW1ng3oELMSXUI6-3" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;PersonaJuridica&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ String: cif&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ method1(Type): Type&lt;br&gt;+ method2(Type, Type): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="260" width="190" height="80" as="geometry" />
+          <mxGeometry x="-491" y="445" width="190" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gqDVzGW1ng3oELMSXUI6-4" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;" edge="1" parent="1" source="gqDVzGW1ng3oELMSXUI6-2" target="gqDVzGW1ng3oELMSXUI6-1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="150" y="430" as="sourcePoint" />
-            <mxPoint x="310" y="430" as="targetPoint" />
+            <mxPoint x="-491" y="615" as="sourcePoint" />
+            <mxPoint x="-331" y="615" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gqDVzGW1ng3oELMSXUI6-5" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0.42;entryY=0.995;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gqDVzGW1ng3oELMSXUI6-3" target="gqDVzGW1ng3oELMSXUI6-1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="70.88235294117635" y="270" as="sourcePoint" />
-            <mxPoint x="129.11764705882342" y="180" as="targetPoint" />
+            <mxPoint x="-570.1176470588236" y="455" as="sourcePoint" />
+            <mxPoint x="-511.8823529411766" y="365" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gqDVzGW1ng3oELMSXUI6-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0.692;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gqDVzGW1ng3oELMSXUI6-6" target="gqDVzGW1ng3oELMSXUI6-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gqDVzGW1ng3oELMSXUI6-6" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;Animal&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ String: tipo&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+String: nombre&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+int: edad&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ method1(Type): Type&lt;br&gt;+ method2(Type, Type): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="90" width="190" height="100" as="geometry" />
+          <mxGeometry x="-241" y="275" width="190" height="100" as="geometry" />
         </mxCell>
         <mxCell id="gqDVzGW1ng3oELMSXUI6-8" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="110" width="20" height="20" as="geometry" />
+          <mxGeometry x="-401" y="295" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gqDVzGW1ng3oELMSXUI6-9" value="1 .. n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="110" width="40" height="20" as="geometry" />
+          <mxGeometry x="-281" y="295" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gqDVzGW1ng3oELMSXUI6-10" value="&lt;div&gt;Considero que las personas minimo traen a un animal, si no&lt;/div&gt;&lt;div&gt; no los tendriamos registrados como cliente&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="35" width="330" height="30" as="geometry" />
+          <mxGeometry x="-431" y="220" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gqDVzGW1ng3oELMSXUI6-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.053;entryY=0.722;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gqDVzGW1ng3oELMSXUI6-11" target="gqDVzGW1ng3oELMSXUI6-12">
           <mxGeometry relative="1" as="geometry" />
@@ -50,49 +50,49 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gqDVzGW1ng3oELMSXUI6-11" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;Historial&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ String: numero&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+Date: fechaApertura&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ method1(Type): Type&lt;br&gt;+ method2(Type, Type): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="390" width="190" height="80" as="geometry" />
+          <mxGeometry x="-241" y="575" width="190" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gqDVzGW1ng3oELMSXUI6-12" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;VacunaAdministrada&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ String: tipo&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+Date: fechaVacunacion&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ method1(Type): Type&lt;br&gt;+ method2(Type, Type): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="390" width="190" height="90" as="geometry" />
+          <mxGeometry x="-571" y="575" width="190" height="90" as="geometry" />
         </mxCell>
         <mxCell id="gqDVzGW1ng3oELMSXUI6-14" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="360" width="20" height="20" as="geometry" />
+          <mxGeometry x="-131" y="545" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gqDVzGW1ng3oELMSXUI6-15" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="200" width="20" height="20" as="geometry" />
+          <mxGeometry x="-141" y="385" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gqDVzGW1ng3oELMSXUI6-17" value="0 .. n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="430" width="40" height="20" as="geometry" />
+          <mxGeometry x="-391" y="615" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gqDVzGW1ng3oELMSXUI6-18" value="0 .. n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="430" width="40" height="20" as="geometry" />
+          <mxGeometry x="-281" y="615" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gqDVzGW1ng3oELMSXUI6-19" value="&lt;div&gt;Considero que puede haber vacunas las cuales no se hayan administrado&lt;/div&gt;&lt;div&gt;a ningún animal, y que muchos animales pueden haber recibido la misma vacuna, ademas&lt;/div&gt;&lt;div&gt;que en un historial puede haber n vacunas&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="-135" y="500" width="500" height="50" as="geometry" />
+          <mxGeometry x="-776" y="685" width="500" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gqDVzGW1ng3oELMSXUI6-20" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;Enfermedad&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ String: nombre&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+Date: fechaCuandoEnfermo&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+String: diagnostico&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ method1(Type): Type&lt;br&gt;+ method2(Type, Type): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="585" width="190" height="90" as="geometry" />
+          <mxGeometry x="-251" y="770" width="190" height="90" as="geometry" />
         </mxCell>
         <mxCell id="gqDVzGW1ng3oELMSXUI6-23" value="0 .. n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="560" width="40" height="20" as="geometry" />
+          <mxGeometry x="-151" y="745" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gqDVzGW1ng3oELMSXUI6-24" value="0 .. n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="470" width="40" height="20" as="geometry" />
+          <mxGeometry x="-151" y="655" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gqDVzGW1ng3oELMSXUI6-25" value="&lt;div&gt;Considero que puede haber historiales sin ninguna enfermedad y que las enfermedades&lt;/div&gt;&lt;div&gt;pueden estar en 0 o en n animales&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="-85" y="620" width="480" height="30" as="geometry" />
+          <mxGeometry x="-726" y="805" width="480" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gqDVzGW1ng3oELMSXUI6-26" value="pertenece" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="100" width="70" height="20" as="geometry" />
+          <mxGeometry x="-361" y="285" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gqDVzGW1ng3oELMSXUI6-27" value="posee" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="290" width="50" height="20" as="geometry" />
+          <mxGeometry x="-131" y="475" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gqDVzGW1ng3oELMSXUI6-28" value="se registra" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="285" y="390" width="70" height="20" as="geometry" />
+          <mxGeometry x="-356" y="575" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gqDVzGW1ng3oELMSXUI6-29" value="se describen" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="515" width="80" height="20" as="geometry" />
+          <mxGeometry x="-141" y="700" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
