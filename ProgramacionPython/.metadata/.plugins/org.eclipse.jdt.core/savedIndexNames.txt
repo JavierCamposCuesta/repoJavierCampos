@@ -1,3 +1,0 @@
-INDEX VERSION 1.131+/home/javier/Escritorio/repoJavierCampos/ProgramacionPython/.metadata/.plugins/org.eclipse.jdt.core
-2078267704.index
-1581524451.index

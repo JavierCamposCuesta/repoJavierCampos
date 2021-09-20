@@ -1,0 +1,51 @@
+.m-auto {
+    margin: 0 auto;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.text-center {
+    text-align: center;
+}
+h1 {
+    text-transform: uppercase;
+}
+table,
+table.m-auto {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+header,
+footer,
+#result {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+table td {
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+#result {
+    text-align: left;
+}
+header {
+    background:cyan;
+}
+footer {
+    background: #E2E2E2;
+    font-size: small;
+}
+button {
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    padding: 5px 15px;
+    cursor: pointer;
+    background:cyan;
+}
+    button:hover {
+        background:darkcyan;
+        color: white;
+    }

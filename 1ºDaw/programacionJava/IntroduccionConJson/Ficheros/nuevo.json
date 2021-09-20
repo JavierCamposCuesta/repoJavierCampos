@@ -1,0 +1,37 @@
+{
+  "lista": [
+    {
+      "apellidos": "Olias Alvarez",
+      "edad": 29
+    },
+    {
+      "apellidos": "U",
+      "edad": 20
+    },
+    {
+      "nombre": "sksksks",
+      "apellidos": "sksk skksksk",
+      "edad": 4
+    },
+    {
+      "nombre": "F",
+      "apellidos": "U",
+      "edad": 20
+    },
+    {
+      "nombre": "jose",
+      "apellidos": "perez",
+      "edad": 50
+    },
+    {
+      "nombre": "pepe",
+      "apellidos": "gutierrez",
+      "edad": 12
+    },
+    {
+      "nombre": "paco",
+      "apellidos": "campos",
+      "edad": 32
+    }
+  ]
+}

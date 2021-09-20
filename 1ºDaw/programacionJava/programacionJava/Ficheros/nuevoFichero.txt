@@ -1,0 +1,327 @@
+Pais: Afghanistan	 Id: 1	 Total ciudades = 1	 Total direcciones = 1
+Nombre ciudades = Kabul | 
+
+Pais: Algeria	 Id: 2	 Total ciudades = 3	 Total direcciones = 3
+Nombre ciudades = Batna | Bchar | Skikda | 
+
+Pais: American Samoa	 Id: 3	 Total ciudades = 1	 Total direcciones = 1
+Nombre ciudades = Tafuna | 
+
+Pais: Angola	 Id: 4	 Total ciudades = 2	 Total direcciones = 1
+Nombre ciudades = Benguela | Namibe | 
+
+Pais: Anguilla	 Id: 5	 Total ciudades = 1	 Total direcciones = 1
+Nombre ciudades = South Hill | 
+
+Pais: Argentina	 Id: 6	 Total ciudades = 13	 Total direcciones = 10
+Nombre ciudades = Almirante Brown | Avellaneda | Baha Blanca | Crdoba | Escobar | Ezeiza | La Plata | Merlo | Quilmes | San Miguel de Tucumn | Santa F | Tandil | Vicente Lpez | 
+
+Pais: Armenia	 Id: 7	 Total ciudades = 1	 Total direcciones = 1
+Nombre ciudades = Yerevan | 
+
+Pais: Australia	 Id: 8	 Total ciudades = 1	 Total direcciones = 2
+Nombre ciudades = Woodridge | 
+
+Pais: Austria	 Id: 9	 Total ciudades = 3	 Total direcciones = 3
+Nombre ciudades = Graz | Linz | Salzburg | 
+
+Pais: Azerbaijan	 Id: 10	 Total ciudades = 2	 Total direcciones = 2
+Nombre ciudades = Baku | Sumqayit | 
+
+Pais: Bahrain	 Id: 11	 Total ciudades = 1	 Total direcciones = 0
+Nombre ciudades = al-Manama | 
+
+Pais: Bangladesh	 Id: 12	 Total ciudades = 3	 Total direcciones = 3
+Nombre ciudades = Dhaka | Jamalpur | Tangail | 
+
+Pais: Belarus	 Id: 13	 Total ciudades = 2	 Total direcciones = 1
+Nombre ciudades = Mogiljov | Molodetno | 
+
+Pais: Bolivia	 Id: 14	 Total ciudades = 2	 Total direcciones = 2
+Nombre ciudades = El Alto | Sucre | 
+
+Pais: Brazil	 Id: 15	 Total ciudades = 28	 Total direcciones = 25
+Nombre ciudades = Alvorada | Angra dos Reis | Anpolis | Aparecida de Goinia | Araatuba | Bag | Belm | Blumenau | Boa Vista | Braslia | Goinia | Guaruj | guas Lindas de Gois | Ibirit | Juazeiro do Norte | Juiz de Fora | Luzinia | Maring | Po | Poos de Caldas | Rio Claro | Santa Brbara dOeste | Santo Andr | So Bernardo do Campo | So Leopoldo | Sorocaba | Vila Velha | Vitria de Santo Anto | 
+
+Pais: Brunei	 Id: 16	 Total ciudades = 1	 Total direcciones = 1
+Nombre ciudades = Bandar Seri Begawan | 
+
+Pais: Bulgaria	 Id: 17	 Total ciudades = 2	 Total direcciones = 1
+Nombre ciudades = Ruse | Stara Zagora | 
+
+Pais: Cambodia	 Id: 18	 Total ciudades = 2	 Total direcciones = 1
+Nombre ciudades = Battambang | Phnom Penh | 
+
+Pais: Cameroon	 Id: 19	 Total ciudades = 2	 Total direcciones = 2
+Nombre ciudades = Bamenda | Yaound | 
+
+Pais: Canada	 Id: 20	 Total ciudades = 7	 Total direcciones = 6
+Nombre ciudades = Gatineau | Halifax | Lethbridge | London | Oshawa | Richmond Hill | Vancouver | 
+
+Pais: Chad	 Id: 21	 Total ciudades = 1	 Total direcciones = 0
+Nombre ciudades = NDjamna | 
+
+Pais: Chile	 Id: 22	 Total ciudades = 3	 Total direcciones = 2
+Nombre ciudades = Antofagasta | Coquimbo | Rancagua | 
+
+Pais: China	 Id: 23	 Total ciudades = 53	 Total direcciones = 35
+Nombre ciudades = Baicheng | Baiyin | Binzhou | Changzhou | Datong | Daxian | Dongying | Emeishan | Enshi | Ezhou | Fuyu | Fuzhou | Haining | Hami | Hohhot | Huaian | Jinchang | Jining | Jinzhou | Junan | Korla | Laiwu | Laohekou | Lengshuijiang | Leshan | Liaocheng | Meixian | Nanyang | Pingxiang | Qinhuangdao | Rizhao | Sanya | Shanwei | Shaoguan | Shenzhen | Suihua | Tianjin | Tiefa | Tieli | Tongliao | Weifang | Xiangfan | Xiangtan | Xintai | Xinxiang | Yantai | Yinchuan | Yingkou | Yuncheng | Yuzhou | Zalantun | Zaoyang | Zhoushan | 
+
+Pais: Colombia	 Id: 24	 Total ciudades = 6	 Total direcciones = 5
+Nombre ciudades = Buenaventura | Dos Quebradas | Florencia | Pereira | Sincelejo | Sogamoso | 
+
+Pais: Congo	 Id: 25	 Total ciudades = 2	 Total direcciones = 2
+Nombre ciudades = Lubumbashi | Mwene-Ditu | 
+
+Pais: Czech Republic	 Id: 26	 Total ciudades = 1	 Total direcciones = 1
+Nombre ciudades = Olomouc | 
+
+Pais: Dominican Republic	 Id: 27	 Total ciudades = 3	 Total direcciones = 3
+Nombre ciudades = La Romana | San Felipe de Puerto Plata | Santiago de los Caballeros | 
+
+Pais: Ecuador	 Id: 28	 Total ciudades = 3	 Total direcciones = 1
+Nombre ciudades = Loja | Portoviejo | Robamba | 
+
+Pais: Egypt	 Id: 29	 Total ciudades = 6	 Total direcciones = 4
+Nombre ciudades = Bilbays | Idfu | Mit Ghamr | Qalyub | Sawhaj | Shubra al-Khayma | 
+
+Pais: Estonia	 Id: 30	 Total ciudades = 1	 Total direcciones = 1
+Nombre ciudades = Tartu | 
+
+Pais: Ethiopia	 Id: 31	 Total ciudades = 1	 Total direcciones = 1
+Nombre ciudades = Addis Abeba | 
+
+Pais: Faroe Islands	 Id: 32	 Total ciudades = 1	 Total direcciones = 1
+Nombre ciudades = Trshavn | 
+
+Pais: Finland	 Id: 33	 Total ciudades = 1	 Total direcciones = 1
+Nombre ciudades = Oulu | 
+
+Pais: France	 Id: 34	 Total ciudades = 4	 Total direcciones = 4
+Nombre ciudades = Brest | Le Mans | Toulon | Toulouse | 
+
+Pais: French Guiana	 Id: 35	 Total ciudades = 1	 Total direcciones = 1
+Nombre ciudades = Cayenne | 
+
+Pais: French Polynesia	 Id: 36	 Total ciudades = 2	 Total direcciones = 2
+Nombre ciudades = Faaa | Papeete | 
+
+Pais: Gambia	 Id: 37	 Total ciudades = 1	 Total direcciones = 0
+Nombre ciudades = Banjul | 
+
+Pais: Germany	 Id: 38	 Total ciudades = 7	 Total direcciones = 7
+Nombre ciudades = Duisburg | Erlangen | Halle/Saale | Mannheim | Saarbrcken | Siegen | Witten | 
+
+Pais: Greece	 Id: 39	 Total ciudades = 2	 Total direcciones = 1
+Nombre ciudades = Athenai | Patras | 
+
+Pais: Greenland	 Id: 40	 Total ciudades = 1	 Total direcciones = 1
+Nombre ciudades = Nuuk | 
+
+Pais: Holy See Vatican City State	 Id: 41	 Total ciudades = 1	 Total direcciones = 1
+Nombre ciudades = Citt del Vaticano | 
+
+Pais: Hong Kong	 Id: 42	 Total ciudades = 1	 Total direcciones = 1
+Nombre ciudades = Kowloon and New Kowloon | 
+
+Pais: Hungary	 Id: 43	 Total ciudades = 1	 Total direcciones = 0
+Nombre ciudades = Szkesfehrvr | 
+
+Pais: India	 Id: 44	 Total ciudades = 60	 Total direcciones = 53
+Nombre ciudades = Adoni | Ahmadnagar | Allappuzha Alleppey | Ambattur | Amroha | Balurghat | Berhampore Baharampur | Bhavnagar | Bhilwara | Bhimavaram | Bhopal | Bhusawal | Bijapur | Chandrapur | Chapra | Dhule Dhulia | Etawah | Firozabad | Gandhinagar | Gulbarga | Haldia | Halisahar | Hoshiarpur | Hubli-Dharwad | Jaipur | Jhansi | Jodhpur | Kamarhati | Kanchrapara | Karnal | Katihar | Kumbakonam | Miraj | Munger Monghyr | Mysore | Nagaon | Palghat Palakkad | Parbhani | Pathankot | Patiala | Pudukkottai | Pune | Purnea Purnia | Rae Bareli | Rajkot | Rampur | Ranchi | Sambhal | Satna | Shimoga | Shivapuri | Siliguri Shiliguri | Tambaram | Udaipur | Uluberia | Uttarpara-Kotrung | Valparai | Varanasi Benares | Vijayawada | Yamuna Nagar | 
+
+Pais: Indonesia	 Id: 45	 Total ciudades = 14	 Total direcciones = 9
+Nombre ciudades = Cianjur | Ciomas | Ciparay | Gorontalo | Jakarta | Lhokseumawe | Madiun | Pangkal Pinang | Pemalang | Pontianak | Probolinggo | Purwakarta | Surakarta | Tegal | 
+
+Pais: Iran	 Id: 46	 Total ciudades = 8	 Total direcciones = 8
+Nombre ciudades = Arak | Esfahan | Kermanshah | Najafabad | Qomsheh | Shahr-e Kord | Sirjan | Tabriz | 
+
+Pais: Iraq	 Id: 47	 Total ciudades = 1	 Total direcciones = 0
+Nombre ciudades = Mosul | 
+
+Pais: Israel	 Id: 48	 Total ciudades = 4	 Total direcciones = 3
+Nombre ciudades = Ashdod | Ashqelon | Bat Yam | Tel Aviv-Jaffa | 
+
+Pais: Italy	 Id: 49	 Total ciudades = 7	 Total direcciones = 4
+Nombre ciudades = Alessandria | Bergamo | Brescia | Brindisi | Livorno | Syrakusa | Udine | 
+
+Pais: Japan	 Id: 50	 Total ciudades = 31	 Total direcciones = 25
+Nombre ciudades = Akishima | Fukuyama | Higashiosaka | Hino | Hiroshima | Isesaki | Iwaki | Iwakuni | Iwatsuki | Izumisano | Kakamigahara | Kamakura | Kanazawa | Koriyama | Kurashiki | Kuwana | Matsue | Miyakonojo | Nagareyama | Okayama | Okinawa | Omiya | Onomichi | Otsu | Sagamihara | Sasebo | Shimonoseki | Tama | Tsuyama | Ueda | Urawa | 
+
+Pais: Kazakstan	 Id: 51	 Total ciudades = 2	 Total direcciones = 1
+Nombre ciudades = Pavlodar | Zhezqazghan | 
+
+Pais: Kenya	 Id: 52	 Total ciudades = 2	 Total direcciones = 2
+Nombre ciudades = Kisumu | Nyeri | 
+
+Pais: Kuwait	 Id: 53	 Total ciudades = 1	 Total direcciones = 1
+Nombre ciudades = Jalib al-Shuyukh | 
+
+Pais: Latvia	 Id: 54	 Total ciudades = 2	 Total direcciones = 2
+Nombre ciudades = Daugavpils | Liepaja | 
+
+Pais: Liechtenstein	 Id: 55	 Total ciudades = 1	 Total direcciones = 1
+Nombre ciudades = Vaduz | 
+
+Pais: Lithuania	 Id: 56	 Total ciudades = 1	 Total direcciones = 0
+Nombre ciudades = Vilnius | 
+
+Pais: Madagascar	 Id: 57	 Total ciudades = 1	 Total direcciones = 1
+Nombre ciudades = Mahajanga | 
+
+Pais: Malawi	 Id: 58	 Total ciudades = 1	 Total direcciones = 1
+Nombre ciudades = Lilongwe | 
+
+Pais: Malaysia	 Id: 59	 Total ciudades = 3	 Total direcciones = 3
+Nombre ciudades = Ipoh | Kuching | Sungai Petani | 
+
+Pais: Mexico	 Id: 60	 Total ciudades = 30	 Total direcciones = 21
+Nombre ciudades = Acua | Allende | Atlixco | Carmen | Celaya | Coacalco de Berriozbal | Coatzacoalcos | Cuauhtmoc | Cuautla | Cuernavaca | El Fuerte | Guadalajara | Hidalgo | Huejutla de Reyes | Huixquilucan | Jos Azueta | Jurez | La Paz | Matamoros | Mexicali | Monclova | Nezahualcyotl | Pachuca de Soto | Salamanca | San Felipe del Progreso | San Juan Bautista Tuxtepec | Torren | Uruapan | Valle de Santiago | Zapopan | 
+
+Pais: Moldova	 Id: 61	 Total ciudades = 1	 Total direcciones = 1
+Nombre ciudades = Chisinau | 
+
+Pais: Morocco	 Id: 62	 Total ciudades = 3	 Total direcciones = 2
+Nombre ciudades = Beni-Mellal | Nador | Sal | 
+
+Pais: Mozambique	 Id: 63	 Total ciudades = 3	 Total direcciones = 3
+Nombre ciudades = Beira | Naala-Porto | Tete | 
+
+Pais: Myanmar	 Id: 64	 Total ciudades = 2	 Total direcciones = 2
+Nombre ciudades = Monywa | Myingyan | 
+
+Pais: Nauru	 Id: 65	 Total ciudades = 1	 Total direcciones = 0
+Nombre ciudades = Yangor | 
+
+Pais: Nepal	 Id: 66	 Total ciudades = 1	 Total direcciones = 1
+Nombre ciudades = Birgunj | 
+
+Pais: Netherlands	 Id: 67	 Total ciudades = 5	 Total direcciones = 4
+Nombre ciudades = Amersfoort | Apeldoorn | Ede | Emmen | s-Hertogenbosch | 
+
+Pais: New Zealand	 Id: 68	 Total ciudades = 1	 Total direcciones = 1
+Nombre ciudades = Hamilton | 
+
+Pais: Nigeria	 Id: 69	 Total ciudades = 13	 Total direcciones = 12
+Nombre ciudades = Benin City | Deba Habe | Effon-Alaiye | Ife | Ikerre | Ilorin | Kaduna | Ogbomosho | Ondo | Owo | Oyo | Sokoto | Zaria | 
+
+Pais: North Korea	 Id: 70	 Total ciudades = 1	 Total direcciones = 1
+Nombre ciudades = Pyongyang | 
+
+Pais: Oman	 Id: 71	 Total ciudades = 2	 Total direcciones = 1
+Nombre ciudades = Masqat | Salala | 
+
+Pais: Pakistan	 Id: 72	 Total ciudades = 5	 Total direcciones = 5
+Nombre ciudades = Dadu | Mandi Bahauddin | Mardan | Okara | Shikarpur | 
+
+Pais: Paraguay	 Id: 73	 Total ciudades = 3	 Total direcciones = 3
+Nombre ciudades = Asuncin | Ciudad del Este | San Lorenzo | 
+
+Pais: Peru	 Id: 74	 Total ciudades = 4	 Total direcciones = 2
+Nombre ciudades = Callao | Hunuco | Lima | Sullana | 
+
+Pais: Philippines	 Id: 75	 Total ciudades = 20	 Total direcciones = 16
+Nombre ciudades = Baybay | Bayugan | Bislig | Cabuyao | Cavite | Davao | Gingoog | Hagonoy | Iligan | Imus | Lapu-Lapu | Mandaluyong | Ozamis | Santa Rosa | Taguig | Talavera | Tanauan | Tanza | Tarlac | Tuguegarao | 
+
+Pais: Poland	 Id: 76	 Total ciudades = 8	 Total direcciones = 4
+Nombre ciudades = Bydgoszcz | Czestochowa | Jastrzebie-Zdrj | Kalisz | Lublin | Plock | Tychy | Wroclaw | 
+
+Pais: Puerto Rico	 Id: 77	 Total ciudades = 2	 Total direcciones = 2
+Nombre ciudades = Arecibo | Ponce | 
+
+Pais: Romania	 Id: 78	 Total ciudades = 2	 Total direcciones = 1
+Nombre ciudades = Botosani | Bucuresti | 
+
+Pais: Runion	 Id: 79	 Total ciudades = 1	 Total direcciones = 1
+Nombre ciudades = Saint-Denis | 
+
+Pais: Russian Federation	 Id: 80	 Total ciudades = 28	 Total direcciones = 25
+Nombre ciudades = Atinsk | Balaiha | Dzerzinsk | Elista | Ivanovo | Jaroslavl | Jelets | Kaliningrad | Kamyin | Kirovo-Tepetsk | Kolpino | Korolev | Kurgan | Kursk | Lipetsk | Ljubertsy | Maikop | Moscow | Nabereznyje Telny | Niznekamsk | Novoterkassk | Pjatigorsk | Serpuhov | Smolensk | Syktyvkar | Teboksary | Usolje-Sibirskoje | Zeleznogorsk | 
+
+Pais: Saint Vincent and the Grenadines	 Id: 81	 Total ciudades = 1	 Total direcciones = 1
+Nombre ciudades = Kingstown | 
+
+Pais: Saudi Arabia	 Id: 82	 Total ciudades = 5	 Total direcciones = 5
+Nombre ciudades = Abha | al-Hawiya | al-Qatif | Jedda | Tabuk | 
+
+Pais: Senegal	 Id: 83	 Total ciudades = 1	 Total direcciones = 1
+Nombre ciudades = Ziguinchor | 
+
+Pais: Slovakia	 Id: 84	 Total ciudades = 1	 Total direcciones = 1
+Nombre ciudades = Bratislava | 
+
+Pais: South Africa	 Id: 85	 Total ciudades = 11	 Total direcciones = 10
+Nombre ciudades = Boksburg | Botshabelo | Chatsworth | Johannesburg | Kimberley | Klerksdorp | Newcastle | Paarl | Rustenburg | Soshanguve | Springs | 
+
+Pais: South Korea	 Id: 86	 Total ciudades = 5	 Total direcciones = 4
+Nombre ciudades = Cheju | Kimchon | Naju | Tonghae | Uijongbu | 
+
+Pais: Spain	 Id: 87	 Total ciudades = 5	 Total direcciones = 4
+Nombre ciudades = A Corua La Corua | Donostia-San Sebastin | Gijn | Ourense Orense | Santiago de Compostela | 
+
+Pais: Sri Lanka	 Id: 88	 Total ciudades = 1	 Total direcciones = 1
+Nombre ciudades = Jaffna | 
+
+Pais: Sudan	 Id: 89	 Total ciudades = 2	 Total direcciones = 2
+Nombre ciudades = al-Qadarif | Omdurman | 
+
+Pais: Sweden	 Id: 90	 Total ciudades = 1	 Total direcciones = 1
+Nombre ciudades = Malm | 
+
+Pais: Switzerland	 Id: 91	 Total ciudades = 3	 Total direcciones = 2
+Nombre ciudades = Basel | Bern | Lausanne | 
+
+Pais: Taiwan	 Id: 92	 Total ciudades = 10	 Total direcciones = 6
+Nombre ciudades = Changhwa | Chiayi | Chungho | Fengshan | Hsichuh | Lungtan | Nantou | Tanshui | Touliu | Tsaotun | 
+
+Pais: Tanzania	 Id: 93	 Total ciudades = 3	 Total direcciones = 2
+Nombre ciudades = Mwanza | Tabora | Zanzibar | 
+
+Pais: Thailand	 Id: 94	 Total ciudades = 3	 Total direcciones = 3
+Nombre ciudades = Nakhon Sawan | Pak Kret | Songkhla | 
+
+Pais: Tonga	 Id: 95	 Total ciudades = 1	 Total direcciones = 1
+Nombre ciudades = Nukualofa | 
+
+Pais: Tunisia	 Id: 96	 Total ciudades = 1	 Total direcciones = 1
+Nombre ciudades = Sousse | 
+
+Pais: Turkey	 Id: 97	 Total ciudades = 15	 Total direcciones = 9
+Nombre ciudades = Adana | Balikesir | Batman | Denizli | Eskisehir | Gaziantep | Inegl | Kilis | Ktahya | Osmaniye | Sivas | Sultanbeyli | Tarsus | Tokat | Usak | 
+
+Pais: Turkmenistan	 Id: 98	 Total ciudades = 1	 Total direcciones = 1
+Nombre ciudades = Ashgabat | 
+
+Pais: Tuvalu	 Id: 99	 Total ciudades = 1	 Total direcciones = 1
+Nombre ciudades = Funafuti | 
+
+Pais: Ukraine	 Id: 100	 Total ciudades = 6	 Total direcciones = 4
+Nombre ciudades = Kamjanets-Podilskyi | Konotop | Mukateve | ostka | Simferopol | Sumy | 
+
+Pais: United Arab Emirates	 Id: 101	 Total ciudades = 3	 Total direcciones = 3
+Nombre ciudades = Abu Dhabi | al-Ayn | Sharja | 
+
+Pais: United Kingdom	 Id: 102	 Total ciudades = 8	 Total direcciones = 4
+Nombre ciudades = Bradford | Dundee | London | Southampton | Southend-on-Sea | Southport | Stockport | York | 
+
+Pais: United States	 Id: 103	 Total ciudades = 35	 Total direcciones = 30
+Nombre ciudades = Akron | Arlington | Augusta-Richmond County | Aurora | Bellevue | Brockton | Cape Coral | Citrus Heights | Clarksville | Compton | Dallas | Dayton | El Monte | Fontana | Garden Grove | Garland | Grand Prairie | Greensboro | Joliet | Kansas City | Lancaster | Laredo | Lincoln | Manchester | Memphis | Peoria | Roanoke | Rockford | Saint Louis | Salinas | San Bernardino | Sterling Heights | Sunnyvale | Tallahassee | Warren | 
+
+Pais: Venezuela	 Id: 104	 Total ciudades = 7	 Total direcciones = 5
+Nombre ciudades = Barcelona | Caracas | Cuman | Maracabo | Ocumare del Tuy | Valencia | Valle de la Pascua | 
+
+Pais: Vietnam	 Id: 105	 Total ciudades = 6	 Total direcciones = 3
+Nombre ciudades = Cam Ranh | Haiphong | Hanoi | Nam Dinh | Nha Trang | Vinh | 
+
+Pais: Virgin Islands	 Id: 106	 Total ciudades = 1	 Total direcciones = 1
+Nombre ciudades = Charlotte Amalie | 
+
+Pais: Yemen	 Id: 107	 Total ciudades = 4	 Total direcciones = 4
+Nombre ciudades = Aden | Hodeida | Sanaa | Taizz | 
+
+Pais: Yugoslavia	 Id: 108	 Total ciudades = 2	 Total direcciones = 1
+Nombre ciudades = Kragujevac | Novi Sad | 
+
+Pais: Zambia	 Id: 109	 Total ciudades = 1	 Total direcciones = 1
+Nombre ciudades = Kitwe | 
+
