@@ -37,9 +37,10 @@ else{
 }
 
 
-// function functionDelete(){
-
-
-//  }
+ function functionDelete(){
+    let lista = document.getElementById("lista");
+    lista.removeChild(document.getElementsByTagName("li")[posicion-1]);
+document.querySelector
+  }
 
 

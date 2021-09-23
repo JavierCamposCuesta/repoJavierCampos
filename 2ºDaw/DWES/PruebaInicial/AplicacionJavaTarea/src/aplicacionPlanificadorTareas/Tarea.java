@@ -1,12 +1,16 @@
 package aplicacionPlanificadorTareas;
 
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.List;
 
-import gestionTareas.PrioridadTarea;
+
+
+
 
 
 
@@ -18,10 +22,12 @@ public class Tarea {
 	private HashSet<TareaAbstract> tareasNoRealizadas;
 	private HashSet<TareaAbstract> tareasRealizadas;
 	
-	public void Tarea() {
-		this.tareasNoRealizadas = new HashSet<TareaAbstract>();
-		this.tareasRealizadas = new HashSet<TareaAbstract>();
+	
+	public Tarea() {
+		tareasNoRealizadas = new HashSet<TareaAbstract>();
+		tareasRealizadas = new HashSet<TareaAbstract>();
 	}
+
 	
 	
 	//Tendremos métodos para añadir tareas, serán dos, uno para añadir una tarea educativa o otro para tareas de otro tipo
@@ -29,7 +35,8 @@ public class Tarea {
 	
 	//Metodo para las tareas de clase
 	public boolean addTareaClase(String descripcion, String prioridad, String asignatura) {
-		return tareasNoRealizadas.add(new TareaDeClase(descripcion, prioridad, asignatura));
+		 return tareasNoRealizadas.add(new TareaDeClase(descripcion, prioridad, asignatura));
+
 		
 	}
 	
@@ -81,10 +88,10 @@ public class Tarea {
 		int baja=0;
 		
 		for(TareaAbstract e : tareasNoRealizadas) {
-			if(e.prioridad.equals(PrioridadTarea.ALTA)) {
+			if(e.prioridad.equals(Prioridad.ALTA)) {
 				alta++;
 			}
-			else if(e.prioridad.equals(PrioridadTarea.MEDIA)) {
+			else if(e.prioridad.equals(Prioridad.MEDIA)) {
 				media++;
 			}
 			else {
@@ -95,5 +102,38 @@ public class Tarea {
 		return ("Tenemos pendiente "+alta + " tareas de prioridad alta, " + media + 
 				" de prioridad media y " + baja +" de prioridad baja");
 	}
+	
+	
+	
+//	Método que no devolverá nada, y añadirá la tarea que tiene la descripción y la fecha de creación
+//	que reciba como argumento a la lista de tareas resueltas y asignara la fecha de solución que se le pasa
+//	también por parámetro. Si la fecha de solución que recibe es menor que la fecha de creación, o no existe
+//	la tarea, se mostrará una excepción correspondiente para cada caso.
+	
+	public void resolverTarea (String descripcion, LocalDate fechaInicio, LocalDate fechaFin) throws Exception {
+		boolean fin= false;
+		
+		if(fechaFin.isBefore(fechaInicio)) {
+			throw new ExceptionFechaSolucionInvalidad();
+		}
+			Iterator <TareaAbstract> iterator = tareasNoRealizadas.iterator();
+			while(iterator.hasNext() && fin==false) {
+				TareaAbstract e = iterator.next();
+				if(e.descripcion.equals(descripcion) && e.fechaInicio.equals(fechaFin)) {
+					e.fechaFin=fechaFin;
+					tareasRealizadas.add(e);
+					tareasNoRealizadas.remove(e);
+					fin=true;
+				}
+			}
+			if(fin==false) {
+				throw new ExceptionNoExisteTarea();
+			}
+		}
+	}
 
-}
+
+	
+
+
+

@@ -16,11 +16,11 @@ public abstract class TareaAbstract implements Temporizable, Comparable<TareaAbs
 	public TareaAbstract (String descripcion, String prioridad) {
 		
 		this.descripcion = descripcion;
+		this.fechaInicio=LocalDate.now();
 		prioridad = prioridad.toUpperCase();
+		this.codigo= CONTADOR++;
 		this.prioridad = Prioridad.valueOf(prioridad);
 		
-		this.fechaInicio=LocalDate.now();
-		this.codigo= CONTADOR++;
 		
 	}
 	
