@@ -110,6 +110,12 @@ public class Tarea {
 //	también por parámetro. Si la fecha de solución que recibe es menor que la fecha de creación, o no existe
 //	la tarea, se mostrará una excepción correspondiente para cada caso.
 	
+	/**
+	 * @param descripcion
+	 * @param fechaInicio
+	 * @param fechaFin
+	 * @throws Exception
+	 */
 	public void resolverTarea (String descripcion, LocalDate fechaInicio, LocalDate fechaFin) throws Exception {
 		boolean fin= false;
 		

@@ -1,0 +1,93 @@
+/*primario #008585
+secundario #b0bec5
+light #e2f1f8
+bordes ##00eeff
+fondo #ee98fb
+
+*/
+body {
+	background: #e2f1f8
+}
+.cabecera {
+	color: #e2f1f8;
+	background: #008585;
+	padding: 30px;
+	text-align: center;
+	border-bottom: 6px solid #00eeff;
+
+}
+.cuerpo {
+	margin-left: 100px;
+	margin-right: 100px;
+	text-align: justify;
+}
+/*seleccionamos dentro del cuerpo el h3 para centrarlo*/
+.cuerpo > h3 {
+	text-align: center;
+}
+
+/*damos estilo al boton*/ 
+a.boton, input.boton{ /*esta clase nos la pondra en los a que sean botones y el los inputs que sean botones*/
+	background: #008585;
+	color: white;
+	border: 1px solid black;
+	text-decoration: none; /*esto es para quitarle el subrayado al link*/
+	padding: 6px;
+	border-radius: 6px; /*esto es para redondear los bordes del boton*/
+	cursor: pointer; /*esto es para que nos ponga la manita cuando nos colocamos encima del boton*/
+}
+
+/*Hacemos que el boton cambie de color cuando nos colocamos encima*/
+a.boton:hover, input.boton:hover{
+	background: #00eeff;
+	color: black;
+
+}
+
+/*le damos estilo al pie de pagina*/
+.pie-de-pagina {
+	margin-top: 150px;
+	border-top: 2px solid #b0bec5;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+/*ponemos dos div como columnas ajustanto el ancho*/
+.pie-de-pagina > div {
+	width: 33%;
+	display: inline-block; /*esto sirve para poner los bloques en linea*/
+}
+
+form { /*damos estilo al formulario*/
+	border: 1px solid black;
+	border-radius: 10px;
+	margin-right: 175px;
+	margin-left: 175px;
+	margin-top: 20px;
+	background: white;
+
+}
+
+form div { /*separamos el formulario de los bordes*/
+	margin-left: 30px;
+	margin-bottom: 5px;
+}
+
+form div label { /*aqui le damos un espacio a los inputs*/
+	width: 150px;
+	display: inline-block; /*los label son contenedores del ancho de la palabra (igual que los span), por lo que tenemos que decirle que lo trate como un unico bloque*/
+}
+
+.mensaje-enviado{
+	margin-top: 50px;
+	text-align: center;
+}
+
+.mensaje-enviado > span { /*para poder poner el mensaje como queremos, ya que solo con el p es mas complicado*/
+	color: green;
+	background: white;
+	padding: 6px;
+	border: solid black 1px;
+	border-radius: 6px;
+}
+

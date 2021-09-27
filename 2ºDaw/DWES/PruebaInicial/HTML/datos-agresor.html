@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- hacemos referencia a las hojas de estilos -->
+	<link rel="stylesheet" href="css/style.css"></link>
+	<title>Formular denuncia</title>
+</head>
+<body>
+	<div class="cabecera"> 
+		<h1>Formular denuncia</h1>
+	</div>
+	<div class="cuerpo">
+		<a href="datos-denunciante.html" class="boton" style="margin-top: 10px; display: inline-block;">&#60;Volver</a>
+		<form method="GET" action="datos-enviados.html">
+			<div>
+				<h2>Datos agresor</h2>
+				<h3>Datos personales</h3>
+			</div>
+			<div>		
+				<label for="nombre">Nombre</label>
+				<input type="text" name="nombre" id="nombre">
+			</div>
+			<div>
+				<label for="apellido1">Apellidos</label>
+				<input type="text" name="apellido1" id="apellido1">
+				<input type="text" name="apellido2">
+			</div>
+			<div>
+				<label for="NIF">NIF</label>
+				<input type="text" name="NIF" id="NIF">
+			</div>
+			<div>
+				<label for="fecha">Fecha de nacimiento</label>
+				<input type="date" name="fecha" id="fecha"> <!-- el for hace que al clicar en la palabra nos lleve al recuadro que referencia con el id -->
+			</div>
+			<div>
+		
+				<label for="direccion">Dirección</label>
+				<input type="text" name="direccion" id="direccion">
+			</div>
+			<div>
+			
+				<label for="sexo">Sexo</label>
+				<input type="radio" name="sexo" value="1">Hombre
+				<input type="radio" name="sexo" value="1">Mujer
+				<input type="radio" name="sexo" value="1">No Especificar
+			</div>
+			<div>
+			
+				<label for="pareja">¿Sois pareja?</label>
+				<input type="radio" name="pareja" value="1">Sí
+				<input type="radio" name="pareja" value="1">No
+				<input type="radio" name="pareja" value="1">No Especificar
+			</div>
+			<div>
+				<h3>Descripcion de los hechos</h3>
+			</div>
+			<div>
+				<textarea name="descripcion" rows="10" cols="90">Describa con todo detalles la agresión</textarea>
+			</div>
+			
+			<div align="right" style="margin-right: 20px; margin-top: 10px; margin-bottom: 10px;">
+				<input type="submit" name="subir" value="Finalizar" class="boton">
+					
+			</div>
+			
+
+		</form>		
+	</div>
+	<div class="pie-de-pagina">
+		<div>
+			<ul>
+				<li>Entorno-Servidor</li>
+				<li>2º DAW</li>
+				<li><a href="http://www.iesjacaranda.es/web/" target="_blank">I.E.S. Jacaranda</a></li>
+			</ul>
+		</div>
+		<div align="center">
+			<img src="violencia.jpeg" width="160" height="100">
+		</div>
+		<div>
+			<p align="right">Javier Campos Cuesta</p>
+		</div>
+		
+	</div>	
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

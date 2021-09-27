@@ -10,8 +10,9 @@
 --     + Insertaremos 2 profesores, 4 asignaturas, 10 alumnos y cada alumno realizará 2 asignaturas.
 --     + Modificaremos el telefono de 2 alumnos
 --     + Pondremos a todos los alumnos la misma fecha de nacimiento
---     + A los profesores que no tengan numero de telefono y el nif no comiencen por 9, le pondremos informatica como especialidad
+--     + A los profesores que no tengan numero de telefono y el nif no comiencen por 9, le pondremos FOL como especialidad
 --     + Borraremos a 2 alumnos.
+--     + Borraremos la asignatura Programacion.
 
 
 --Primero comenzaremos borrando las tablas que tenemos que crear, por si quizas estuviesen ya creadas
@@ -40,6 +41,13 @@ NumMatricula NUMBER(9) PRIMARY KEY,
 Nombre VARCHAR2(20),
 FechaNacimiento DATE,
 Telefono VARCHAR2(9)
+);
+
+CREATE TABLE RECIBE (
+CursoEscolar VARCHAR2(20),
+NumMatricula NUMBER(9) REFERENCES ALUMNO,
+CodAsignatura VARCHAR2(9) REFERENCES ASIGNATURA,
+PRIMARY KEY (CursoEscolar, NumMatricula, CodAsignatura)
 );
 
 --Insertamos 2 profesores
@@ -87,7 +95,35 @@ INSERT INTO RECIBE VALUES('2021/2022',10, '3A');
 INSERT INTO RECIBE VALUES('2021/2022',10, '4A');
 
 --Modificaremos el telefono de 2 alumnos
-UPDATE ALUMNO SET Telefono '675446800' WHERE NumMatricula = 12;
-UPDATE ALUMNO SET Telefono '675446801' WHERE NumMatricula = 13;
+UPDATE ALUMNO SET Telefono ='675446800' WHERE NumMatricula = 9;
+UPDATE ALUMNO SET Telefono ='675446801' WHERE NumMatricula = 10;
+
+--Pondremos a todos los alumnos la misma fecha de nacimiento
+UPDATE ALUMNO SET FechaNacimiento='01-01-2000';
+
+-- A los profesores que no tengan numero de telefono y el nif no comiencen por 9, le pondremos FOL como especialidad
+UPDATE PROFESOR SET ESPECIALIDAD = 'FOL' WHERE TELEFONO IS NOT NULL AND NIF_P NOT LIKE ('9%');
+
+--Borraremos todos los registros de la tabla recibe que pertenezca a la asignatura Programacion.
+DELETE FROM recibe WHERE CODASIGNATURA='1A';
+
+--Borraremos la asignatura Programacion
+DELETE FROM ASIGNATURA WHERE COD_ASIGNATURA='1A';
+
+--Selecciona los alumnos que estan matriculados en DESPLIEGUE
+select ALUMNO.Nombre from ALUMNO, RECIBE, ASIGNATURA where ALUMNO.NumMatricula = recibe.NumMatricula
+ and recibe.CodAsignatura = ASIGNATURA.Cod_Asignatura and ASIGNATURA.Nombre='DESPLIEGUE';
+
+ --Muestra el total de alumnos que hay matriculados en ENTORNO-SERVIDOR
+ select COUNT(*) from ALUMNO, RECIBE, ASIGNATURA where ALUMNO.NumMatricula = recibe.NumMatricula and recibe.CodAsignatura = ASIGNATURA.Cod_Asignatura and ASIGNATURA.Nombre='ENTORNO-SERVIDOR';
+
+--Muestra la suma de los alumnos matriculados en entorno-servidor y despliegue
+select count(alumno.nombre) from ALUMNO, RECIBE, ASIGNATURA where ALUMNO.NumMatricula = recibe.NumMatricula and recibe.CodAsignatura = ASIGNATURA.Cod_Asignatura and (ASIGNATURA.Nombre='ENTORNO-SERVIDOR' or ASIGNATURA.Nombre='DESPLIEGUE') ;
+
+
+
+
+
+
 
 
