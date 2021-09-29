@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+  <head>
+    <title>Formulario</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <style>
+      .oculto{
+          display: none;
+      }
+      
+      .formulario{
+          
+          background-color: rgb(176, 239, 255);
+          text-align: justify;
+          margin-left: auto;
+          margin-right: auto;
+          justify-content: center;
+          padding: 30px;
+          border-radius: 30px;
+
+      }
+      .container{
+          text-align: center;
+         
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+      }
+
+      form div label { /*aqui le damos un espacio a los inputs*/
+		display: inline-block; /*los label son contenedores del ancho de la palabra (igual que los span), por lo que tenemos que decirle que lo trate como un unico bloque*/
+        margin-right: 50px;
+        width: 200px;
+        margin-bottom: 10px;
+}
+  </style>
+
+  <body>
+      <div class="container">
+
+      
+    <h1>Validaciones con formularios</h1>
+    <div class="formulario">
+
+        <form>
+            <div>
+                <label>Indique su nombre</label>
+                <input type="text" id="nombre">
+            </div>
+            <div>
+                <label>Indique su edad</label>
+                <input type="text" id="edad">
+        </div>
+        <div>
+            <label for="hijos">¿Tiene hijos?</label>
+            <input type="radio" value="1" name="hijos" id="hijosSi">Si
+            <input type="radio" value="2" name="hijos" id="hijosNo">No
+        </div>
+        <div class="oculto">
+            <label>Numero de hijos</label>
+            <input type="text" id="numeroHijos">
+        </div>
+        <div>
+            <label>Indique su dni</label>
+            <input type="text" id="dni">
+        </div>
+        <div>
+            
+            <label for="estado-civil">Estado civil</label>
+            <input type="radio" name="estado-civil" value="1" id="eCasado">Casado
+            <input type="radio" name="estado-civil" value="2" id="eSoltero">Soltero
+            <input type="radio" name="estado-civil" value="3" id="eDivorciado">Divorciado
+            <input type="radio" name="estado-civil" value="4" id="eViudo">Viudo
+            <input type="radio" name="estado-civil" value="5" id="eNo">No especificar
+        </div>
+        <div class="oculto">
+            <label>¿Cuantos años llevas casado?</label>
+            <input type="text" id="yearCasado">
+        </div>
+        <div class="oculto">
+            <label>¿Cuantos años llevas soltero?</label>
+            <input type="text" id="yearSoltero">
+        </div>
+        <div class="oculto">
+            <label>¿Cuantos años llevas divorciado?</label>
+            <input type="text" id="yearDivorciado">
+        </div>
+        <div class="oculto">
+            <label>¿Cuantos años llevas viudo?</label>
+            <input type="text" id="yearViudo">
+        </div>
+        <div>
+            <label>Introduce tu e-mail</label>
+            <input type="text" id="email">
+        </div>
+        <div>
+            <label>Acepta los términos</label>
+            <input type="checkbox" id="masPreguntas">
+        </div>
+    </form>
+</div>
+</div>
+
+</body>
+<script src="Formulario.js"></script>
+</html></html>
