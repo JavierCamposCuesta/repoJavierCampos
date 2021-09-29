@@ -1,0 +1,15 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.boxGreen{
+    width: 100px;
+    height: 100px;
+    background: green;
+}
+
+input{
+    margin-top: 50px;
+}
