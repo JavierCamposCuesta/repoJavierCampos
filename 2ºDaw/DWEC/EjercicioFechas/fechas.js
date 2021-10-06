@@ -106,4 +106,70 @@ window.setInterval(cronometro, 1000);
 // la hora, pregunta si se quiere posponer o detener, si se pospone "sonará" a los 2 minutos. 
 // EXTRA: haz que suene un sonido además de mostrar el mensaje.
 
+let hora5 = document.getElementById("hora5");
+
+hora5.addEventListener(
+    "focusout",
+    () => { calcularTiempo(false); }
+);
+
+function mostrarAlerta(){
+    alert("El tiempo ha terminado!!");
+}
+
+
+ 
+function calcularTiempo(tiempoAnadido){ 
+    let fechaActual = new Date();
+    let horaIntroducida = hora5.value.split(":");
+    let fechaIntroducida5 = new Date(fechaActual.getFullYear(), fechaActual.getMonth(), fechaActual.getDate());
+    fechaIntroducida5.setHours(horaIntroducida[0], horaIntroducida[1]);
+    
+    // Cuando no queremos añadir tiempo extra lo calculamos
+    if (tiempoAnadido === false) {
+        tiempoCronometro = (fechaIntroducida5-fechaActual);
+    // Cuando queremos añadir tiempo extra
+    } else {
+        tiempoCronometro = tiempoAnadido;
+    }
+
+    const alarma = setTimeout(()=>{
+        playAudio();
+        mostrarAlerta();
+
+    }, parseInt(tiempoCronometro));
+    
+}
+
+let add2min = document.getElementById("add2min");
+add2min.addEventListener("click", ()=> calcularTiempo(120000)); // 120000ms = 2min
+
+let add10seg = document.getElementById("add10seg");
+add10seg.addEventListener("click", ()=> calcularTiempo(10000)); // 10000 = 10 segundos
+
+
+//Seleccionamos el audio que va a sonar
+let sonido;
+
+let gallo = document.getElementById("gallo");
+let cobra = document.getElementById("cobra");
+gallo.addEventListener("change", ()=>{sonido="gallo"});
+cobra.addEventListener("change", ()=>{sonido="cobra"});
+
+var x;
+function playAudio() { 
+    switch (sonido) {
+        case 'gallo': x = document.getElementById("sonido-gallo"); break;
+        case 'cobra': x = document.getElementById("sonido-cobra"); break;
+        default: x = document.getElementById("sonido-mujer");
+    }
+    x.play(); 
+
+} 
+
+//Este evento es para parar la musica
+let stopMusica = document.getElementById("stopMusica");
+stopMusica.addEventListener("click", ()=>{x.pause()})
+
+
 
