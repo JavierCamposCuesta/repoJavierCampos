@@ -113,6 +113,12 @@ hora5.addEventListener(
     () => { calcularTiempo(false); }
 );
 
+let add2min = document.getElementById("add2min");
+add2min.addEventListener("click", ()=> calcularTiempo(120000)); // 120000ms = 2min
+
+let add10seg = document.getElementById("add10seg");
+add10seg.addEventListener("click", ()=> calcularTiempo(10000)); // 10000 = 10 segundos
+
 function mostrarAlerta(){
     alert("El tiempo ha terminado!!");
 }
@@ -141,11 +147,6 @@ function calcularTiempo(tiempoAnadido){
     
 }
 
-let add2min = document.getElementById("add2min");
-add2min.addEventListener("click", ()=> calcularTiempo(120000)); // 120000ms = 2min
-
-let add10seg = document.getElementById("add10seg");
-add10seg.addEventListener("click", ()=> calcularTiempo(10000)); // 10000 = 10 segundos
 
 
 //Seleccionamos el audio que va a sonar

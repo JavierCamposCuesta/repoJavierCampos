@@ -1,0 +1,38 @@
+1. Obtener todas las tareas
+https://jsonplaceholder.typicode.com/todos
+
+2. Obtener la tarea con id 55
+# Tenemos dos formas de hacerlo
+ https://jsonplaceholder.typicode.com/todos/55
+ https://jsonplaceholder.typicode.com/todos?=55 
+
+3. Obtener la tarea con id 201
+ https://jsonplaceholder.typicode.com/todos/201
+#  Vemos como no existe dato para este id
+
+4. Crea una nueva tarea
+POST https://jsonplaceholder.typicode.com/todos
+  {
+    "userId": 1,
+    "title": "Prueba Javier",
+    "completed": false
+  }
+
+5. Modificar con un PATCH la tarea con id 55 para que su title sea 'Prueba de POST'
+PATCH https://jsonplaceholder.typicode.com/todos/55
+{
+  "userId": 3,
+  "id": 55,
+  "title": "Prueba de POST",
+  "completed": true
+}
+6. Modificar con un PUT la tarea con id 55 para que su title sea 'Prueba de POST'
+POST https://jsonplaceholder.typicode.com/todos/55
+{
+  "userId": 3,
+  "id": 55,
+  "title": "Prueba de POST",
+  "completed": true
+}
+
+7. Eliminar la tarea con id 55
