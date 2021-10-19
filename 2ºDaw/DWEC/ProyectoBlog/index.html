@@ -1,0 +1,133 @@
+<!-- La idea es hacer un blog que contendrá lo siguiente
+1. Tendremos un fichero json con las tablas que vamos a necesitar
+    usuario
+        -Nombre
+        -Apellidos
+        -Nick
+        -Fecha nacimiento
+        -dni
+
+    post
+        -Titulo
+        -Autor
+        -Contenido
+
+    comentarios
+        -Titulo
+        -Comentador
+        -Comentario
+        -Fecha
+        postId
+
+2. index.html será una pagina de registro, con los siguientes campos, estos campos tendrán sus correspondientes validaciones
+    -Nombre
+    -Apellidos
+    -Nick
+    -Fecha nacimiento
+    -dni
+    -Contendrá un boton de registro que una vez validados todos los campos creará en la tabla usuario un nuevo campos
+
+3. listaPost.html será la pagina que contendrá los post creados
+    -Aparecerá una lista con el titulo de cada post junto al autor 
+    -Se podrá seleccionar el post que se elija para verlo mas en profundidad, lo cual nos transladará al archivo post.hmtl
+    -Se podrá eliminar el post que se elija
+    -(Dos botones, ver post y eliminar post)
+
+4. post.html será la página que contendrá el post detallado, está página contendrá lo siguiente
+    -Titulo del post
+    -Contenido
+    -Autor
+    -Lista de comentarios que pertenecen al post
+    -Campos para poder escribir un comentario, habrá un desplegable para elegir el autor del comentario, se introducirá ñla fecha del comentario -->
+   
+<!DOCTYPE html>
+  <head>
+    <title>Registrarse</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <style>
+    .oculto{
+        display: none;
+    }
+    
+    .formulario{
+        
+        background-color: rgb(176, 239, 255);
+        text-align: justify;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        padding: 30px;
+        border-radius: 30px;
+
+    }
+    .container{
+        text-align: center;
+       
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    form div label { /*aqui le damos un espacio a los inputs*/
+      display: inline-block; /*los label son contenedores del ancho de la palabra (igual que los span), por lo que tenemos que decirle que lo trate como un unico bloque*/
+      margin-right: 50px;
+      width: 200px;
+      margin-bottom: 10px;
+      }
+      .valido{
+          border: 3px solid green;
+          
+      }
+      .invalido{
+          border: 3px solid red;
+      }
+  input{
+      border-radius: 5px;
+      border: 0;
+      outline: none;
+  }
+</style>
+
+  <body>
+      <div class="container">
+          <div class="formulario">
+              <h2>Registrarse</h2>
+            <form id="form" action="" method="get">
+                <div>
+                    <label>Indique su nombre</label>
+                    <input type="text" id="nombre" name="nombre">
+                </div>
+                <div>
+                    <label>Indique su nick</label>
+                    <input type="text" id="nick" name="nick">
+                </div>
+                <div>
+                    <label>Indique su edad</label>
+                    <input type="text" id="edad" name="edad">
+                </div>
+                <div>
+                    <label>Introduce tu e-mail</label>
+                    <input type="text" id="email" name="email">
+                </div>
+                <div>
+                    <label>Introduce tu contraseña</label>
+                    <input type="text" id="passw" name="passw">
+                </div>
+                <div>
+                    <label>Acepta los términos</label>
+                    <input type="checkbox" id="terminos" name="terminos">
+                </div>
+                <div>
+                    <input type="submit" id="boton" value="Enviar" style="outline: auto;">
+                </div>
+        
+            </form>
+          </div>
+      </div>
+   
+  </body>
+  <script src="index.js"></script>
+</html>
