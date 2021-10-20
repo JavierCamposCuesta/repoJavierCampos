@@ -7,7 +7,10 @@
   </head>
 
   <body>
-      <h1 id="titulo">Titulo</h1>
+    <div class="botonAtras">
+      <a href="posts.html">Atrás</a>
+  </div>
+    <h1 id="titulo">Titulo</h1>
       <p id="cuerpo">Cuerpo</p>
       <p id="fecha">Fecha de creación</p>
       <p id="autor">Autor</p>
@@ -18,18 +21,20 @@
             <td>Autor</td>
         </tr>
     </table>
-    <form >
-        <div>
-            <textarea placeholder="Escribe tu comentario"></textarea>
-            <select type="listaComentadores">
-                <option value="1">Anonimo</option>
-            </select>
-        </div>
-
-        <div>
-            <input type="submit" value="Subir"></input>
-        </div>
-    </form>
+    <div class="formulario">
+      <form id="form">
+          <div>
+              <textarea placeholder="Escribe tu comentario" id="comentario"></textarea>
+              <select id="listaComentadores">
+                  <option value="1" >Anonimo</option>
+              </select>
+          </div>
+  
+          <div>
+              <input type="submit" value="Subir" id="boton"></input>
+          </div>
+      </form>
+    </div>
   </body>
   <script src="post.js"></script>
 </html>
