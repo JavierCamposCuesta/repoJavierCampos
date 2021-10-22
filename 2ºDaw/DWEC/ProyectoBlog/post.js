@@ -62,9 +62,12 @@ peticion2.addEventListener('readystatechange', function() {
     let usuarios = JSON.parse(peticion2.responseText); // Convertirmos los datos JSON a un objeto
     
     
+    array.forEach(element => {
+        
+    });
     for(i = 0; i< usuarios.length; i++){
         tabla.insertRow(-1).innerHTML = '<tr' + '<td>' + usuarios[i].body + '</td>' +
-        '<td>' + usuarios[i].nick + '</td></tr>';
+        '<td  class="tdAutor">' + usuarios[i].nick + '</td></tr>';
        
        
     }
@@ -106,7 +109,7 @@ peticion3.addEventListener('readystatechange', function() {
        
     }
     
-    console.log(usuarios);
+    
     } else {
     console.log("Error " + peticion3.status + " (" + peticion3.statusText + ") en la petición");
     }

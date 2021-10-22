@@ -2,37 +2,43 @@
   <head>
     <title>post</title>
     <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <link rel="stylesheet" href="style.css" media="screen"></link>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
 
   <body>
-    <div class="botonAtras">
-      <a href="posts.html">Atrás</a>
+    <div>
+      <a href="posts.html" class="enlace">Atrás</a>
   </div>
+  <div class="divPost">
     <h1 id="titulo">Titulo</h1>
-      <p id="cuerpo">Cuerpo</p>
-      <p id="fecha">Fecha de creación</p>
-      <p id="autor">Autor</p>
+      <p id="cuerpo" class="cuerpo">Cuerpo</p>
+      <p id="fecha" class="fecha">Fecha de creación</p>
+      <p id="autor" class="autor">Autor</p>
 
-      <table id="tabla" class="tablaPost">
-        <tr>
-            <td>Comentarios</td>
-            <td>Autor</td>
-        </tr>
-    </table>
-    <div class="formulario">
-      <form id="form">
-          <div>
-              <textarea placeholder="Escribe tu comentario" id="comentario"></textarea>
-              <select id="listaComentadores">
-                  <option value="1" >Anonimo</option>
-              </select>
-          </div>
-  
-          <div>
-              <input type="submit" value="Subir" id="boton"></input>
-          </div>
+  </div>
+      <div class="  divComentario">
+
+        <table id="tabla" align="center" class="tablaComentrios">
+          <tr>
+              <td class="tdComentario"><b>Comentarios</b></td>
+              <td class="tdAutor"><b>Autor</b></td>
+          </tr>
+      </table>
+      <div class="escribirComentario">
+        <form id="form">
+            <div>
+                <textarea placeholder="Escribe tu comentario" id="comentario" cols="60"></textarea>
+                <select id="listaComentadores">
+                    <option value="1" >Anonimo</option>
+                </select>
+            </div>
+    
+            <div>
+                <input type="submit" value="Subir" id="boton" class="enlaceEnviar"></input>
+            </div>
+      </div>
       </form>
     </div>
   </body>

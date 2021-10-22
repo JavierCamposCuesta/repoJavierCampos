@@ -44,55 +44,16 @@
   <head>
     <title>Registrarse</title>
     <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <link rel="stylesheet" href="style.css" media="screen"></link>
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
-  <style>
-    .oculto{
-        display: none;
-    }
-    
-    .formulario{
-        
-        background-color: rgb(176, 239, 255);
-        text-align: justify;
-        margin-left: auto;
-        margin-right: auto;
-        justify-content: center;
-        padding: 30px;
-        border-radius: 30px;
-
-    }
-    .container{
-        text-align: center;
-       
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    form div label { /*aqui le damos un espacio a los inputs*/
-      display: inline-block; /*los label son contenedores del ancho de la palabra (igual que los span), por lo que tenemos que decirle que lo trate como un unico bloque*/
-      margin-right: 50px;
-      width: 200px;
-      margin-bottom: 10px;
-      }
-      .valido{
-          border: 3px solid green;
-          
-      }
-      .invalido{
-          border: 3px solid red;
-      }
-  input{
-      border-radius: 5px;
-      border: 0;
-      outline: none;
-  }
-</style>
+ 
 
   <body>
       <div class="container">
+          <h1 class="titulo">Todo Posts</h1>
           <div class="formulario">
               <h2>Registrarse</h2>
             <form id="form" action="" method="get">
@@ -120,8 +81,8 @@
                     <label>Acepta los términos</label>
                     <input type="checkbox" id="terminos" name="terminos">
                 </div>
-                <div>
-                    <input type="submit" id="boton" value="Enviar" style="outline: auto;">
+                <div class="divBoton">
+                    <input type="submit" id="boton" value="Enviar" class="enlaceEnviar" >
                 </div>
         
             </form>

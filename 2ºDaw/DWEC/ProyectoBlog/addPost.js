@@ -65,6 +65,7 @@ function subirPost(){
         peticion2.addEventListener('load', ()=>{
             let mensajeEnviado=document.getElementById("mensajeEnviado");
             mensajeEnviado.classList.remove("oculto");
+
         })  //Comprueba que el formulario se ha enviado y luego ejecuta el cambio de pagina
             console.log("Formulario enviado")
 }

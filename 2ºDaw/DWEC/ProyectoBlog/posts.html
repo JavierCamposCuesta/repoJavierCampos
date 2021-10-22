@@ -2,35 +2,28 @@
   <head>
     <title>Post</title>
     <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <link rel="stylesheet" href="style.css" media="screen"></link>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
-  <style>
-    .tablaPost{
-      border: 1px solid black;
-      text-align: left;
-      
-    }
-
-    th, td{
-      border: 1px solid black;
-    }
-  </style>
-
+ 
   <body>
-    <div class="botonAtras">
-      <a href="posts.html">Atrás</a>
+    <div>
+      <a href="index.html" class="enlace">Atrás</a>
     </div>
     <h1>Lista de post disponibles</h1>
-      <table id="tabla" class="tablaPost">
+    <div class="classTabla">
+      <table id="tabla" class="tablaPost" align="center">
           <tr>
-              <td>Titulo</td>
-              <td>Autor</td>
+              <td class="tablaTitulos"><b>Titulo</b></td>
+              <td class="tablaTitulos"><b>Autor</b></td>
+              <td colspan="2" class="tablaTitulos"><b>Función</b></td>
           </tr>
       </table>
+    </div>
 
       <div class="addPost">
-        <a href="addPost.html">Añadir Post</a>
+        <a href="addPost.html" class="enlace addPost">Añadir Post</a>
     </div>
      
   </body>
